@@ -1,0 +1,51 @@
+<include file='common:head' />
+<link type="text/css" rel="stylesheet" href="__HOME__/css/user.css" />
+<include file='common:header' />
+<include file='common:lists' />
+
+<div class="cont user user_6 clearfix">
+	<div class="user_menu"> 
+        <dl>
+            <dt class="colorChange">个人中心</dt>
+            <dd><a href="{:U('user/myorder')}">我的订单</a></dd>
+            <dd><a href="{:U('user/mycollect')}">我的收藏</a></dd>
+            <dd><a href="{:U('user/mycoupon')}">我的优惠券</a></dd>
+            <dd><a href="{:U('user/address')}">我的收货地址</a></dd>
+            <dd><a href="{:U('user/comment')}">商品评价</a></dd>
+            <dd class="active"><a href="{:U('user/editpwd')}">修改密码</a></dd>
+        </dl>
+    </div>
+
+<!--  我的收藏  -->
+        <div class="user_right fr">
+            <h3 class="user_title">修改密码</h3>
+            <div>
+                <form method='post' action="{:U('user/editpwd')}" id='form_pwd'>
+                <table>
+                	<tr>
+                    	<th><span>*</span>旧密码：</th>
+                        <td><input type="password" name='opwd' value='' class="ipt_pass"></td>               
+                    </tr>
+                	<tr>
+                    	<th><span>*</span>新密码：</th>
+                        <td><input type="password" name='npwd' value='' class="ipt_pass"></td>               
+                    </tr>
+                	<tr>
+                    	<th><span>*</span>新密码确认：</th>
+                        <td><input type="password" name='renpwd' value='' class="ipt_pass"></td>                  
+                    </tr>
+                	<tr>
+                    	<th></th>
+                        <td><input type="submit" value="提交" class="ipt_sub"></td>   
+                    </tr>               
+                </table>
+                </form>
+            </div>
+		</div>
+
+<!--  我的收藏 end  -->
+</div>
+
+<script src="__HOME__/js/pub.js"></script>
+<script src="__HOME__/js/content.js"></script>
+<include file='common:footer' />

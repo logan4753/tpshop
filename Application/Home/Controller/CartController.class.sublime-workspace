@@ -1,0 +1,575 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"order",
+				"orderitem"
+			],
+			[
+				"salesitem",
+				"salesitemmodel"
+			],
+			[
+				"php",
+				"phpinfo"
+			],
+			[
+				"add",
+				"addressmodel"
+			],
+			[
+				"br",
+				"brand"
+			],
+			[
+				"bra",
+				"brandmodel"
+			],
+			[
+				"where",
+				"whereshow"
+			],
+			[
+				"cons",
+				"consumermodel"
+			],
+			[
+				"find",
+				"findpwd3"
+			],
+			[
+				"邮箱",
+				"邮箱输入错误"
+			],
+			[
+				"consumer",
+				"consumermodel"
+			],
+			[
+				"label",
+				"label-success"
+			],
+			[
+				"con",
+				"consumermodel"
+			],
+			[
+				"I",
+				"IS_POST"
+			],
+			[
+				"o",
+				"ordermodel"
+			],
+			[
+				"collect",
+				"collectmodel"
+			],
+			[
+				"mb_s",
+				"mb_strlen"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"array_c",
+				"array_combine"
+			],
+			[
+				"exp",
+				"explode"
+			],
+			[
+				"array_re",
+				"array_reverse"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"array_s",
+				"array_slice"
+			],
+			[
+				"_",
+				"_FILES"
+			],
+			[
+				"categ",
+				"category"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"ligh",
+				"line-height"
+			],
+			[
+				"array_m",
+				"array_merge"
+			],
+			[
+				"array_p",
+				"array_push"
+			],
+			[
+				"ex",
+				"explode"
+			],
+			[
+				"sc",
+				"script\tTag"
+			],
+			[
+				"in",
+				"inputc\tinput - checkbox"
+			],
+			[
+				"arr",
+				"array"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 560.0
+	},
+	"console":
+	{
+		"height": 251.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/phpStudy/WWW/tpshop/Application/Home/View/common/head.html",
+		"/D/phpStudy/WWW/tpshop/Application/Home/View/user/comment.html",
+		"/D/phpStudy/WWW/tp/test1.php",
+		"/C/Users/Administrator/Desktop/new/tp/前台页面/user_page5.html",
+		"/D/phpStudy/WWW/tp/text.php",
+		"/D/phpStudy/WWW/tp/test2.php",
+		"/D/phpStudy/Apache/logs/httpd.pid",
+		"/D/phpStudy/php/php-5.4.45/php.ini",
+		"/D/phpStudy/WWW/php/mysql/0527/role.php",
+		"/D/phpStudy/WWW/php/0531/file2.php",
+		"/D/phpStudy/WWW/php/0531/pra.php",
+		"/D/phpStudy/WWW/tpshop/.htaccess",
+		"/D/ruanjian/mongodb/mongo.conf",
+		"/C/Users/Public/Nwt/cache/recv/php-讲师/TestController.class.php",
+		"/D/phpStudy/WWW/tpshop/index_cli.php",
+		"/D/phpStudy/WWW/tpshop/test.php",
+		"/D/phpStudy/WWW/tpshop/test1.php",
+		"/D/phpStudy/WWW/tpshop/connect('127.0.0.1'",
+		"/C/Users/Administrator/Desktop/new/WEB前端助手(FeHelper)_v9.4.crx",
+		"/D/phpStudy/WWW/tpshop/index.php",
+		"/D/phpStudy/WWW/tp/test.php",
+		"/D/ruanjian/Redis-x64-3.2.100/redis.windows-service.conf",
+		"/D/phpStudy/WWW/tpshop/Application/Home/Controller/CartController.class.php",
+		"/D/phpStudy/WWW/tpshop/Application/Home/View/index/getdetail.html",
+		"/D/phpStudy/WWW/tpshop/Application/Home/Controller/UserController.class.php",
+		"/D/phpStudy/WWW/tpshop/Application/Home/Controller/IndexController.class.php",
+		"/D/phpStudy/WWW/tpshop/Application/Home/View/cart/cartorder.html",
+		"/D/phpStudy/WWW/tpshop/Application/Home/Common/function.php",
+		"/D/phpStudy/WWW/tpshop/Application/Home/View/common/lists.html",
+		"/D/phpStudy/WWW/tpshop/Application/Home/View/user/myorder.html",
+		"/C/Users/Administrator/AppData/Local/Temp/Rar$DIa0.545/tp5.sql",
+		"/D/phpStudy/WWW/tpshop/Application/Home/View/user/editpwd.html",
+		"/D/phpStudy/WWW/tpshop/Application/Admin/Controller/CateController.class.php",
+		"/D/phpStudy/WWW/tpshop/Application/Admin/View/cate/categorylist.html",
+		"/D/phpStudy/WWW/tpshop/Application/Home/Controller/LoginController.class.php",
+		"/D/phpStudy/WWW/tpshop/Application/Common/Conf/config.php",
+		"/D/phpStudy/WWW/tpshop/Application/Admin/Controller/IndexController.class.php",
+		"/D/phpStudy/WWW/tpshop/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php",
+		"/D/phpStudy/WWW/tpshop/ThinkPHP/Library/Think/Cache/Driver/Memcache.class.php",
+		"/D/phpStudy/WWW/index.php",
+		"/D/phpStudy/WWW/tpshop/Application/Home/View/index/getgoods.html",
+		"/D/搜狗高速下载/3.1/product-list.html",
+		"/D/phpStudy/WWW/tpshop/Application/Home/View/cart/orderpay.html",
+		"/D/phpStudy/WWW/tpshop/Application/Home/View/cart/ordersale.html",
+		"/D/phpStudy/WWW/tpshop/Application/Admin/View/brand/brandlist.html",
+		"/D/phpStudy/WWW/tpshop/Application/Admin/View/goods/goodslist.html",
+		"/D/phpStudy/WWW/tpshop/Application/Admin/Controller/ConsumerController.class.php",
+		"/D/phpStudy/WWW/tpshop/Application/Admin/Controller/OrderController.class.php",
+		"/D/phpStudy/WWW/tpshop/Application/Admin/Controller/BackuserController.class.php",
+		"/D/phpStudy/WWW/tpshop/Application/Admin/View/backuser/userlist.html",
+		"/D/phpStudy/WWW/tpshop/Application/Runtime/Cache/Admin/c2a5a069dd26a9fefb15a34cbfa8f316.php",
+		"/D/phpStudy/WWW/tpshop/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php",
+		"/D/phpStudy/WWW/tpshop/Application/Admin/Controller/BaseController.class.php",
+		"/D/phpStudy/WWW/tpshop/Application/Runtime/Cache/Admin/28d8debc3f31e042a4dce69ee7716ec5.php",
+		"/D/phpStudy/WWW/tpshop/Application/Admin/View/permission/permissionlist.html",
+		"/D/phpStudy/WWW/tpshop/Application/Admin/Common/function.php",
+		"/D/phpStudy/WWW/tpshop/Application/Admin/View/common/aside.html",
+		"/D/phpStudy/WWW/tpshop/Application/Admin/View/common/footer.html",
+		"/D/phpStudy/WWW/tpshop/Application/Home/View/user/userinfo.html",
+		"/D/phpStudy/WWW/tpshop/Application/Admin/View/index/index.html",
+		"/C/Users/Administrator/Downloads/tp_shop (1).sql",
+		"/D/phpStudy/WWW/tpshop/Application/Home/View/common/header.html",
+		"/D/phpStudy/WWW/tpshop/Application/Admin/View/consumer/consumerlist.html",
+		"/D/phpStudy/WWW/tpshop/Application/Admin/View/admin/login.html",
+		"/D/phpStudy/WWW/tpshop/Application/Home/View/user/address.html",
+		"/D/搜狗高速下载/3.1/index.html",
+		"/D/phpStudy/WWW/tpshop/Application/Home/View/login/findpwd3.html",
+		"/D/phpStudy/WWW/tpshop/Application/Home/View/login/findpwd2.html",
+		"/D/phpStudy/WWW/tpshop/Application/Home/View/login/findpwd.html",
+		"/D/phpStudy/WWW/tpshop/Application/Home/View/login/login.html",
+		"/D/phpStudy/WWW/tpshop/Application/Home/View/login/register.html",
+		"/D/搜狗高速下载/wstmart_v1.0.0_161001/apps/admin/controller/Index.php",
+		"/D/搜狗高速下载/wstmart_v1.0.0_161001/apps/common/conf/config.php",
+		"/D/搜狗高速下载/wstmart_v1.0.0_161001/index.php",
+		"/D/phpStudy/WWW/oa-1/application/back/view/note_add.tpl.php",
+		"/D/phpStudy/WWW/tpshop/Public/admin/lib/ueditor/1.4.3/php/config.json",
+		"/D/phpStudy/WWW/oa-1/public/ueditor/php/config.json",
+		"/D/phpStudy/WWW/tpshop/ThinkPHP/Library/Think/Upload.class.php",
+		"/D/phpStudy/WWW/oa-1/public/ueditor/ueditor.config.js",
+		"/D/phpStudy/WWW/oa-1/public/ueditor/php/action_upload.php",
+		"/D/phpStudy/WWW/oa-1/public/ueditor/php/controller.php",
+		"/D/phpStudy/WWW/oa-1/public/ueditor/php/Uploader.class.php",
+		"/D/phpStudy/WWW/oa-1/public/ueditor/ueditor.all.js",
+		"/D/phpStudy/WWW/tpshop/Public/admin/lib/ueditor/1.4.3/ueditor.config.js",
+		"/D/phpStudy/WWW/oa-1/public/umeditor/umeditor.config.js",
+		"/D/phpStudy/WWW/oa-1/application/config/config.php",
+		"/D/搜狗高速下载/3.1/product-category.html",
+		"/D/搜狗高速下载/3.1/picture-list.html",
+		"/D/搜狗高速下载/3.1/picture-add.html",
+		"/C/Users/Administrator/AppData/Local/Temp/Rar$DIa0.260/calculator.php",
+		"/D/搜狗高速下载/PHP实现导出excel数据的类库/fenlei.php",
+		"/D/phpStudy/WWW/tpshop/Application/Home/View/common/footer.html",
+		"/C/Users/Administrator/Desktop/前台页面/findPassword_step4.html",
+		"/C/Users/Administrator/Desktop/前台页面/findPassword_step3.html",
+		"/C/Users/Administrator/Desktop/前台页面/findPassword_step2.html",
+		"/D/phpStudy/WWW/tpshop/Application/Admin/Controller/GoodsController.class.php",
+		"/D/phpStudy/WWW/tpshop/Application/Home/View/index/index.html",
+		"/C/Users/Administrator/Desktop/前台页面/find_Password_step1.html",
+		"/D/phpStudy/WWW/tpshop/Application/Admin/View/consumer/editpwd.html",
+		"/D/phpStudy/WWW/tpshop/Application/Admin/Controller/AdminController.class.php",
+		"/D/phpStudy/WWW/tpshop/Application/Admin/View/order/orderlist.html",
+		"/D/phpStudy/WWW/tpshop/Application/Admin/Controller/GoodsController.class - 副本 (2).php",
+		"/D/phpStudy/WWW/tpshop/Application/Admin/Controller/BrandController.class.php",
+		"/D/phpStudy/WWW/tpshop/Application/Home/View/user/mycoupon.html",
+		"/D/phpStudy/WWW/tpshop/Application/Home/View/user/mycollect.html",
+		"/D/phpStudy/WWW/tpshop/Application/Home/Conf/config.php",
+		"/D/phpStudy/WWW/tpshop/Application/Home/Controller/GoodsController.class.php",
+		"/D/phpStudy/WWW/tpshop/Application/Home/View/goods/getlist.html",
+		"/D/phpStudy/WWW/tpshop/Application/Home/Controller/BaseController.class.php",
+		"/D/phpStudy/WWW/tpshop/Application/Admin/View/common/header.html",
+		"/D/phpStudy/WWW/tpshop/Application/Admin/View/common/head.html",
+		"/D/phpStudy/WWW/tpshop/Application/Admin/View/order/orderinfo.html",
+		"/D/phpStudy/WWW/tpshop/Application/Home/View/goods/catelist.html",
+		"/D/phpStudy/WWW/tpshop/Application/Admin/View/consumer/consumerinfo.html",
+		"/C/Users/Administrator/Desktop/前台页面/user_page2.html",
+		"/C/Users/Administrator/Desktop/前台页面/order_step2.html",
+		"/C/Users/Administrator/Desktop/前台页面/user_page4.html",
+		"/D/phpStudy/WWW/tpshop/Public/home/js/pub.js",
+		"/D/phpStudy/WWW/tpshop/Application/Admin/View/order/orderedit.html",
+		"/D/phpStudy/WWW/tpshop/Public/home/js/content.js",
+		"/C/Users/Administrator/Desktop/前台页面/user_page1.html",
+		"/D/phpStudy/WWW/tp/ThinkPHP/Mode/Lite/Controller.class.php",
+		"/D/phpStudy/WWW/tp/ThinkPHP/Library/Think/Controller.class.php",
+		"/C/Users/Administrator/Desktop/前台页面/user_page6.html",
+		"/C/Users/Administrator/Desktop/前台页面/user_page3.html",
+		"/C/Users/Administrator/Desktop/前台页面/signUp_2.html",
+		"/D/phpStudy/WWW/php/0529/lei.php",
+		"/D/phpStudy/WWW/tpshop/Application/Home/View/cart/orderadd.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"res",
+			"ncount",
+			"test",
+			"goodsshow",
+			"2",
+			"    ",
+			"cache",
+			"count.val()",
+			"this",
+			"per_name",
+			"优乐选",
+			"dateFormat",
+			"imagePathFormat",
+			"image",
+			"$get['cateid']",
+			"$post['search']",
+			"catelist",
+			"goods",
+			"S",
+			"user",
+			"_res",
+			"\t\t\t$",
+			"goods/catelist",
+			"delivery",
+			"comment",
+			"post",
+			"orderaway()",
+			"orderaway(this)",
+			"orderaway()",
+			"orderaway(this)",
+			"td03-a03",
+			" target=\"_blank\"",
+			"qq",
+			"tel",
+			"2",
+			"ispay",
+			"nikname",
+			"r",
+			"3",
+			"collect",
+			"cancel",
+			"confirmR",
+			"docomment",
+			"allorder",
+			"ispay",
+			"recieve",
+			"status",
+			"consumer",
+			"-",
+			"count",
+			"category",
+			"goPay",
+			"dispatchJump",
+			"error",
+			"10",
+			"datas",
+			"form_info",
+			"invalid",
+			"textarea",
+			"focusBorder",
+			"images",
+			"messages",
+			"region",
+			"pro",
+			"cancle_address_b",
+			"order1_bar",
+			"\"",
+			"data",
+			"$val",
+			"goodscount",
+			"cartitem",
+			"child",
+			"infomodel",
+			"$list",
+			"params",
+			"arams",
+			"空气净化器",
+			"datas",
+			"index/getlist",
+			"getField('id,catename')",
+			"$cateid['id']",
+			"index/getlist",
+			"goodsinfo",
+			"p",
+			"list",
+			"cate",
+			"</div>",
+			"IndexNav",
+			"catearr",
+			"on",
+			"savepath",
+			"imagepath",
+			"public",
+			"$val[$kk]",
+			"$vv",
+			"$val[$kk]",
+			"brandarr",
+			"rolelist",
+			"category",
+			"role",
+			"$data",
+			"pro",
+			"{:U('goods/cate')}",
+			"catearr",
+			"WdatePicker",
+			"dateFmt",
+			"brand",
+			"info",
+			"edit",
+			"用户",
+			"user",
+			"rolename",
+			"realname",
+			"username",
+			"优乐选",
+			"upload_root_path",
+			"$this->savePath",
+			"->savePath",
+			"savePath",
+			"用户",
+			"user",
+			"权限",
+			"permission",
+			"权限",
+			"user",
+			"用户",
+			"brand",
+			"bran"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"__HOME__/images",
+			"goods"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "CartController.class.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"450",
+				"Application\\Runtime\\Cache\\Home\\4b3877505b32274bedb013bf1487086c.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 209.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

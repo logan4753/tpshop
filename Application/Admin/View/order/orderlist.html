@@ -1,0 +1,86 @@
+<include file="common:header" />
+<include file="common:aside" />
+<div class="dislpayArrow hidden-xs"><a class="pngfix" href="javascript:void(0);" onClick="displaynavbar(this)"></a></div>
+<section class="Hui-article-box">
+	<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 商品管理 <span class="c-gray en">&gt;</span> 订单管理 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+	<div class="Hui-article">
+		<article class="cl pd-20">
+			<div class="text-c">
+				<form class="Huiform" method="post" action="" target="_self">
+					<input type="text" class="input-text" style="width:250px" placeholder="用户名" id="" name="catename">
+					<button type="submit" class="btn btn-success" id="" name=""><i class="Hui-iconfont">&#xe665;</i> 搜索订单</button>
+				</form>
+			</div>
+			<div class="cl pd-5 bg-1 bk-gray mt-20"> <span class="l"><a href="javascript:;" onclick="datadel()" class="btn btn-danger radius"><i class="Hui-iconfont">&#xe6e2;</i> 批量删除</a></span> <span class="r">共有数据：<strong>{$count}</strong> 条</span> </div>
+			<table class="table table-border table-bordered table-bg table-sort">
+				<thead>
+					<tr>
+						<th scope="col" colspan="7">订单列表</th>
+					</tr>
+					<tr class="text-c">
+						<th><input type="checkbox" name="" value=""></th>
+						<th>ID</th>
+						<th>用户</th>
+						<th>订单号</th>
+						<th>收货人</th>
+						<th>订单金额</th>
+						<th>订单状态</th>
+						<th>下单时间</th>
+						<th>状态</th>
+						<th>操作</th>
+					</tr>
+				</thead>
+				<tbody>
+					<foreach name='orderlists' item='val'>
+					<tr class="text-c"  id="{$val['id']}">
+						<td><input type="checkbox" value="{$val['id']}" name="id[]"></td>
+						<td>{$val['id']}</td>
+						<td>{$val['username']}</td>
+						<td>{$val['ordernum']}</td>
+						<td>{$val['recieve']}</td>
+						<td>{$val['allprice']}</td>
+						<td><if condition="$val['ispay'] eq 2">未支付<elseif condition="($val['send'] eq 1) and ($val['ispay'] eq 1)" />未发货<elseif condition="($val['send'] eq 2) and ($val['ispay'] eq 1)" />已发货<elseif condition="($val['send'] eq 3) and ($val['ispay'] eq 1)" />已签收</if></td>
+						<td>{$val['odate']|date='Y-m-d H:i:s',###}</td>
+						<td><a onclick="changeStatus(this)" data-id="{$val['id']}"><if condition="$val['status'] eq 1"><span class="label label-success radius">正常</span><else /><span class="label radius">取消</span></if></a></td>
+						<td><a title="详情" href="javascript:;" onclick="order_info('订单详情','{:U("order/orderinfo",array("id"=>$val["id"]))}','','660')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe695;</i></a>&nbsp;<a title="编辑" href="javascript:;" onclick="order_edit('订单编辑','{:U("order/orderedit",array("id"=>$val["id"]))}','','600')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;</i></a></td>
+					</tr>
+					</foreach>
+				</tbody>
+			</table>
+		</article>
+	</div>
+</section>
+
+<include file="common:footer" />
+<!--/请在上方写此页面业务相关的脚本-->
+</body>
+</html>
+<script type="text/javascript">
+/*订单-详情*/
+function order_info(title,url,w,h){
+	layer_show(title,url,w,h);
+}
+/*订单-编辑*/
+function order_edit(title,url,w,h){
+	layer_show(title,url,w,h);
+}
+/*订单-状态*/
+function changeStatus(obj){
+	var id = $(obj).attr('data-id');
+	if(id == ''){
+		alert('参数错误');
+		return false;
+	}
+	$.post('{:U("order/orderstatus")}',{id:id,type:"status"},function(result){
+		if(result.status !=1){
+			alert(result.info);
+			return false;
+		}
+		if(result.data == 1){
+			$(obj).html("<span class='label label-success radius'>正常</span>")
+		}else{
+			$(obj).html("<span class='label radius'>取消</span>")
+		}
+	});
+}
+</script>

@@ -1,0 +1,105 @@
+<include file="common:head" />
+<body>
+	<article class="page-container">
+		<form class="form form-horizontal" id="form_info" action="#" method='post'>
+			<div class="row cl">
+				<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>订单号：</label>
+				<div class="formControls col-xs-8 col-sm-9">
+					<input type="text" class="input-text" name='ordernum' value="{$torder['ordernum']}" disabled>
+				</div>
+			</div>
+
+			<div class="row cl">
+				<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>收件人：</label>
+				<div class="formControls col-xs-8 col-sm-9">
+					<input type="text" class="input-text" name='recieve' value="{$torder['recieve']}" disabled>
+				</div>
+			</div>
+
+			<div class="row cl">
+				<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>地址：</label>
+				<div class="formControls col-xs-8 col-sm-9">
+					<input type="text" class="input-text" name='address' value="{$torder['address']}" disabled>
+				</div>
+			</div>
+
+			<div class="row cl">
+				<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>电话：</label>
+				<div class="formControls col-xs-8 col-sm-9">
+					<input type="text" class="input-text" name='tel' value="{$torder['tel']}" disabled>
+				</div>
+			</div>
+
+			<div class="row cl">
+				<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>下单时间：</label>
+				<div class="formControls col-xs-8 col-sm-9">
+					<input type="text" class="input-text" name='logintime' value="{$torder['odate']|date='Y-m-d H:i:s',###}" disabled>
+				</div>
+			</div>
+
+			<div class="row cl">
+				<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>订单金额：</label>
+				<div class="formControls col-xs-8 col-sm-9">
+					<input type="text" class="input-text" name='allprice' value="￥{$torder['allprice']}" disabled>
+				</div>
+			</div>
+
+			<div class="row cl">
+				<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>买家留言：</label>
+				<div class="formControls col-xs-8 col-sm-9">
+					<textarea name="remark" class="textarea" disabled>{$torder['remark']}</textarea>
+				</div>
+			</div>
+
+			<div class="row cl">
+				<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>
+				订单状态：</label>
+				<div class="formControls col-xs-8 col-sm-9">
+					<input type="text" class="input-text" name='ispay' value="<if condition='($torder["ispay"] eq 1) and ($torder["send"] eq 1)'>未发货<elseif condition='$torder["ispay"] eq 2' />未支付<elseif condition='($torder["send"] eq 2) and ($torder["ispay"] eq 1)' />已发货<elseif condition='($torder["send"] eq 3) and ($torder["ispay"] eq 1)' />已签收</if>"  disabled>
+				</div>
+			</div>
+
+			<table class="table table-border table-bordered table-bg table-sort">
+				<thead>
+					<tr>
+						<th scope="col" colspan="7">订单商品</th>
+					</tr>
+					<tr class="text-c">
+						<th>商品名</th>
+						<th>商品价格</th>
+						<th>商品数量</th>
+						<th>商品图</th>
+					</tr>
+				</thead>
+				<tbody>
+					<foreach name='ordergo' item='val'>
+					<tr class="text-c"  id="{$val['id']}">
+						<td>{$val['gname']}</td>
+						<td>{$val['gprice']}</td>
+						<td>{$val['gcount']}</td>
+						<td><img src="{$val['gimage']}" width='40' height='40' ></td>
+					</tr>
+					</foreach>
+				</tbody>
+			</table>
+
+			<div class="row cl">
+				<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
+					<input class="btn btn-primary radius" type="button" onclick="goback()" value="&nbsp;&nbsp;返回&nbsp;&nbsp;">
+				</div>
+			</div>
+
+		</form>
+	</article>
+<script type="text/javascript" src="__PUBLIC__/admin/lib/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/admin/lib/layer/2.4/layer.js"></script> 
+<script type="text/javascript" src="__PUBLIC__/admin/static/h-ui/js/H-ui.js"></script> 
+<script type="text/javascript" src="__PUBLIC__/admin/static/h-ui.admin/js/H-ui.admin.page.js"></script> 
+<script type="text/javascript">
+function goback(){
+	parent.window.location.reload();
+	parent.layer.close(index);
+}
+</script>
+</body>
+</html>

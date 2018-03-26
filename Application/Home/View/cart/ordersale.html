@@ -1,0 +1,261 @@
+<include file='common:head' />
+<include file='common:header' />
+<link type="text/css" rel="stylesheet" href="__HOME__/css/content.css" />
+<script src="__HOME__/js/content.js"></script>
+<script src="__HOME__/js/pub.js"></script>
+<script type="text/javascript" src="__ADMIN__/lib/jquery.validation/1.14.0/jquery.validate.js"></script>
+<style>
+    .nshow{display:none !important;}
+</style>
+
+<div class="order_head_info cont clearfix">
+	<a href="#" alt="" class="fl"><img src="__HOME__/images/u_logo.jpg" width="150" height="60"></a><span class="header_title">结算页</span>
+	<div class="order_pro clearfix">
+    	<span class="pro_pre"><b>1</b>我的购物车</span>
+    	<span class="pro_pre"><b>2</b>提交订单</span>
+    	<span class="pro_active"><b>3</b>订单提交成功</span>
+    </div>
+</div>
+
+<!--  订单确认页面 -->
+<div class="U_ddxx cont">
+	<div class="U_ddbt">填写并核对订单信息</div>
+    <div class="U_ddb">
+        <div class="U_shdz">
+            <h4><a href="javascript:void(0);" class="addAddressBtn">新增收货地址</a>收货地址</h4>
+            <ul>
+                <foreach name='address' item='vo'>
+            	<li>
+                	<font><i onclick='setsta(this,{$vo['id']})' class='order2_defalteSet <if condition="$vo['status'] eq 1">nshow</if>'>设为默认地址</i><a href="#" target="_blank">编辑</a><a href="javascript:;" onclick='adddel(this,{$vo["id"]})'>删除</a></font>
+                    <span <if condition='$vo["status"] eq 1'>class="u_xz"</if>>{$vo['recieve']}<i addid='{$vo["id"]}' class="selected_icon">&nbsp;</i></span>
+                    <p>{$vo['address']}{$vo['addressinfo']}&nbsp;&nbsp;{$vo['tel']}</p><if condition="$vo['status'] eq 1"><em>默认地址</em></if>
+                </li>
+                </foreach>
+            </ul>
+           
+        </div>
+       
+        <div class="U_mjly">
+			<h4>买家留言</h4>
+            <div class="U_lynr">
+            	<span>留言内容：</span>
+                <textarea class="focusBorder"></textarea>
+                <font>0/200</font>
+            </div>
+        </div>
+        
+        <div class="U_spqd">
+        	<h4>商品清单</h4>
+            <table width="1125">
+              <tr>
+                <th width="40%">商品</td>
+                <th width="20%">单价</td>
+                <th width="20%">购买数量</td>
+                <th width="20%">小计</td>
+              </tr>
+              <foreach name='goodslist["goodslist"]' item='cal'>
+              <tr>
+                <td>
+                	<div class="list_goods">
+                        <a href="#"><img src="{$cal['image']}" width="66" height="66"></a>
+                        <p class="list_goods_name"><a href="#">{$cal['aname']}</a></p>
+                        <p class="list_goods_details"><span>颜色：红</span><span>型号：V1</span></p>
+                    </div>
+                </td>
+                <td>￥{$cal['shopprice']}</td>
+                <td>{$cal['gcount']}</td>
+                <td><font class="colorB11">{$cal['shopprice']*$cal['gcount']}</font></td>
+              </tr>
+              </foreach>
+            </table>
+        </div>
+
+        <div class="order2_b clearfix">
+        	<p>商品总金额：<span>￥{$goodslist['pricesum']}</span><br/>运费：<span>￥00.00</span><br/>优惠：<span>- ￥0.00</span></p>
+            <p><b>应付总金额：</b><font class="totalPrice">￥{$goodslist['pricesum']}</font></p>
+            <a href="javascript:;" onclick='orderadd()' class="hover_btn2">提交订单</a>
+        </div>
+    </div>
+  
+</div>
+
+<div class="fixed_shadow_w">
+	<div class="fixed_shadow"></div>
+	<div class="cancel_address fixed_shadow_c">
+    	<p class="fixed_shadow_ct"><i class="fixed_close pay_info_close">&nbsp;</i>删除收货人信息</p>
+    	<p class="cancel_address_m fixed_shadow_cm"><i>&nbsp;</i>您确定要删除该收货地址吗？</p>
+        <p class="cancel_address_b fixed_shadow_cb">
+        	<label class="fixed_iptW"><input type="submit" value="确定" class="fixed_ipt"></label>
+            <label class="fixed_iptW"><input type="submit" value="取消" class="fixed_ipt"></label>
+        </p>
+    </div>
+	<div class="operateSucc fixed_shadow_c">
+    	<p class="fixed_shadow_ct"><i class="fixed_close pay_info_close">&nbsp;</i>提示</p>
+    	<p class="operateSucc_m fixed_shadow_cm">操作成功！</p>
+        <p class="operateSucc_b fixed_shadow_cb">
+        	<label class="fixed_iptW"><input type="submit" value="确定" class="fixed_ipt"></label>
+        </p>
+    </div>
+	<div class="yhq_exchange fixed_shadow_c">
+    	<p class="fixed_shadow_ct"><i class="fixed_close pay_info_close">&nbsp;</i>新增收货人信息 </p>
+    	<p class="yhq_exchange_m fixed_shadow_cm"><i>&nbsp;</i>新增收货信息成功</p>
+        <p class="yhq_exchange_b fixed_shadow_cb">
+        	<label class="fixed_iptW"><input type="submit" value="确定" class="fixed_ipt"></label>
+        </p>
+    </div>
+	<div class="addAddress fixed_shadow_c">
+    	<p class="fixed_shadow_ct"><i class="fixed_close pay_info_close">&nbsp;</i>新增收货信息</p>
+    	<div class="addAddress_m fixed_shadow_cm">
+        	<form method='post' action='{:U("user/addaddress")}' id='form_info'>
+            <table>
+                <tr>
+                    <th><span class="redStar">*</span> 收货人：</th>
+                    <td><input type="text" id='recieve' name='recieve' value=''></td>
+                </tr>
+                <tr>
+                    <th><span class="redStar">*</span> 地址：</th>
+                    <td>
+                        <select id='pro' name='pro'></select>
+                        <select id='city' name='city'></select>
+                        <select id='coun' name='coun'></select>
+                    </td>
+                </tr>
+                <tr>
+                    <th><span class="redStar">*</span> 详细地址：</th>
+                    <td><textarea name='address'></textarea></td>
+                </tr>
+                <tr>
+                    <th><span class="redStar">*</span> 手机：</th>
+                    <td><input type="text" name='tel' value=''></td>
+                </tr>
+                <tr>
+                    <th>邮编：</th>
+                    <td><input type="text" name='postcode' value=''></td>
+                </tr>               
+            </table>
+        </div>
+        <p class="addAddress_b fixed_shadow_cb">
+            <label class="fixed_iptW"><input type="botton" value="确定" onclick='checkform()' class="fixed_ipt"></label>
+        </p>
+        </form>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="__ADMIN__/lib/layer/2.4/layer.js"></script> 
+<script type="text/javascript">
+function orderadd(){
+    var onadd = $('.U_shdz ul li').children('span.u_xz');
+    var onid = $(onadd).children('i').attr('addid');
+    var remark = $('div,.U_lynr').children('textarea').val();
+    $.post(
+        "{:U('cart/orderadd')}",
+        {onadd:onid,remark:remark},
+        function(result){
+            if(result.status==1){
+                window.location.href = "{:U('cart/orderpay')}";
+            }
+    });
+}
+
+function adddel(obj,id){
+    var id = id;
+    var thelast = $(obj).parents('li').children().last().html();
+    if(thelast == '默认地址'){
+        layer.msg('默认地址不能删除', {icon:5,time:1000});return;
+    }
+    $.post(
+        "{:U('user/adddel')}",
+        {id:id},
+        function(result){
+            if(result.status==1){
+                layer.msg('改地址已删除!',{icon: 5,time:1000});
+                $(obj).parents('li').remove();
+            }
+    });
+}
+
+function checkform(){
+    $.ajax({
+        type:"POST",
+        url:$('#form_info').attr("action"),
+        data:$('#form_info').serialize(),
+        dataType:'JSON',
+        success:function(result){
+            if(result.status == 1){
+                window.location.href = "{:U('cart/ordersale')}";
+            }
+        }
+    });
+}
+
+$(function(){
+    $('.add_addr').click(function(){
+        $('.fixed_shadow_w').fadeIn();
+        $('.addAddress').fadeIn();
+    });
+    $('.U_shdz ul li span').click(function(){
+        $('.U_shdz ul li span').removeClass('u_xz');
+        $(this).addClass('u_xz');
+    });
+    $.post(
+        "{:U('user/getregion')}",
+        {pid:1},
+        function(result){
+            var option ='<option>--请选择--</option>';
+            $.each(result.region,function(i,n){
+                option += '<option value="'+n.region_id+'">'+n.region_name+'</option>';
+            });
+            $('#pro').append(option);
+        });
+    $('#pro').change(function(){
+        var pid = $(this).val();
+        $.post(
+            "{:U('user/getregion')}",
+            {pid:pid},
+            function(result){
+                $('#city option').remove();
+                $('#coun option').remove();
+                var option = '<option>--请选择--</option>';
+                $.each(result.region,function(i,n){
+                    option += '<option value="'+n.region_id+'">'+n.region_name+'</option>';
+                });
+                $('#city').append(option);
+            });
+    });
+    $('#city').change(function(){
+        var pid = $(this).val();
+        $.post(
+            "{:U('user/getregion')}",
+            {pid,pid},
+            function(result){
+                $('#coun option').remove();
+                var option = '<option>--请选择--</option>';
+                $.each(result.region,function(i,n){
+                    option += '<option value="'+n.region_id+'">'+n.region_name+'</option>';
+                });
+                $('#coun').append(option);
+            });
+    })
+})
+
+function setsta(obj,id){
+    var id = id;
+    if(!id){
+        alert('参数错误');
+    }
+    $.post(
+        "{:U('user/setsta')}",
+        {id:id},
+        function(result){
+            if(result.status == 1){
+                $(obj).parents('li').append("<em>默认地址</em>");
+                $(obj).parents('li').children('span').addClass('u_xz');
+                $(obj).parents('li').siblings('li').children('em').remove();
+                $(obj).parents('li').siblings('li').children('span').removeClass('u_xz');
+                $(obj).parents('li').siblings('li').children('font').children('i').removeClass('nshow');
+                $(obj).addClass('nshow');
+            }
+        });    
+}
+</script>
+<include file='common:footer' />

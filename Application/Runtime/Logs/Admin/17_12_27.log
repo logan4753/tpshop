@@ -1,0 +1,408 @@
+[ 2017-12-27T15:33:56+08:00 ] 127.0.0.1 /Admin/cate/ishot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `permission`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0039s ]
+SQL: SELECT `ishot` FROM `category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `category` SET `ishot`='1' WHERE `id` = 1 [ RunTime:0.0004s ]
+
+[ 2017-12-27T15:33:57+08:00 ] 127.0.0.1 /Admin/cate/ishot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0310s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `permission`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0039s ]
+SQL: SELECT `ishot` FROM `category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `category` SET `ishot`='2' WHERE `id` = 1 [ RunTime:0.0003s ]
+
+[ 2017-12-27T15:34:08+08:00 ] 127.0.0.1 /Admin/order/orderstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000994s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0041s ]
+SQL: SELECT `status` FROM `saleorder` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `saleorder` SET `status`='2' WHERE `id` = 1 [ RunTime:0.0004s ]
+
+[ 2017-12-27T15:34:09+08:00 ] 127.0.0.1 /Admin/order/orderstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0044s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `permission`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0041s ]
+SQL: SELECT `status` FROM `saleorder` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `saleorder` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0004s ]
+
+[ 2017-12-27T15:34:10+08:00 ] 127.0.0.1 /Admin/order/orderstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0045s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `permission`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0041s ]
+SQL: SELECT `status` FROM `saleorder` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `saleorder` SET `status`='2' WHERE `id` = 1 [ RunTime:0.0004s ]
+
+[ 2017-12-27T15:34:11+08:00 ] 127.0.0.1 /Admin/order/orderstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0055s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `permission`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0042s ]
+SQL: SELECT `status` FROM `saleorder` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `saleorder` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0004s ]
+
+[ 2017-12-27T15:34:12+08:00 ] 127.0.0.1 /Admin/order/orderstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0053s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `permission`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0043s ]
+SQL: SELECT `status` FROM `saleorder` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `saleorder` SET `status`='2' WHERE `id` = 1 [ RunTime:0.0003s ]
+
+[ 2017-12-27T15:34:13+08:00 ] 127.0.0.1 /Admin/order/orderstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0060s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `permission`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0040s ]
+SQL: SELECT `status` FROM `saleorder` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `saleorder` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0003s ]
+
+[ 2017-12-27T15:36:22+08:00 ] 127.0.0.1 /Admin/order/orderstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0061s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `permission`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0044s ]
+SQL: SELECT `status` FROM `saleorder` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `saleorder` SET `status`='2' WHERE `id` = 1 [ RunTime:0.0004s ]
+
+[ 2017-12-27T15:36:24+08:00 ] 127.0.0.1 /Admin/order/orderstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0056s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0042s ]
+SQL: SELECT `status` FROM `saleorder` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `saleorder` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0003s ]
+
+[ 2017-12-27T15:40:42+08:00 ] 127.0.0.1 /Admin/order/orderstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0059s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `permission`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0040s ]
+SQL: SELECT `status` FROM `saleorder` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `saleorder` SET `status`='2' WHERE `id` = 1 [ RunTime:0.0004s ]
+
+[ 2017-12-27T15:40:43+08:00 ] 127.0.0.1 /Admin/order/orderstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0048s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `permission`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0042s ]
+SQL: SELECT `status` FROM `saleorder` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `saleorder` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0003s ]
+
+[ 2017-12-27T15:40:44+08:00 ] 127.0.0.1 /Admin/order/orderstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0054s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `permission`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0041s ]
+SQL: SELECT `status` FROM `saleorder` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `saleorder` SET `status`='2' WHERE `id` = 2 [ RunTime:0.0003s ]
+
+[ 2017-12-27T15:40:44+08:00 ] 127.0.0.1 /Admin/order/orderstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0059s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `permission`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0044s ]
+SQL: SELECT `status` FROM `saleorder` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `saleorder` SET `status`='1' WHERE `id` = 2 [ RunTime:0.0003s ]
+
+[ 2017-12-27T15:40:45+08:00 ] 127.0.0.1 /Admin/order/orderstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0060s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `permission`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0040s ]
+SQL: SELECT `status` FROM `saleorder` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `saleorder` SET `status`='2' WHERE `id` = 1 [ RunTime:0.0003s ]
+
+[ 2017-12-27T15:40:45+08:00 ] 127.0.0.1 /Admin/order/orderstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0285s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `permission`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0041s ]
+SQL: SELECT `status` FROM `saleorder` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `saleorder` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0003s ]
+
+[ 2017-12-27T15:40:46+08:00 ] 127.0.0.1 /Admin/order/orderstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0053s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `permission`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0044s ]
+SQL: SELECT `status` FROM `saleorder` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `saleorder` SET `status`='2' WHERE `id` = 3 [ RunTime:0.0004s ]
+
+[ 2017-12-27T15:40:46+08:00 ] 127.0.0.1 /Admin/order/orderstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0144s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `permission`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0040s ]
+SQL: SELECT `status` FROM `saleorder` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `saleorder` SET `status`='1' WHERE `id` = 3 [ RunTime:0.0003s ]
+
+[ 2017-12-27T15:40:47+08:00 ] 127.0.0.1 /Admin/order/orderstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0045s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `permission`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0041s ]
+SQL: SELECT `status` FROM `saleorder` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `saleorder` SET `status`='2' WHERE `id` = 4 [ RunTime:0.0004s ]
+
+[ 2017-12-27T15:40:48+08:00 ] 127.0.0.1 /Admin/order/orderstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0324s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `permission`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0041s ]
+SQL: SELECT `status` FROM `saleorder` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `saleorder` SET `status`='1' WHERE `id` = 4 [ RunTime:0.0004s ]
+
+[ 2017-12-27T15:40:48+08:00 ] 127.0.0.1 /Admin/order/orderstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0373s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `permission`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0047s ]
+SQL: SELECT `status` FROM `saleorder` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `saleorder` SET `status`='2' WHERE `id` = 5 [ RunTime:0.0003s ]
+
+[ 2017-12-27T15:40:49+08:00 ] 127.0.0.1 /Admin/order/orderstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0332s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `permission`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0040s ]
+SQL: SELECT `status` FROM `saleorder` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `saleorder` SET `status`='1' WHERE `id` = 5 [ RunTime:0.0003s ]
+
+[ 2017-12-27T15:40:49+08:00 ] 127.0.0.1 /Admin/order/orderstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0054s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `permission`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0041s ]
+SQL: SELECT `status` FROM `saleorder` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `saleorder` SET `status`='2' WHERE `id` = 6 [ RunTime:0.0003s ]
+
+[ 2017-12-27T15:40:50+08:00 ] 127.0.0.1 /Admin/order/orderstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001097s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0179s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `permission`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0043s ]
+SQL: SELECT `status` FROM `saleorder` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `saleorder` SET `status`='1' WHERE `id` = 6 [ RunTime:0.0004s ]
+
+[ 2017-12-27T15:40:50+08:00 ] 127.0.0.1 /Admin/order/orderstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0056s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `permission`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0040s ]
+SQL: SELECT `status` FROM `saleorder` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `saleorder` SET `status`='2' WHERE `id` = 5 [ RunTime:0.0003s ]
+
+[ 2017-12-27T15:40:51+08:00 ] 127.0.0.1 /Admin/order/orderstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0106s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0041s ]
+SQL: SELECT `status` FROM `saleorder` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `saleorder` SET `status`='1' WHERE `id` = 5 [ RunTime:0.0003s ]
+
+[ 2017-12-27T15:40:51+08:00 ] 127.0.0.1 /Admin/order/orderstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0039s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0041s ]
+SQL: SELECT `status` FROM `saleorder` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `saleorder` SET `status`='2' WHERE `id` = 4 [ RunTime:0.0004s ]
+
+[ 2017-12-27T15:40:51+08:00 ] 127.0.0.1 /Admin/order/orderstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0047s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0041s ]
+SQL: SELECT `status` FROM `saleorder` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `saleorder` SET `status`='1' WHERE `id` = 4 [ RunTime:0.0003s ]
+
+[ 2017-12-27T15:40:52+08:00 ] 127.0.0.1 /Admin/order/orderstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0060s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0041s ]
+SQL: SELECT `status` FROM `saleorder` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `saleorder` SET `status`='2' WHERE `id` = 3 [ RunTime:0.0004s ]
+
+[ 2017-12-27T15:40:53+08:00 ] 127.0.0.1 /Admin/order/orderstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0039s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `permission`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0041s ]
+SQL: SELECT `status` FROM `saleorder` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `saleorder` SET `status`='1' WHERE `id` = 3 [ RunTime:0.0005s ]
+
+[ 2017-12-27T15:40:53+08:00 ] 127.0.0.1 /Admin/order/orderstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0560s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `permission`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0040s ]
+SQL: SELECT `status` FROM `saleorder` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `saleorder` SET `status`='2' WHERE `id` = 2 [ RunTime:0.0003s ]
+
+[ 2017-12-27T15:40:53+08:00 ] 127.0.0.1 /Admin/order/orderstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0206s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `permission`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0048s ]
+SQL: SELECT `status` FROM `saleorder` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `saleorder` SET `status`='1' WHERE `id` = 2 [ RunTime:0.0003s ]
+
+[ 2017-12-27T15:40:54+08:00 ] 127.0.0.1 /Admin/order/orderstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0346s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `permission`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0044s ]
+SQL: SELECT `status` FROM `saleorder` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `saleorder` SET `status`='2' WHERE `id` = 1 [ RunTime:0.0003s ]
+
+[ 2017-12-27T15:40:54+08:00 ] 127.0.0.1 /Admin/order/orderstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001023s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0356s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `permission`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0050s ]
+SQL: SELECT `status` FROM `saleorder` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `saleorder` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0004s ]
+

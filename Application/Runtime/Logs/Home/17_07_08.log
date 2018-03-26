@@ -1,0 +1,3237 @@
+[ 2017-07-08T08:53:14+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-08T08:53:21+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-08T08:53:21+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-08T08:53:22+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-08T08:53:22+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-08T08:53:22+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-08T08:53:23+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.029002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029002s ]
+
+[ 2017-07-08T08:53:23+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-08T08:53:23+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-08T08:53:25+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-08T08:53:25+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-08T08:53:26+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-08T08:53:27+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-08T08:53:27+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-08T08:53:27+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-08T08:53:28+08:00 ] 127.0.0.1 /user/addcol.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-08T08:53:28+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-08T08:53:43+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-08T08:53:43+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-08T08:53:44+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-08T08:53:56+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-07-08T08:56:30+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-08T08:56:31+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-08T08:56:32+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-08T08:56:32+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-07-08T08:56:32+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-08T08:56:32+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-08T08:56:36+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-08T08:56:37+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-08T08:56:37+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-08T08:56:37+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-07-08T08:56:38+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-08T08:56:38+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-08T08:56:38+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-08T08:56:39+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-08T08:58:11+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='1',`status`='2',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T08:58:12+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='1',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T08:58:14+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='1',`status`='2',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T08:58:14+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='1',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-07-08T08:58:22+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='1',`status`='2',`isorder`='1' WHERE `id` = 9 [ RunTime:0.5520s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T08:58:23+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='1',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T08:58:24+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='1',`status`='2',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T08:58:30+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='1',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-07-08T08:58:31+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='1',`status`='2',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T08:59:18+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='1',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T08:59:24+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='1',`status`='2',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0030s ]
+
+[ 2017-07-08T08:59:25+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='1',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-07-08T09:00:00+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='1',`status`='2',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T09:00:01+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='1',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-07-08T09:00:02+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='1',`status`='2',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T09:00:03+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='1',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-07-08T09:00:04+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='1',`status`='2',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T09:00:05+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='1',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T09:00:07+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='1',`status`='2',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T09:00:08+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='1',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T09:00:46+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='2',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T09:00:47+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='3',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-07-08T09:00:48+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='4',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T09:00:49+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='3',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-07-08T09:00:50+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='2',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-07-08T09:00:50+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='1',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T09:00:55+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='2',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T09:00:55+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='3',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T09:00:56+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='4',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-07-08T09:00:56+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='5',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T09:00:56+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='6',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T09:00:56+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='7',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T09:00:57+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='8',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T09:00:57+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='9',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-07-08T09:00:57+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='10',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T09:00:57+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='11',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T09:00:57+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='12',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T09:00:58+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='13',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-07-08T09:00:58+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='14',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T09:00:58+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='15',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T09:00:58+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='16',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T09:00:59+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='17',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T09:00:59+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='18',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-07-08T09:00:59+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='19',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T09:00:59+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='20',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-07-08T09:01:00+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='21',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T09:01:00+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='22',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T09:01:00+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='23',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-07-08T09:01:00+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='24',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T09:01:01+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='25',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T09:01:01+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='26',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T09:01:01+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='27',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T09:01:01+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='28',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-07-08T09:01:01+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='29',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T09:01:02+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='30',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T09:01:02+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='31',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T09:01:02+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='32',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T09:01:02+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='33',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T09:01:03+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='34',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-07-08T09:01:03+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='35',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T09:01:03+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='36',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-07-08T09:01:03+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='37',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T09:01:03+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='38',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T09:01:04+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='39',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-07-08T09:01:04+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='40',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T09:01:04+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='41',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T09:01:04+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='42',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T09:01:05+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='43',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T09:01:05+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='44',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T09:01:05+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='45',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T09:01:05+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='46',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T09:01:05+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='47',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-07-08T09:01:06+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='48',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T09:01:06+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='49',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T09:01:06+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='50',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T09:01:10+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='49',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-07-08T09:01:11+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='48',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T09:01:11+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='47',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-07-08T09:01:12+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='46',`status`='1',`isorder`='1' WHERE `id` = 9 [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T09:08:55+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T09:09:52+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T09:09:55+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T09:11:09+08:00 ] 127.0.0.1 /cart/cartorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-08T09:11:10+08:00 ] 127.0.0.1 /cart/cartorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-08T09:11:27+08:00 ] 127.0.0.1 /cart/cartorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-08T09:54:07+08:00 ] 127.0.0.1 /user/
+ERR: 非法操作:index
+
+[ 2017-07-08T09:54:32+08:00 ] 127.0.0.1 /user/js/pub.js
+ERR: 非法操作:js
+
+[ 2017-07-08T09:54:32+08:00 ] 127.0.0.1 /user/js/content.js
+ERR: 非法操作:js
+
+[ 2017-07-08T09:54:32+08:00 ] 127.0.0.1 /user/js/pub.js
+ERR: 非法操作:js
+
+[ 2017-07-08T09:54:32+08:00 ] 127.0.0.1 /user/js/content.js
+ERR: 非法操作:js
+
+[ 2017-07-08T09:54:37+08:00 ] 127.0.0.1 /user/js/pub.js
+ERR: 非法操作:js
+
+[ 2017-07-08T09:54:37+08:00 ] 127.0.0.1 /user/js/content.js
+ERR: 非法操作:js
+
+[ 2017-07-08T10:34:30+08:00 ] 127.0.0.1 /user/js/pub.js
+ERR: 非法操作:js
+
+[ 2017-07-08T10:34:30+08:00 ] 127.0.0.1 /user/js/content.js
+ERR: 非法操作:js
+
+[ 2017-07-08T11:27:47+08:00 ] 172.168.0.228 /user/js/pub.js
+ERR: 非法操作:js
+
+[ 2017-07-08T11:27:47+08:00 ] 172.168.0.228 /user/js/content.js
+ERR: 非法操作:js
+
+[ 2017-07-08T11:28:04+08:00 ] 172.168.0.228 /user/js/pub.js
+ERR: 非法操作:js
+
+[ 2017-07-08T11:28:04+08:00 ] 172.168.0.228 /user/js/content.js
+ERR: 非法操作:js
+
+[ 2017-07-08T14:39:06+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T14:39:14+08:00 ] 127.0.0.1 /user/adddel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0030s ]
+SQL: DELETE FROM `address` WHERE `id` = 5 [ RunTime:0.0010s ]
+
+[ 2017-07-08T14:39:17+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T14:39:18+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T14:41:00+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T16:33:03+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T16:33:05+08:00 ] 127.0.0.1 /user/js/pub.js
+ERR: 非法操作:js
+
+[ 2017-07-08T16:33:05+08:00 ] 127.0.0.1 /user/js/content.js
+ERR: 非法操作:js
+
+[ 2017-07-08T16:33:21+08:00 ] 127.0.0.1 /user/js/pub.js
+ERR: 非法操作:js
+
+[ 2017-07-08T16:33:21+08:00 ] 127.0.0.1 /user/js/content.js
+ERR: 非法操作:js
+
+[ 2017-07-08T16:33:21+08:00 ] 127.0.0.1 /user/js/pub.js
+ERR: 非法操作:js
+
+[ 2017-07-08T16:33:21+08:00 ] 127.0.0.1 /user/js/content.js
+ERR: 非法操作:js
+
+[ 2017-07-08T16:34:01+08:00 ] 127.0.0.1 /user/js/content.js
+ERR: 非法操作:js
+
+[ 2017-07-08T16:34:01+08:00 ] 127.0.0.1 /user/js/pub.js
+ERR: 非法操作:js
+
+[ 2017-07-08T16:34:01+08:00 ] 127.0.0.1 /user/js/content.js
+ERR: 非法操作:js
+
+[ 2017-07-08T16:34:01+08:00 ] 127.0.0.1 /user/js/pub.js
+ERR: 非法操作:js
+
+[ 2017-07-08T16:34:01+08:00 ] 127.0.0.1 /user/js/content.js
+ERR: 非法操作:js
+
+[ 2017-07-08T16:34:01+08:00 ] 127.0.0.1 /user/js/pub.js
+ERR: 非法操作:js
+
+[ 2017-07-08T16:34:01+08:00 ] 127.0.0.1 /user/js/content.js
+ERR: 非法操作:js
+
+[ 2017-07-08T16:34:10+08:00 ] 127.0.0.1 /user/js/pub.js
+ERR: 非法操作:js
+
+[ 2017-07-08T16:34:10+08:00 ] 127.0.0.1 /user/js/content.js
+ERR: 非法操作:js
+
+[ 2017-07-08T16:34:47+08:00 ] 127.0.0.1 /user/js/pub.js
+ERR: 非法操作:js
+
+[ 2017-07-08T16:34:47+08:00 ] 127.0.0.1 /user/js/content.js
+ERR: 非法操作:js
+
+[ 2017-07-08T16:34:48+08:00 ] 127.0.0.1 /user/js/content.js
+ERR: 非法操作:js
+
+[ 2017-07-08T16:34:48+08:00 ] 127.0.0.1 /user/js/pub.js
+ERR: 非法操作:js
+
+[ 2017-07-08T16:34:48+08:00 ] 127.0.0.1 /user/js/content.js
+ERR: 非法操作:js
+
+[ 2017-07-08T16:34:48+08:00 ] 127.0.0.1 /user/js/pub.js
+ERR: 非法操作:js
+
+[ 2017-07-08T16:34:48+08:00 ] 127.0.0.1 /user/js/content.js
+ERR: 非法操作:js
+
+[ 2017-07-08T16:34:48+08:00 ] 127.0.0.1 /user/js/pub.js
+ERR: 非法操作:js
+
+[ 2017-07-08T16:34:48+08:00 ] 127.0.0.1 /user/js/content.js
+ERR: 非法操作:js
+
+[ 2017-07-08T16:40:47+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-08T16:40:52+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-08T16:40:53+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-08T16:40:54+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-08T16:40:56+08:00 ] 127.0.0.1 /user/addcol.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-08T16:40:57+08:00 ] 127.0.0.1 /user/addcol.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-07-08T16:41:14+08:00 ] 127.0.0.1 /user/addcol.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-08T16:41:15+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-08T16:41:18+08:00 ] 127.0.0.1 /user/addcol.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-08T16:41:18+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-08T16:41:19+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-08T16:41:20+08:00 ] 127.0.0.1 /user/addcol.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-08T16:41:20+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-07-08T16:41:21+08:00 ] 127.0.0.1 /user/addcol.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-08T16:41:21+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-08T16:41:21+08:00 ] 127.0.0.1 /user/addcol.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-08T16:41:30+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 AND `userid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='2',`status`='1',`isorder`='2' WHERE `id` = 9 [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T16:42:05+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 9 AND `userid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='9',`userid`='1',`gcount`='3',`status`='1',`isorder`='2' WHERE `id` = 9 [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T16:42:14+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 5 AND `userid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='5',`userid`='1',`gcount`='2',`status`='1',`isorder`='2' WHERE `id` = 5 [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T16:42:40+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 2 AND `userid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='2',`userid`='1',`gcount`='3',`status`='1',`isorder`='2' WHERE `id` = 2 [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T16:42:50+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 2 AND `userid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `cartitem` SET `goodsid`='2',`userid`='1',`gcount`='4',`status`='1',`isorder`='2' WHERE `id` = 2 [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T16:43:46+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 2 AND `userid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `cartitem` SET `goodsid`='2',`userid`='1',`gcount`='5',`status`='1',`isorder`='2' WHERE `id` = 2 [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T16:44:44+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-07-08T16:45:34+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-07-08T16:45:43+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 2 AND `userid` = 1 AND `isorder` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `cartitem` (`goodsid`,`gcount`,`userid`) VALUES ('2','1','1') [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T16:45:54+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='2',`userid`='1',`gcount`='5',`status`='2',`isorder`='2' WHERE `id` = 2 [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-07-08T16:45:55+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `cartitem` SET `goodsid`='2',`userid`='1',`gcount`='5',`status`='1',`isorder`='2' WHERE `id` = 2 [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-07-08T16:45:56+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `cartitem` SET `goodsid`='2',`userid`='1',`gcount`='5',`status`='2',`isorder`='2' WHERE `id` = 2 [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-07-08T16:45:57+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='2',`userid`='1',`gcount`='5',`status`='1',`isorder`='2' WHERE `id` = 2 [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-07-08T16:45:58+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `cartitem` SET `goodsid`='2',`userid`='1',`gcount`='5',`status`='2',`isorder`='2' WHERE `id` = 2 [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T16:45:59+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='2',`userid`='1',`gcount`='5',`status`='1',`isorder`='2' WHERE `id` = 2 [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T16:46:24+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `cartitem` SET `goodsid`='2',`userid`='1',`gcount`='5',`status`='2',`isorder`='2' WHERE `id` = 2 [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T16:46:25+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `cartitem` SET `goodsid`='2',`userid`='1',`gcount`='5',`status`='1',`isorder`='2' WHERE `id` = 2 [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T16:46:26+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `cartitem` SET `goodsid`='2',`userid`='1',`gcount`='5',`status`='2',`isorder`='2' WHERE `id` = 2 [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-07-08T16:46:27+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='2',`userid`='1',`gcount`='5',`status`='1',`isorder`='2' WHERE `id` = 2 [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T16:46:28+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='2',`userid`='1',`gcount`='5',`status`='2',`isorder`='2' WHERE `id` = 2 [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T16:46:28+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `cartitem` SET `goodsid`='2',`userid`='1',`gcount`='5',`status`='1',`isorder`='2' WHERE `id` = 2 [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T16:47:16+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 2 AND `isorder` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `cartitem` SET `goodsid`='2',`userid`='1',`gcount`='1',`status`='2',`isorder`='1' WHERE `id` = 11 [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T16:47:16+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 2 AND `isorder` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='2',`userid`='1',`gcount`='1',`status`='1',`isorder`='1' WHERE `id` = 11 [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T16:47:17+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 2 AND `isorder` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='2',`userid`='1',`gcount`='1',`status`='2',`isorder`='1' WHERE `id` = 11 [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T16:47:17+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 2 AND `isorder` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `cartitem` SET `goodsid`='2',`userid`='1',`gcount`='1',`status`='1',`isorder`='1' WHERE `id` = 11 [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T16:47:19+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 2 AND `isorder` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `cartitem` SET `goodsid`='2',`userid`='1',`gcount`='2',`status`='1',`isorder`='1' WHERE `id` = 11 [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T16:47:21+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 2 AND `isorder` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='2',`userid`='1',`gcount`='3',`status`='1',`isorder`='1' WHERE `id` = 11 [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T16:47:22+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 2 AND `isorder` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='2',`userid`='1',`gcount`='2',`status`='1',`isorder`='1' WHERE `id` = 11 [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T16:47:22+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 2 AND `isorder` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='2',`userid`='1',`gcount`='1',`status`='1',`isorder`='1' WHERE `id` = 11 [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T16:47:23+08:00 ] 127.0.0.1 /cart/number.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 2 AND `isorder` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `goodsid`='2',`userid`='1',`gcount`='2',`status`='1',`isorder`='1' WHERE `id` = 11 [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-08T16:48:15+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T16:50:25+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T16:50:25+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T16:50:42+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 7  [ RunTime:0.0010s ]
+
+[ 2017-07-08T16:50:43+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 100  [ RunTime:0.0010s ]
+
+[ 2017-07-08T16:51:12+08:00 ] 127.0.0.1 /user/addaddress.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0040s ]
+SQL: SELECT `region_name` FROM `region` WHERE `region_id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `region_name` FROM `region` WHERE `region_id` = 100 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `region_name` FROM `region` WHERE `region_id` = 895 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `address` (`userid`,`recieve`,`postcode`,`tel`,`address`,`addressinfo`) VALUES ('1','小米','236521','13576893456','广西北海银海区','12345风起时') [ RunTime:0.0010s ]
+
+[ 2017-07-08T16:51:13+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T16:51:29+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T16:51:30+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T16:51:51+08:00 ] 127.0.0.1 /user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 2 [ RunTime:0.0010s ]
+
+[ 2017-07-08T16:51:56+08:00 ] 127.0.0.1 /user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小明',`postcode`='',`address`='北京北京海淀区',`addressinfo`='学清路汉华世纪大厦',`tel`='13578975643',`status`='2' WHERE `id` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+
+[ 2017-07-08T16:52:02+08:00 ] 127.0.0.1 /user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小米',`postcode`='236521',`address`='广西北海银海区',`addressinfo`='12345风起时',`tel`='13576893456',`status`='2' WHERE `id` = 7 [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+
+[ 2017-07-08T16:53:07+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T16:53:07+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T16:53:09+08:00 ] 127.0.0.1 /user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小米',`postcode`='236521',`address`='广西北海银海区',`addressinfo`='12345风起时',`tel`='13576893456',`status`='2' WHERE `id` = 7 [ RunTime:0.0010s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 2 [ RunTime:0.0000s ]
+
+[ 2017-07-08T16:53:11+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T16:53:12+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T16:53:12+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T16:53:14+08:00 ] 127.0.0.1 /user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小明',`postcode`='',`address`='北京北京海淀区',`addressinfo`='学清路汉华世纪大厦',`tel`='13578975643',`status`='2' WHERE `id` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 8 [ RunTime:0.0010s ]
+
+[ 2017-07-08T16:53:25+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T16:53:27+08:00 ] 127.0.0.1 /user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小米',`postcode`='236521',`address`='广西北海银海区',`addressinfo`='12345风起时',`tel`='13576893456',`status`='2' WHERE `id` = 8 [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 2 [ RunTime:0.0020s ]
+
+[ 2017-07-08T16:53:29+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T16:59:22+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T16:59:23+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T16:59:23+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T16:59:25+08:00 ] 127.0.0.1 /user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小明',`postcode`='',`address`='北京北京海淀区',`addressinfo`='学清路汉华世纪大厦',`tel`='13578975643',`status`='2' WHERE `id` = 2 [ RunTime:0.0010s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+
+[ 2017-07-08T16:59:29+08:00 ] 127.0.0.1 /user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小米',`postcode`='236521',`address`='广西北海银海区',`addressinfo`='12345风起时',`tel`='13576893456',`status`='2' WHERE `id` = 7 [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 8 [ RunTime:0.0000s ]
+
+[ 2017-07-08T16:59:33+08:00 ] 127.0.0.1 /user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小米',`postcode`='236521',`address`='广西北海银海区',`addressinfo`='12345风起时',`tel`='13576893456',`status`='2' WHERE `id` = 8 [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+
+[ 2017-07-08T16:59:34+08:00 ] 127.0.0.1 /user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小米',`postcode`='236521',`address`='广西北海银海区',`addressinfo`='12345风起时',`tel`='13576893456',`status`='2' WHERE `id` = 7 [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 8 [ RunTime:0.0000s ]
+
+[ 2017-07-08T16:59:35+08:00 ] 127.0.0.1 /user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小米',`postcode`='236521',`address`='广西北海银海区',`addressinfo`='12345风起时',`tel`='13576893456',`status`='2' WHERE `id` = 8 [ RunTime:0.0010s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+
+[ 2017-07-08T16:59:37+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T16:59:37+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T16:59:39+08:00 ] 127.0.0.1 /user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小米',`postcode`='236521',`address`='广西北海银海区',`addressinfo`='12345风起时',`tel`='13576893456',`status`='2' WHERE `id` = 7 [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 2 [ RunTime:0.0000s ]
+
+[ 2017-07-08T16:59:40+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T16:59:41+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T16:59:42+08:00 ] 127.0.0.1 /user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小明',`postcode`='',`address`='北京北京海淀区',`addressinfo`='学清路汉华世纪大厦',`tel`='13578975643',`status`='2' WHERE `id` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 7 [ RunTime:0.0000s ]
+
+[ 2017-07-08T16:59:44+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:00:02+08:00 ] 127.0.0.1 /user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小米',`postcode`='236521',`address`='广西北海银海区',`addressinfo`='12345风起时',`tel`='13576893456',`status`='2' WHERE `id` = 7 [ RunTime:0.0010s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 2 [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:00:11+08:00 ] 127.0.0.1 /user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小明',`postcode`='',`address`='北京北京海淀区',`addressinfo`='学清路汉华世纪大厦',`tel`='13578975643',`status`='2' WHERE `id` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 8 [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:00:15+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T17:00:27+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T17:00:28+08:00 ] 127.0.0.1 /user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小米',`postcode`='236521',`address`='广西北海银海区',`addressinfo`='12345风起时',`tel`='13576893456',`status`='2' WHERE `id` = 8 [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 2 [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:00:29+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T17:00:29+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:00:39+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T17:00:43+08:00 ] 127.0.0.1 /user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小明',`postcode`='',`address`='北京北京海淀区',`addressinfo`='学清路汉华世纪大厦',`tel`='13578975643',`status`='2' WHERE `id` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 8 [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:00:47+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T17:00:48+08:00 ] 127.0.0.1 /user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小米',`postcode`='236521',`address`='广西北海银海区',`addressinfo`='12345风起时',`tel`='13576893456',`status`='2' WHERE `id` = 8 [ RunTime:0.0010s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 2 [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:00:50+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T17:01:34+08:00 ] 127.0.0.1 /user/adddel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0030s ]
+SQL: DELETE FROM `address` WHERE `id` = 7 [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:01:35+08:00 ] 127.0.0.1 /user/adddel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0040s ]
+SQL: DELETE FROM `address` WHERE `id` = 8 [ RunTime:0.0010s ]
+
+[ 2017-07-08T17:01:36+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T17:01:36+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:01:36+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T17:02:02+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 2  [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:02:03+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 52  [ RunTime:0.0010s ]
+
+[ 2017-07-08T17:02:27+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 24  [ RunTime:0.0010s ]
+
+[ 2017-07-08T17:02:30+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 311  [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:02:54+08:00 ] 127.0.0.1 /user/addaddress.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0040s ]
+SQL: SELECT `region_name` FROM `region` WHERE `region_id` = 24 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `region_name` FROM `region` WHERE `region_id` = 311 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `region_name` FROM `region` WHERE `region_id` = 2598 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `address` (`userid`,`recieve`,`postcode`,`tel`,`address`,`addressinfo`) VALUES ('1','小米','134653','13567875435','陕西西安碑林区','雁塔北路') [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:02:54+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T17:05:40+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T17:05:40+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T17:05:42+08:00 ] 127.0.0.1 /user/adddel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0040s ]
+SQL: DELETE FROM `address` WHERE `id` = 10 [ RunTime:0.0010s ]
+
+[ 2017-07-08T17:05:43+08:00 ] 127.0.0.1 /user/adddel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0040s ]
+SQL: DELETE FROM `address` WHERE `id` = 9 [ RunTime:0.0010s ]
+
+[ 2017-07-08T17:05:45+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:05:46+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T17:05:52+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 4  [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:05:53+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 55  [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:06:06+08:00 ] 127.0.0.1 /user/addaddress.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: pro D:\phpStudy\WWW\tpshop\Application\Home\Controller\UserController.class.php 第 54 行.
+SQL: SELECT `region_name` FROM `region` WHERE `region_id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: city D:\phpStudy\WWW\tpshop\Application\Home\Controller\UserController.class.php 第 55 行.
+SQL: SELECT `region_name` FROM `region` WHERE `region_id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: coun D:\phpStudy\WWW\tpshop\Application\Home\Controller\UserController.class.php 第 56 行.
+SQL: SELECT `region_name` FROM `region` WHERE `region_id` = null LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: recieve D:\phpStudy\WWW\tpshop\Application\Home\Controller\UserController.class.php 第 59 行.
+NOTIC: [8] Undefined index: postcode D:\phpStudy\WWW\tpshop\Application\Home\Controller\UserController.class.php 第 60 行.
+NOTIC: [8] Undefined index: tel D:\phpStudy\WWW\tpshop\Application\Home\Controller\UserController.class.php 第 61 行.
+NOTIC: [8] Undefined index: address D:\phpStudy\WWW\tpshop\Application\Home\Controller\UserController.class.php 第 63 行.
+ERR: 1048:Column 'recieve' cannot be null
+ [ SQL语句 ] : INSERT INTO `address` (`userid`,`recieve`,`postcode`,`tel`,`address`,`addressinfo`) VALUES ('1',NULL,NULL,NULL,'',NULL)
+ERR: 1048:Column 'recieve' cannot be null
+ [ SQL语句 ] : INSERT INTO `address` (`userid`,`recieve`,`postcode`,`tel`,`address`,`addressinfo`) VALUES ('1',NULL,NULL,NULL,'',NULL)
+
+[ 2017-07-08T17:07:35+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:07:37+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T17:07:37+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:07:37+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:07:55+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:07:55+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:07:55+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T17:07:56+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T17:08:14+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 7  [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:08:15+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 101  [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:08:24+08:00 ] 127.0.0.1 /user/addaddress.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: pro D:\phpStudy\WWW\tpshop\Application\Home\Controller\UserController.class.php 第 54 行.
+SQL: SELECT `region_name` FROM `region` WHERE `region_id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: city D:\phpStudy\WWW\tpshop\Application\Home\Controller\UserController.class.php 第 55 行.
+SQL: SELECT `region_name` FROM `region` WHERE `region_id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: coun D:\phpStudy\WWW\tpshop\Application\Home\Controller\UserController.class.php 第 56 行.
+SQL: SELECT `region_name` FROM `region` WHERE `region_id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: recieve D:\phpStudy\WWW\tpshop\Application\Home\Controller\UserController.class.php 第 59 行.
+NOTIC: [8] Undefined index: postcode D:\phpStudy\WWW\tpshop\Application\Home\Controller\UserController.class.php 第 60 行.
+NOTIC: [8] Undefined index: tel D:\phpStudy\WWW\tpshop\Application\Home\Controller\UserController.class.php 第 61 行.
+NOTIC: [8] Undefined index: address D:\phpStudy\WWW\tpshop\Application\Home\Controller\UserController.class.php 第 63 行.
+ERR: 1048:Column 'recieve' cannot be null
+ [ SQL语句 ] : INSERT INTO `address` (`userid`,`recieve`,`postcode`,`tel`,`address`,`addressinfo`) VALUES ('1',NULL,NULL,NULL,'',NULL)
+ERR: 1048:Column 'recieve' cannot be null
+ [ SQL语句 ] : INSERT INTO `address` (`userid`,`recieve`,`postcode`,`tel`,`address`,`addressinfo`) VALUES ('1',NULL,NULL,NULL,'',NULL)
+
+[ 2017-07-08T17:09:39+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:09:40+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T17:09:41+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T17:09:42+08:00 ] 127.0.0.1 /user/adddel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0040s ]
+SQL: DELETE FROM `address` WHERE `id` = 14 [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:09:44+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:09:45+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T17:10:15+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:10:15+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:10:16+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:10:16+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T17:11:10+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:11:10+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:11:16+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 7  [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:11:18+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 9  [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:11:19+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 125  [ RunTime:0.0010s ]
+
+[ 2017-07-08T17:11:22+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 127  [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:11:25+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 12  [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:11:26+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 170  [ RunTime:0.0010s ]
+
+[ 2017-07-08T17:11:34+08:00 ] 127.0.0.1 /user/addaddress.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0030s ]
+SQL: SELECT `region_name` FROM `region` WHERE `region_id` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `region_name` FROM `region` WHERE `region_id` = 170 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `region_name` FROM `region` WHERE `region_id` = 1451 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `address` (`userid`,`recieve`,`postcode`,`tel`,`address`,`addressinfo`) VALUES ('1','测试','','12345678901','黑龙江鹤岗向阳区','测试') [ RunTime:0.0020s ]
+
+[ 2017-07-08T17:11:35+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T17:11:38+08:00 ] 127.0.0.1 /user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小明',`postcode`='',`address`='北京北京海淀区',`addressinfo`='学清路汉华世纪大厦',`tel`='13578975643',`status`='2' WHERE `id` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 4 [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:11:39+08:00 ] 127.0.0.1 /user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='测试',`postcode`='',`address`='黑龙江鹤岗向阳区',`addressinfo`='测试',`tel`='12345678901',`status`='2' WHERE `id` = 4 [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 4 [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:11:40+08:00 ] 127.0.0.1 /user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='测试',`postcode`='',`address`='黑龙江鹤岗向阳区',`addressinfo`='测试',`tel`='12345678901',`status`='2' WHERE `id` = 4 [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 4 [ RunTime:0.0010s ]
+
+[ 2017-07-08T17:11:43+08:00 ] 127.0.0.1 /user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='测试',`postcode`='',`address`='黑龙江鹤岗向阳区',`addressinfo`='测试',`tel`='12345678901',`status`='2' WHERE `id` = 4 [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 4 [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:11:44+08:00 ] 127.0.0.1 /user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='测试',`postcode`='',`address`='黑龙江鹤岗向阳区',`addressinfo`='测试',`tel`='12345678901',`status`='2' WHERE `id` = 4 [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 4 [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:11:46+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:11:48+08:00 ] 127.0.0.1 /user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='测试',`postcode`='',`address`='黑龙江鹤岗向阳区',`addressinfo`='测试',`tel`='12345678901',`status`='2' WHERE `id` = 4 [ RunTime:0.0010s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:11:50+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T17:12:00+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 7  [ RunTime:0.0010s ]
+
+[ 2017-07-08T17:12:01+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 103  [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:12:09+08:00 ] 127.0.0.1 /user/addaddress.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0050s ]
+SQL: SELECT `region_name` FROM `region` WHERE `region_id` = 7 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `region_name` FROM `region` WHERE `region_id` = 103 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `region_name` FROM `region` WHERE `region_id` = 911 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `address` (`userid`,`recieve`,`postcode`,`tel`,`address`,`addressinfo`) VALUES ('1','测试1','','12345678909','广西贵港覃塘区','测试1') [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:12:10+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:12:12+08:00 ] 127.0.0.1 /user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小明',`postcode`='',`address`='北京北京海淀区',`addressinfo`='学清路汉华世纪大厦',`tel`='13578975643',`status`='2' WHERE `id` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 5 [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:12:17+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:12:18+08:00 ] 127.0.0.1 /user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='测试1',`postcode`='',`address`='广西贵港覃塘区',`addressinfo`='测试1',`tel`='12345678909',`status`='2' WHERE `id` = 5 [ RunTime:0.0010s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:12:20+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:17:43+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:17:43+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:17:47+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:17:53+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:18:24+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T17:18:25+08:00 ] 127.0.0.1 /user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小明',`postcode`='',`address`='北京北京海淀区',`addressinfo`='学清路汉华世纪大厦',`tel`='13578975643',`status`='2' WHERE `id` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 4 [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:18:51+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T17:18:51+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:18:55+08:00 ] 127.0.0.1 /user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='测试',`postcode`='',`address`='黑龙江鹤岗向阳区',`addressinfo`='测试',`tel`='12345678901',`status`='2' WHERE `id` = 4 [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 5 [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:19:00+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T17:19:00+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T17:19:01+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:19:01+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T17:19:02+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T17:19:03+08:00 ] 127.0.0.1 /user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='测试1',`postcode`='',`address`='广西贵港覃塘区',`addressinfo`='测试1',`tel`='12345678909',`status`='2' WHERE `id` = 5 [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 4 [ RunTime:0.0010s ]
+
+[ 2017-07-08T17:19:06+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T17:20:00+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T17:20:01+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:20:02+08:00 ] 127.0.0.1 /user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='测试',`postcode`='',`address`='黑龙江鹤岗向阳区',`addressinfo`='测试',`tel`='12345678901',`status`='2' WHERE `id` = 4 [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0010s ]
+
+[ 2017-07-08T17:20:03+08:00 ] 127.0.0.1 /user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小明',`postcode`='',`address`='北京北京海淀区',`addressinfo`='学清路汉华世纪大厦',`tel`='13578975643',`status`='2' WHERE `id` = 1 [ RunTime:0.0080s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 5 [ RunTime:0.0010s ]
+
+[ 2017-07-08T17:20:06+08:00 ] 127.0.0.1 /user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='测试1',`postcode`='',`address`='广西贵港覃塘区',`addressinfo`='测试1',`tel`='12345678909',`status`='2' WHERE `id` = 5 [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0000s ]
+
+[ 2017-07-08T17:20:08+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T17:20:08+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T17:20:14+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T18:56:39+08:00 ] 127.0.0.1 /user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小明',`postcode`='',`address`='北京北京海淀区',`addressinfo`='学清路汉华世纪大厦',`tel`='13578975643',`status`='2' WHERE `id` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 4 [ RunTime:0.0000s ]
+
+[ 2017-07-08T18:56:42+08:00 ] 127.0.0.1 /user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='测试',`postcode`='',`address`='黑龙江鹤岗向阳区',`addressinfo`='测试',`tel`='12345678901',`status`='2' WHERE `id` = 4 [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0000s ]
+
+[ 2017-07-08T19:02:01+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T19:02:02+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T19:02:02+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T19:02:03+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T19:02:19+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T19:02:19+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T19:02:21+08:00 ] 127.0.0.1 /user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小明',`postcode`='',`address`='北京北京海淀区',`addressinfo`='学清路汉华世纪大厦',`tel`='13578975643',`status`='2' WHERE `id` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 4 [ RunTime:0.0010s ]
+
+[ 2017-07-08T19:02:22+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T19:02:23+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T19:02:41+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T19:02:41+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T19:02:41+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T19:03:00+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T19:03:02+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T19:03:02+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T19:03:02+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T19:04:16+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T19:04:17+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T19:04:26+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.1670s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T19:05:23+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T19:05:24+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T19:05:24+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T19:08:45+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T19:08:45+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T19:09:49+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T19:09:49+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T19:09:51+08:00 ] 127.0.0.1 /user/adddel.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0040s ]
+SQL: DELETE FROM `address` WHERE `id` = 5 [ RunTime:0.0010s ]
+
+[ 2017-07-08T19:09:55+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-08T19:09:55+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-08T19:12:11+08:00 ] 127.0.0.1 /cart/orderadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `salesitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `address` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `saleorder` (`ordernum`,`userid`,`address`,`recieve`,`tel`,`odate`,`allprice`,`remark`) VALUES ('2017070819121156702','1','黑龙江鹤岗向阳区测试','测试','12345678901','1499512331','6198','') [ RunTime:0.0000s ]
+SQL: INSERT INTO `salesitem` (`goodsid`,`gname`,`gprice`,`gimage`,`gcount`,`orderid`) VALUES ('2','华为 Mate 9 4GB+32GB版 苍穹灰 移动联通电信4G手机 双卡双待','3099.00','/Public/Uploads/2017-06-30/1498804408_1409.jpg','2','8') [ RunTime:0.0000s ]
+SQL: UPDATE `cartitem` SET `isorder`='2' WHERE `id` IN ('11') [ RunTime:0.0000s ]
+
+[ 2017-07-08T19:12:37+08:00 ] 127.0.0.1 /cart/dopay.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `saleorder` WHERE `ordernum` = '2017070514282687429' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `saleorder` SET `ispay`='1' WHERE `id` = 1 [ RunTime:0.0070s ]
+
+[ 2017-07-08T19:12:44+08:00 ] 127.0.0.1 /cart/dopay.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `saleorder` WHERE `ordernum` = '2017070514511489746' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `saleorder` SET `ispay`='1' WHERE `id` = 2 [ RunTime:0.0070s ]
+
+[ 2017-07-08T19:12:48+08:00 ] 127.0.0.1 /cart/dosend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0050s ]
+SQL: UPDATE `saleorder` SET `send`='3' WHERE `id` = 1 [ RunTime:0.0060s ]
+
+[ 2017-07-08T19:12:50+08:00 ] 127.0.0.1 /cart/dosend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0040s ]
+SQL: UPDATE `saleorder` SET `send`='3' WHERE `id` = 2 [ RunTime:0.0060s ]
+
+[ 2017-07-08T19:25:47+08:00 ] 127.0.0.1 /cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 8 AND `userid` = 1 AND `isorder` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `cartitem` (`goodsid`,`gcount`,`userid`) VALUES ('8','1','1') [ RunTime:0.5530s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0010s ]
+

@@ -1,0 +1,277 @@
+<include file='common:head' />
+<link type="text/css" rel="stylesheet" href="__HOME__/css/user.css" />
+<include file='common:header' />
+<include file='common:lists' />
+
+<div class="cont user user_1 clearfix">
+    <div class="user_menu"> 
+        <dl>
+            <dt class="colorChange">个人中心</dt>
+            <dd class="active"><a href="{:U('user/myorder')}">我的订单</a></dd>
+            <dd><a href="{:U('user/mycollect')}">我的收藏</a></dd>
+            <dd><a href="{:U('user/mycoupon')}">我的优惠券</a></dd>
+            <dd><a href="{:U('user/address')}">我的收货地址</a></dd>
+            <dd><a href="{:U('user/comment')}">商品评价</a></dd>
+            <dd><a href="{:U('user/editpwd')}">修改密码</a></dd>
+        </dl>
+    </div>
+
+<!-- 我的订单内容-->
+        <div class="user_right fr">
+            <h3 class="user_title">我的订单</h3>
+            <div class="zg-right-nav clearfix">
+                <ul class="zgright-nav-ul fl">
+                    <li><a href="#" class="active">全部</a></li>
+                    <li><a href="#">待支付</a></li>
+                    <li><a href="#">待收货</a></li>
+                    <li><a href="#">待评价</a></li>
+                </ul>
+                <div class="user_search_w fr"><i>&nbsp;</i>
+                    <input type="text" value="商品名称" class="ipt_search" onFocus="if(value=='商品名称')value='';" onBlur="if(value=='')value='商品名称';"/>
+                    <input type="submit" value="" class="user_search_submit">
+                </div>
+            </div>
+            <p class="noInfo"><i class="i_sad">&nbsp;</i>您目前还没有已购买的宝贝，快去逛逛<a href="#">首页</a>吧！</p>
+            
+            <!--所有订单-->
+            <div class="zg-right-tabC active">
+                <foreach name='allorder' item='val'>
+                <div class="orders_detail order_details_nopaid">
+                    <p class="order_title">
+                        <span>订单号：{$val['ordernum']}</span>
+                        <span class="spanM">创建时间：{$val['ondate']}</span>
+                        <span>订单状态：<if condition="$val['status'] eq 1"><if condition="$val['ispay'] eq 2">未支付<elseif condition="($val['send'] eq 1) and ($val['ispay'] eq 1)" />未发货<elseif condition="($val['send'] eq 2) and ($val['ispay'] eq 1)" />已发货<elseif condition="($val['send'] eq 3) and ($val['ispay'] eq 1)" />待评价</if><elseif condition="$val['status'] eq 2"/>已取消</if></span>
+                    </p>
+                    <table>
+                        <tr>
+                            <td>
+                                <ul class="myorderL fl">
+                                    <foreach name="val['child']" item='vo'>
+                                    <li>
+                                        <div class="list_goods fl">
+                                            <a href="#"><img src="{$vo['gimage']}" width="66" height="66"></a>
+                                            <p class="list_goods_name"><a href="#">{$vo['gname']}</a></p>
+                                            <p class="list_goods_details"><span>颜色：红</span><span>型号：V1</span></p>
+                                        </div>
+                                        <span class="fr">×{$vo['gcount']}</span>
+                                    </li>
+                                    </foreach>
+                                </ul>
+                            </td>
+                            <td class="myorder_m">总额 ￥{$val['allprice']}</td>
+                            <td class="myorder_r">
+                            <if condition="$val['status'] eq 1">
+                                <if condition="$val['ispay'] eq 2">
+                                    <a href="javascript:;" onclick='gopay(this)' doorder="{$val['ordernum']}" class="goPay">去支付</a>
+                                    <a href="javascript:;" onclick='orderaway(this)' doid="{$val['id']}" class="td03-a03">取消订单</a>
+                                <elseif condition="($val['send'] eq 1) and ($val['ispay'] eq 1)" />
+                                    <a title='确认收货' href="javascript:;" onclick="delivery(this)" doid="{$val['id']}" class="confirmR">确认收货</a>
+                                    <a href="javascript:;" onclick='orderaway(this)' doid="{$val['id']}" class="td03-a03">取消订单</a>
+                                <elseif condition="($val['send'] eq 2) and ($val['ispay'] eq 1)" />
+                                    <a title='确认收货' href="javascript:;" onclick="delivery(this)" doid="{$val['id']}" class="confirmR">确认收货</a>
+                                    <a href="javascript:;" onclick='orderaway(this)' doid="{$val['id']}" class="td03-a03">取消订单</a>
+                                <elseif condition="($val['send'] eq 3) and ($val['ispay'] eq 1)" />
+                                    <a href="#" target="_blank" class="evaluate">评价</a>
+                                </if>
+                                <a href="#" target="_blank" class="td03-a02">订单详情</a>
+                            <elseif condition="$val['status'] eq 2"/>
+                                <a href="#" target="_blank" class="td03-a02">订单详情</a>
+                            </if> 
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                </foreach>
+                <!-- pages -->
+                <!-- <div class="pages pagesR">
+                    <a class="pages_pre" href="#" title="上一页">上一页</a><a  href="#"class="active">1</a><a href="#">2</a><a href="#">3</a><a href="#">4</a><a href="#">5</a><span>…</span><a href="#" class="pages_next" title="下一页">下一页</a><span>共100页，到第<input type="text" class="pages_ipt focusBorder">页</span><label class="pages_btn_w"><input type="submit" value="确定" class="pages_btn"></label>
+                </div> -->
+                
+            </div>
+            <!-- 待支付 -->
+            <div class="zg-right-tabC">
+                <foreach name='allorder' item='vos'>
+                <if condition="$vos['ispay'] eq 2">
+                <div class="orders_detail order_details_nopaid">
+                    <p class="order_title">
+                        <span>订单号：{$vos['ordernum']}</span>
+                        <span class="spanM">创建时间：{$vos['ondate']}</span>
+                        <span>订单状态：未支付</span>
+                    </p>
+                    <table>
+                        <tr>
+                            <td>
+                                <ul class="myorderL fl">
+                                    <foreach name="vos['child']" item='vv'>
+                                    <li>
+                                        <div class="list_goods fl">
+                                            <a href="#"><img src="{$vv['gimage']}" width="66" height="66"></a>
+                                            <p class="list_goods_name"><a href="#">{$vv['gname']}</a></p>
+                                            <p class="list_goods_details"><span>颜色：红</span><span>型号：V1</span></p>
+                                        </div>
+                                        <span class="fr">×{$vv['gcount']}</span>
+                                    </li>
+                                    </foreach>
+                                </ul>
+                            </td>
+                            <td class="myorder_m">总额 ￥{$vos['allprice']}</td>
+                            <td class="myorder_r">
+                                <a href="javascript:;" onclick='gopay(this)' doorder="{$vos['ordernum']}" class="goPay">去支付</a>
+                                <a href="javascript:;" onclick='orderaway(this)' doid="{$vos['id']}" class="td03-a03">取消订单</a>
+                                <a href="#" target="_blank" class="td03-a02">订单详情</a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                </if>
+                </foreach>
+                
+                <!-- pages -->
+                <!-- <div class="pages pagesR">
+                    <a class="pages_pre" href="#" title="上一页">上一页</a><a  href="#"class="active">1</a><a href="#">2</a><a href="#">3</a><a href="#">4</a><a href="#">5</a><span>…</span><a href="#" class="pages_next" title="下一页">下一页</a><span>共100页，到第<input type="text" class="pages_ipt focusBorder">页</span><label class="pages_btn_w"><input type="submit" value="确定" class="pages_btn"></label>
+                </div> -->
+                
+            </div>
+
+            <!-- 待收货 -->
+            <div class="zg-right-tabC">
+                <foreach name='allorder' item='dol'>
+                <if condition="($dol['ispay'] eq 1) and ($dol['send'] neq 3)">
+                <div class="orders_detail">
+                    <p class="order_title">
+                        <span>订单号：{$dol['ordernum']}</span>
+                        <span class="spanM">创建时间：{$dol['ondate']}</span>
+                        <span>订单状态：<if condition="$dol['send'] eq 1">未发货<elseif condition="$dol['send'] eq 2" />已发货</if></span>
+                    </p>
+                    <table>
+                        <tr>
+                            <td>
+                                <ul class="myorderL fl">
+                                    <foreach name="dol['child']" item='dal'>
+                                    <li>
+                                        <div class="list_goods fl">
+                                            <a href="#"><img src="{$dal['gimage']}" width="66" height="66"></a>
+                                            <p class="list_goods_name"><a href="#">{$dal['gname']}</a></p>
+                                            <p class="list_goods_details"><span>颜色：红</span><span>型号：V1</span></p>
+                                        </div>
+                                        <span class="fr">×{$dal['gcount']}</span>
+                                    </li>
+                                    </foreach>
+                                </ul>
+                            </td>
+                            <td class="myorder_m">总额 ￥{$dol['allprice']}</td>
+                            <td class="myorder_r">
+                                <a title='确认收货' href="javascript:;" onclick="delivery(this)" doid="{$dol['id']}" class="confirmR">确认收货</a>
+                                <a href="javascript:;" onclick='orderaway(this)' doid="{$dol['id']}" class="td03-a03">取消订单</a>
+                                <a href="#" target="_blank" class="td03-a02">订单详情</a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                </if>
+                </foreach>
+
+                <!-- pages -->
+                <!-- <div class="pages pagesR">
+                    <a class="pages_pre" href="#" title="上一页">上一页</a><a  href="#"class="active">1</a><a href="#">2</a><a href="#">3</a><a href="#">4</a><a href="#">5</a><span>…</span><a href="#" class="pages_next" title="下一页">下一页</a><span>共100页，到第<input type="text" class="pages_ipt focusBorder">页</span><label class="pages_btn_w"><input type="submit" value="确定" class="pages_btn"></label>
+                </div> -->
+                
+            </div>
+            <!-- 待评价 -->
+            <div class="zg-right-tabC">
+                <foreach name='allorder' item='vc'>
+                <if condition="$vc['send'] eq 3">
+                <div class="orders_detail">
+                    <p class="order_title">
+                        <span>订单号：{$vc['ordernum']}</span>
+                        <span class="spanM">创建时间：{$vc['ondate']}</span>
+                        <span>订单状态：待评价</span>
+                    </p>
+                    <table>
+                        <tr>
+                            <td>
+                                <ul class="myorderL fl">
+                                    <foreach name="vc['child']" item='cc'>
+                                    <li>
+                                        <div class="list_goods fl">
+                                            <a href="#"><img src="{$cc['gimage']}" width="66" height="66"></a>
+                                            <p class="list_goods_name"><a href="#">{$cc['gname']}</a></p>
+                                            <p class="list_goods_details"><span>颜色：红</span><span>型号：V1</span></p>
+                                        </div>
+                                        <span class="fr">×{$cc['gcount']}</span>
+                                    </li>
+                                    </foreach>
+                                </ul>
+                            </td>
+                            <td class="myorder_m">总额 ￥{$vc['allprice']}</td>
+                            <td class="myorder_r">
+                                <a href="#" target="_blank" class="evaluate">评价</a>
+                                <a href="#" target="_blank" class="td03-a02">订单详情</a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                </if>
+                </foreach>
+                <!-- pages -->
+                 <!--<div class="pages pagesR">
+                    <a class="pages_pre" href="#" title="上一页">上一页</a><a  href="#"class="active">1</a><a href="#">2</a><a href="#">3</a><a href="#">4</a><a href="#">5</a><span>…</span><a href="#" class="pages_next" title="下一页">下一页</a><span>共100页，到第<input type="text" class="pages_ipt focusBorder">页</span><label class="pages_btn_w"><input type="submit" value="确定" class="pages_btn"></label>
+                </div> -->
+                
+            </div>
+
+
+        </div>
+        <!-- 我的订单内容-->
+</div>
+
+<script src="__HOME__/js/pub.js"></script>
+<script src="__HOME__/js/content.js"></script>
+<script type="text/javascript">
+/*取消订单*/
+function orderaway(obj){
+    var orid = $(obj).attr('doid');
+    if(!orid){
+        alert('参数错误');return;
+    }
+    $.post(
+        "{:U('user/orderaway')}",
+        {id:orid},
+        function(result){
+            if(result.status==1){
+                window.location.reload();
+            }
+        });
+}
+/*支付*/
+function gopay(obj){
+    var ordernum = $(obj).attr('doorder');
+    var turnForm = document.createElement('form');
+    document.body.appendChild(turnForm);
+    turnForm.method = 'post';
+    turnForm.action = "{:U('cart/orderpay')}";
+    turnForm.target = '_blank';
+    var newElement = document.createElement('input');
+    newElement.setAttribute('name','ordernum');
+    newElement.setAttribute('type','hidden');
+    newElement.setAttribute('value',ordernum);
+    turnForm.appendChild(newElement);
+    turnForm.submit();
+}
+/*确认收货*/
+function delivery(obj){
+    var id = $(obj).attr('doid');
+    $.post(
+        "{:U('cart/dosend')}",
+        {id:id},
+        function(result){
+            if(result.status == 1){
+                window.location.reload();
+            }
+        });
+}
+</script>
+<include file='common:footer' />
+
+
+

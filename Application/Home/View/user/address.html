@@ -1,0 +1,206 @@
+<include file='common:head' />
+<include file='common:header' />
+<link type="text/css" rel="stylesheet" href="__HOME__/css/user.css" />
+<link type="text/css" rel="stylesheet" href="__HOME__/css/content.css" />
+<script src="__HOME__/js/pub.js"></script>
+<script src="__HOME__/js/content.js"></script>
+<include file='common:lists' />
+
+<div class="cont user user_4 clearfix">
+	<div class="user_menu"> 
+        <dl>
+            <dt class="colorChange">个人中心</dt>
+            <dd><a href="{:U('user/myorder')}">我的订单</a></dd>
+            <dd><a href="{:U('user/mycollect')}">我的收藏</a></dd>
+            <dd><a href="{:U('user/mycoupon')}">我的优惠券</a></dd>
+            <dd class="active"><a href="{:U('user/address')}">我的收货地址</a></dd>
+            <dd><a href="{:U('user/comment')}">商品评价</a></dd>
+            <dd><a href="{:U('user/editpwd')}">修改密码</a></dd>
+        </dl>
+    </div>
+
+<!--  我的收藏  -->
+    <div class="user_right fr">
+        <h3 class="user_title">我的收货地址</h3>
+        <p class="noInfo"><i class="i_sad">&nbsp;</i>您目前还没有已购买的宝贝，快去逛逛<a href="#">首页</a>吧！</p>
+        <div>
+			<div class="add_addr_w">
+            	<a href="javascript:;" class="add_addr">添加收货地址</a>
+                <p>还可以创建8个收货地址</p>
+            </div>
+            <table>
+            	<tr>
+                	<th class="longer">收货人</th>
+                	<th>地址</th>
+                	<th>详细地址</th>
+                	<th>邮编</th>
+                	<th>手机</th>
+                	<th>操作</th>
+                	<th>&nbsp;</th>
+                </tr>
+                <foreach name='myadd' item='vos'>
+            	<tr>
+                	<td>{$vos['recieve']}</td>
+                	<td>{$vos['address']}</td>
+                	<td>{$vos['addressinfo']}</td>
+                	<td>{$vos['postcode']}</td>
+                	<td>{$vos['tel']}</td>
+                    <td><a href="#">编辑</a> <a href="javascript:;" onclick='adddel(this,{$vos["id"]})'>删除</a> </td>
+                    <if condition="$vos['status'] eq 1">
+                    <td><a href="#" class="default">默认地址</a></td></if>
+                </tr>
+                </foreach>
+            </table>
+        </div>
+	</div>
+
+<!--  我的收藏 end  -->
+</div>
+<div class="fixed_shadow_w">
+    <div class="fixed_shadow"></div>
+    <div class="cancel_address fixed_shadow_c">
+        <p class="fixed_shadow_ct"><i class="fixed_close pay_info_close">&nbsp;</i>删除收货人信息</p>
+        <p class="cancel_address_m fixed_shadow_cm"><i>&nbsp;</i>您确定要删除该收货地址吗？</p>
+        <p class="cancel_address_b fixed_shadow_cb">
+            <label class="fixed_iptW"><input type="submit" value="确定" class="fixed_ipt"></label>
+            <label class="fixed_iptW"><input type="submit" value="取消" class="fixed_ipt"></label>
+        </p>
+    </div>
+    <div class="operateSucc fixed_shadow_c">
+        <p class="fixed_shadow_ct"><i class="fixed_close pay_info_close">&nbsp;</i>提示</p>
+        <p class="operateSucc_m fixed_shadow_cm">操作成功！</p>
+        <p class="operateSucc_b fixed_shadow_cb">
+            <label class="fixed_iptW"><input type="submit" value="确定" class="fixed_ipt"></label>
+        </p>
+    </div>
+    <div class="yhq_exchange fixed_shadow_c">
+        <p class="fixed_shadow_ct"><i class="fixed_close pay_info_close">&nbsp;</i>新增收货人信息 </p>
+        <p class="yhq_exchange_m fixed_shadow_cm"><i>&nbsp;</i>新增收货地址成功</p>
+        <p class="yhq_exchange_b fixed_shadow_cb">
+            <label class="fixed_iptW"><input type="submit" value="确定" class="fixed_ipt"></label>
+        </p>
+    </div>
+    <div class="addAddress fixed_shadow_c">
+        <p class="fixed_shadow_ct"><i class="fixed_close pay_info_close">&nbsp;</i>新增收货地址</p>
+        <div class="addAddress_m fixed_shadow_cm">
+        <form method='post' action='{:U("user/addaddress")}' id='form_info'>
+            <table>
+                <tr>
+                    <th><span class="redStar">*</span> 收货人：</th>
+                    <td><input type="text" id='recieve' name='recieve' value=''></td>
+                </tr>
+                <tr>
+                    <th><span class="redStar">*</span> 地址：</th>
+                    <td>
+                        <select id='pro' name='pro'></select>
+                        <select id='city' name='city'></select>
+                        <select id='coun' name='coun'></select>
+                    </td>
+                </tr>
+                <tr>
+                    <th><span class="redStar">*</span> 详细地址：</th>
+                    <td><textarea name='address'></textarea></td>
+                </tr>
+                <tr>
+                    <th><span class="redStar">*</span> 手机：</th>
+                    <td><input type="text" name='tel' value=''></td>
+                </tr>
+                <tr>
+                    <th>邮编：</th>
+                    <td><input type="text" name='postcode' value=''></td>
+                </tr>
+            </table>
+        </div>
+        <p class="addAddress_b fixed_shadow_cb">
+            <label class="fixed_iptW"><input type="button" value="确定" onclick='checkform()' class="fixed_ipt"></label>
+        </p>
+        </form>
+    </div>
+</div>
+<script type="text/javascript" src="__ADMIN__/lib/jquery.validation/1.14.0/jquery.validate.js"></script>
+
+<include file='common:footer' />
+<script type="text/javascript">
+function checkform(){
+    $.ajax({
+        type:"POST",
+        url:$('#form_info').attr("action"),
+        data:$('#form_info').serialize(),
+        dataType:'JSON',
+        success:function(result){
+            if(result.status == 1){
+                window.location.href = "{:U('user/address')}";
+            }
+        }
+    });
+}
+function adddel(obj,id){
+    var id = id;
+    $.post(
+        "{:U('user/adddel')}",
+        {id:id},
+        function(result){
+            if(result.status==1){
+                $(obj).parents('tr').remove();
+            }
+    });
+}
+$(function(){
+    $('.add_addr').click(function(){
+        $('.fixed_shadow_w').fadeIn();
+        $('.addAddress').fadeIn();
+    });
+    $('#form_info').validate({
+        onfocusout: function(element) { $(element).valid(); },
+        rules:{
+           recieve:'required',
+           address:'required',
+           tel:'required'               
+        },
+        messages:{
+            recieve:'收货人不能为空',
+            address:'地址不能为空',
+            tel:'手机号不能为空'
+        },
+    });
+    $.post(
+        "{:U('user/getregion')}",
+        {pid:1},
+        function(result){
+            var option ='<option>--请选择--</option>';
+            $.each(result.region,function(i,n){
+                option += '<option value="'+n.region_id+'">'+n.region_name+'</option>';
+            });
+            $('#pro').append(option);
+        });
+    $('#pro').change(function(){
+        var pid = $(this).val();
+        $.post(
+            "{:U('user/getregion')}",
+            {pid:pid},
+            function(result){
+                $('#city option').remove();
+                $('#coun option').remove();
+                var option = '<option>--请选择--</option>';
+                $.each(result.region,function(i,n){
+                    option += '<option value="'+n.region_id+'">'+n.region_name+'</option>';
+                });
+                $('#city').append(option);
+            });
+    });
+    $('#city').change(function(){
+        var pid = $(this).val();
+        $.post(
+            "{:U('user/getregion')}",
+            {pid,pid},
+            function(result){
+                $('#coun option').remove();
+                var option = '<option>--请选择--</option>';
+                $.each(result.region,function(i,n){
+                    option += '<option value="'+n.region_id+'">'+n.region_name+'</option>';
+                });
+                $('#coun').append(option);
+            })
+    })
+})
+</script>

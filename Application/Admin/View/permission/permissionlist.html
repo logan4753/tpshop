@@ -1,0 +1,171 @@
+<include file="common:header" />
+<include file="common:aside" />
+
+<div class="dislpayArrow hidden-xs"><a class="pngfix" href="javascript:void(0);" onClick="displaynavbar(this)"></a></div>
+<section class="Hui-article-box">
+	<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 系统设置 <span class="c-gray en">&gt;</span> 权限管理 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+	<div class="Hui-article">
+		<article class="cl pd-20">
+			<div class="text-c">
+				<form class="Huiform" method="post" action="" target="_self">
+					<input type="text" class="input-text" style="width:250px" placeholder="权限名称" id="" name="">
+					<button type="submit" class="btn btn-success" id="" name=""><i class="Hui-iconfont">&#xe665;</i> 搜权限节点</button>
+				</form>
+			</div>
+			<div class="cl pd-5 bg-1 bk-gray mt-20"> <span class="l"><a href="javascript:;" onclick="datadel()" class="btn btn-danger radius"><i class="Hui-iconfont">&#xe6e2;</i> 批量删除</a> <a href="javascript:;" onclick="permission_add('添加权限节点','permissionadd','','320')" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe600;</i> 添加权限节点</a></span> <span class="r">共有数据：<strong>{$count}</strong> 条</span> </div>
+			<table class="table table-border table-bordered table-bg table-sort">
+				<thead>
+					<tr>
+						<th scope="col" colspan="7">权限节点</th>
+					</tr>
+					<tr class="text-c">
+						<th><input type="checkbox" name="" value=""></th>
+						<th>ID</th>
+						<th>权限名称</th>
+						<th width='550'>控制器/操作名</th>
+						<th>操作</th>
+					</tr>
+				</thead>
+				<tbody>
+					<foreach name='data' item='val'>
+					<tr class="text-c"  id="{$val['id']}">
+						<td><input type="checkbox" value="{$val['id']}" name="id[]"></td>
+						<td>{$val['id']}</td>
+						<td><if condition="$val['switchs'] eq 1"><img src="__ADMIN__/images/diy_17.gif" ectype="flex" status="open" fieldid="{$val['id']}"  onclick="secajax($(this))"><else /><img src="__ADMIN__/images/diy_09.gif"></if>&nbsp;<span>{$val['pername']}</span></td>
+						<td>{$val['peract']}</td>
+						<td><a title="编辑" href="javascript:;" onclick="permission_edit('权限编辑','{:U("permission/permissionedit",array("id"=>$val["id"]))}','','310')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;</i></a> <a title="删除" href="javascript:;" onclick='permission_del(this,{$val["id"]})' class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
+					</tr>
+					</foreach>
+				</tbody>
+			</table>
+		</article>
+	</div>
+</section>
+
+<include file="common:footer" />
+<script type="text/javascript">
+/*
+	参数解释：
+	title	标题
+	url		请求的url
+	id		需要操作的数据id
+	w		弹出层宽度（缺省调默认值）
+	h		弹出层高度（缺省调默认值）
+*/
+/*权限-添加*/
+function permission_add(title,url,w,h){
+	layer_show(title,url,w,h);
+}
+/*权限-编辑*/
+function permission_edit(title,url,w,h){
+	layer_show(title,url,w,h);
+}
+/*权限-批量删除*/
+function datadel(){
+	var idObj = $(":checkbox:checked"); //获取全部已经被选中的checkbox
+    var id = ''; //接收处理后的部门id的值。组成id1，id2，
+    //循环遍历idobj对象，获取其中的每一个的值。
+    for(var i = 0;i < idObj.length;i++){
+        id = id + idObj[i].value + ',';
+    }
+    //去掉最后的逗号
+    id = id.substring(0,id.length-1);
+    //window.location.href="__CONTROLLER__/permissiondel/id/" + id;
+    layer.confirm('权限删除须谨慎，确认要删除吗？',function(index){
+		$.ajax({
+			type:"POST",
+			url:"{:U('permission/permissiondel')}",
+			data:{"id":id},
+			dataType:'JSON',
+			success:function(result){
+				if(result.status == 1){
+					$(":checkbox:checked").parent('td').parent("tr").remove();
+					layer.msg('已删除!',{icon:1,time:1000});
+				}
+			}
+		})
+
+	});
+}
+/*权限-删除*/
+function permission_del(obj,id){
+	if(!id){
+		layer.confim('参数错误');
+	}
+	layer.confirm('权限删除须谨慎，确认要删除吗？',function(index){
+		$.ajax({
+			type:"POST",
+			url:"{:U('permission/permissiondel')}",
+			data:{"id":id},
+			dataType:'JSON',
+			success:function(result){
+				if(result.status == 1){
+					$(obj).parents("tr").remove();
+					layer.msg('已删除!',{icon:1,time:1000});
+				}
+			}
+		})
+
+	});
+}
+
+//异步请求回来的数据的再次添加异步伸缩行为
+function secajax(ob){
+    var selfurl = "{:U('permission/getchild')}";
+    var status = $(ob).attr("status");
+    var id = $(ob).attr("fieldid");
+    var src = $(ob).attr('src');
+    if(status == 'open'){
+        var src = $(ob).attr('src');
+        var pr  = $(ob).parents('td').parent('tr');
+        var pid = pr.attr('class');
+        var sr  = pr.clone();
+        var td2 = sr.find("td:eq(2)");
+        td2.prepend("<img class='preimg' src='__ADMIN__/images/vertline.gif'/>").children('span').remove().end().find("img[ectype=flex]").remove();
+        var td2html = td2.html();
+        $.get(selfurl, {id: id}, function(data){
+            if(data){
+                var str = '';
+                var res = eval('('+data+')');
+                for(var i = 0; i < res.length; i++){
+                    var src = "";
+                    var if_show = "";
+                    var add_child = '';
+                    if(res[i].switchs){
+                       src = "<span style='margin-left:20px;'><img src='__ADMIN__/images/diy_17.gif' ectype='flex' status='open' fieldid="+res[i].id+" onclick='secajax($(this))'> "+res[i].pername+"</span>";
+                    }else{
+                       src = "<span style='margin-left:20px;'><img src='__ADMIN__/images/diy_09.gif' fieldid='"+res[i].id+"'> "+res[i].pername+"</span>";
+                    }
+                    var itd2 = src;
+                    var itd11 = '__CONTROLLER__/permissionedit/id/'+res[i].id;
+                    //var itd11 = "{:U('permission/permissionedit',array('id'=>"+res[i].id+"))}";
+                    //console.log(itd12);
+                    //var itd3 = "permission_edit('角色编辑','__CONTROLLER__/permissionedit/id/"+res[i].id+"','','310')";
+                    var itd3 = 'permission_edit("权限编辑","__CONTROLLER__/permissionedit/id/'+res[i].id+'","","310")';
+                    //console.log(itd3);
+                    str += "<tr id='tr_"+res[i].id+"' class='text-c row"+id+" "+pid+"'>";
+                    str += "<td><input type='checkbox' value='"+res[i].id+"' name='id[]'></td>";
+                    str += "<td>"+res[i].id+"</td>";
+                    str += "<td>"+itd2+"</td>";
+                    str += "<td>"+res[i].peract+"</td>";                   
+                    str += "<td><a title='编辑' href='javascript:;' onclick='"+itd3+"' class='ml-5' style='text-decoration:none'><i class='Hui-iconfont'>&#xe6df;</i></a> <a title='删除' href='javascript:;' onclick='permission_del(this,"+res[i].id+")' class='ml-5' style='text-decoration:none'><i class='Hui-iconfont'>&#xe6e2;</i></a></td></tr>";
+
+                }
+            }
+                //将组成的字符串添加到点击对象后面
+            pr.after(str);
+        });
+        $(ob).attr('src',src.replace("diy_17","diy_15"));
+        $(ob).attr('status','close');
+    }
+    if(status == "close"){
+        $('.row' + id).hide();
+        $(ob).attr('src',src.replace("diy_15","diy_17"));
+        $(ob).attr('status','open');
+    }
+}
+
+</script>
+<!--/请在上方写此页面业务相关的脚本-->
+</body>
+</html>

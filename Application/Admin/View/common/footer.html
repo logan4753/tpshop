@@ -1,0 +1,17 @@
+<script type="text/javascript" src="__ADMIN__/lib/jquery/1.9.1/jquery.min.js"></script> 
+<script type="text/javascript" src="__ADMIN__/lib/layer/2.4/layer.js"></script> 
+<script type="text/javascript" src="__ADMIN__/static/h-ui/js/H-ui.js"></script> 
+<script type="text/javascript" src="__ADMIN__/static/h-ui.admin/js/H-ui.admin.page.js"></script> 
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="__ADMIN__/lib/laypage/1.2/laypage.js"></script>
+<script type="text/javascript">
+	$('.skin-minimal input').iCheck({
+		checkboxClass: 'icheckbox-blue',
+		radioClass: 'iradio-blue',
+		increaseArea: '20%'
+	});
+	var onact = '{$onact}';
+	$("#"+onact).parent().addClass("current");
+	$("#"+onact).parent().parent().parent().show();
+	$("#"+onact).parent().parent().parent().prev("dt").addClass("selected");
+</script>

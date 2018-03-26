@@ -1,0 +1,1 @@
+a:7:{i:0;s:2:"id";i:1;s:7:"pername";i:2;s:3:"pid";i:3;s:6:"peract";i:4;s:6:"status";s:3:"_pk";s:2:"id";s:5:"_type";a:5:{s:2:"id";s:15:"int(3) unsigned";s:7:"pername";s:11:"varchar(30)";s:3:"pid";s:6:"int(3)";s:6:"peract";s:11:"varchar(60)";s:6:"status";s:13:"enum('1','2')";}}

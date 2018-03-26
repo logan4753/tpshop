@@ -1,0 +1,2272 @@
+[ 2017-06-26T11:34:46+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-26T11:34:49+08:00 ] 127.0.0.1 /index.php/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-26T11:34:49+08:00 ] 127.0.0.1 /index.php/login/showcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-26T16:03:35+08:00 ] 127.0.0.1 /admin/
+ERR: 无法加载控制器:Index
+
+[ 2017-06-26T16:10:53+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissionlist.html
+ERR: 无法加载控制器:Permission
+
+[ 2017-06-26T16:16:40+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissionlist.html
+ERR: 非法操作:permissionlist
+
+[ 2017-06-26T16:18:32+08:00 ] 127.0.0.1 /index.php/Admin/permission/powerlist.html
+ERR: 模板不存在:./Application/Admin/View/Permission/powerlist.html
+
+[ 2017-06-26T16:18:33+08:00 ] 127.0.0.1 /index.php/Admin/permission/powerlist.html
+ERR: 模板不存在:./Application/Admin/View/Permission/powerlist.html
+
+[ 2017-06-26T16:18:38+08:00 ] 127.0.0.1 /index.php/Admin/permission/poweradd
+ERR: 非法操作:poweradd
+
+[ 2017-06-26T16:24:58+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissionadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tpshop\Application\Runtime\Cache\Admin\033417f8bc1c47dde1d0118a30eefca2.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-26T16:25:29+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissionadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tpshop\Application\Runtime\Cache\Admin\033417f8bc1c47dde1d0118a30eefca2.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-26T16:25:29+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissionadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tpshop\Application\Runtime\Cache\Admin\033417f8bc1c47dde1d0118a30eefca2.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-26T16:25:30+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissionadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tpshop\Application\Runtime\Cache\Admin\033417f8bc1c47dde1d0118a30eefca2.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-26T16:25:30+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissionadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tpshop\Application\Runtime\Cache\Admin\033417f8bc1c47dde1d0118a30eefca2.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-26T16:26:59+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissionadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tpshop\Application\Runtime\Cache\Admin\033417f8bc1c47dde1d0118a30eefca2.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-26T16:28:37+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissionadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `permission` (`pid`,`pername`,`peract`,`status`) VALUES ('0','系统设置','','1') [ RunTime:0.0040s ]
+
+[ 2017-06-26T16:33:05+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissionadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `permission` (`pid`,`pername`,`peract`,`status`) VALUES ('1','权限管理','permission/permissionlist','1') [ RunTime:0.0000s ]
+
+[ 2017-06-26T16:33:24+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissionadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `permission` (`pid`,`pername`,`peract`,`status`) VALUES ('1','角色管理','role/rolelist','1') [ RunTime:0.0000s ]
+
+[ 2017-06-26T16:34:01+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissionadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `permission` (`pid`,`pername`,`peract`,`status`) VALUES ('1','管理员管理','backuser/userlist','1') [ RunTime:0.0000s ]
+
+[ 2017-06-26T16:34:24+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissionadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `permission` (`pid`,`pername`,`peract`,`status`) VALUES ('2','添加权限','permission/permissionadd','1') [ RunTime:0.0000s ]
+
+[ 2017-06-26T16:34:51+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissionadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `permission` (`pid`,`pername`,`peract`,`status`) VALUES ('2','修改权限','permission/permissionedit','1') [ RunTime:0.0000s ]
+
+[ 2017-06-26T16:35:12+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissionadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `permission` (`pid`,`pername`,`peract`,`status`) VALUES ('2','删除权限','permission/permissiondel','1') [ RunTime:0.0000s ]
+
+[ 2017-06-26T16:35:33+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissionadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `permission` (`pid`,`pername`,`peract`,`status`) VALUES ('3','添加角色','role/roleadd','1') [ RunTime:0.0010s ]
+
+[ 2017-06-26T16:35:51+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissionadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `permission` (`pid`,`pername`,`peract`,`status`) VALUES ('3','修改角色','role/roleedit','1') [ RunTime:0.0010s ]
+
+[ 2017-06-26T16:36:06+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissionadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `permission` (`pid`,`pername`,`peract`,`status`) VALUES ('3','删除角色','role/roledel','1') [ RunTime:0.0000s ]
+
+[ 2017-06-26T16:36:28+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissionadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `permission` (`pid`,`pername`,`peract`,`status`) VALUES ('4','添加管理员','backuser/useradd','1') [ RunTime:0.0010s ]
+
+[ 2017-06-26T16:36:58+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissionadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `permission` (`pid`,`pername`,`peract`,`status`) VALUES ('4','修改信息','backuser/useredit','1') [ RunTime:0.0000s ]
+
+[ 2017-06-26T16:37:20+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissionadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `permission` (`pid`,`pername`,`peract`,`status`) VALUES ('4','修改密码','backuser/pwdedit','1') [ RunTime:0.0000s ]
+
+[ 2017-06-26T16:37:41+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissionadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `permission` (`pid`,`pername`,`peract`,`status`) VALUES ('4','删除管理员','backuser/userdel','1') [ RunTime:0.0010s ]
+
+[ 2017-06-26T16:38:22+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissionadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `permission` (`pid`,`pername`,`peract`,`status`) VALUES ('0','商品管理','','1') [ RunTime:0.0020s ]
+
+[ 2017-06-26T16:42:01+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 4  [ RunTime:0.0000s ]
+
+[ 2017-06-26T16:43:19+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 4  [ RunTime:0.0000s ]
+
+[ 2017-06-26T16:43:20+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 7  [ RunTime:0.0010s ]
+
+[ 2017-06-26T16:43:21+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 8  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 9  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 10  [ RunTime:0.0000s ]
+
+[ 2017-06-26T16:43:23+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 4  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 11  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 12  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 13  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 14  [ RunTime:0.0000s ]
+
+[ 2017-06-26T16:44:38+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 4  [ RunTime:0.0000s ]
+
+[ 2017-06-26T16:44:39+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 5  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 6  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 7  [ RunTime:0.0000s ]
+
+[ 2017-06-26T16:44:53+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 4  [ RunTime:0.0000s ]
+
+[ 2017-06-26T16:44:55+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 7  [ RunTime:0.0000s ]
+
+[ 2017-06-26T16:44:58+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 3  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 9  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 10  [ RunTime:0.0010s ]
+
+[ 2017-06-26T16:44:59+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 11  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 12  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 13  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 14  [ RunTime:0.0000s ]
+
+[ 2017-06-26T16:45:31+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissionadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `permission` (`pid`,`pername`,`peract`,`status`) VALUES ('15','品牌管理','','1') [ RunTime:0.0000s ]
+
+[ 2017-06-26T16:45:33+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16  [ RunTime:0.0010s ]
+
+[ 2017-06-26T16:49:24+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16  [ RunTime:0.0010s ]
+
+[ 2017-06-26T16:51:14+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16  [ RunTime:0.0010s ]
+
+[ 2017-06-26T16:51:22+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 4  [ RunTime:0.0000s ]
+
+[ 2017-06-26T16:58:32+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16  [ RunTime:0.0010s ]
+
+[ 2017-06-26T17:00:13+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16  [ RunTime:0.0000s ]
+
+[ 2017-06-26T17:00:40+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16  [ RunTime:0.0010s ]
+
+[ 2017-06-26T17:01:04+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16  [ RunTime:0.0010s ]
+
+[ 2017-06-26T17:01:41+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16  [ RunTime:0.0010s ]
+
+[ 2017-06-26T17:02:27+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16  [ RunTime:0.0000s ]
+
+[ 2017-06-26T17:03:00+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16  [ RunTime:0.0000s ]
+
+[ 2017-06-26T17:04:48+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16  [ RunTime:0.0000s ]
+
+[ 2017-06-26T17:04:59+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16  [ RunTime:0.0000s ]
+
+[ 2017-06-26T17:05:19+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16  [ RunTime:0.0000s ]
+
+[ 2017-06-26T17:05:41+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16  [ RunTime:0.0010s ]
+
+[ 2017-06-26T17:05:52+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16  [ RunTime:0.0000s ]
+
+[ 2017-06-26T17:06:06+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16  [ RunTime:0.0000s ]
+
+[ 2017-06-26T17:06:35+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16  [ RunTime:0.0000s ]
+
+[ 2017-06-26T17:07:45+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16  [ RunTime:0.0000s ]
+
+[ 2017-06-26T17:08:04+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16  [ RunTime:0.0000s ]
+
+[ 2017-06-26T17:09:05+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16  [ RunTime:0.0000s ]
+
+[ 2017-06-26T17:09:12+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 4  [ RunTime:0.0000s ]
+
+[ 2017-06-26T17:09:28+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 3  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 4  [ RunTime:0.0000s ]
+
+[ 2017-06-26T17:10:11+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 3  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 4  [ RunTime:0.0000s ]
+
+[ 2017-06-26T17:11:40+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 4  [ RunTime:0.0010s ]
+
+[ 2017-06-26T17:12:20+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16  [ RunTime:0.0000s ]
+
+[ 2017-06-26T17:21:57+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16  [ RunTime:0.0000s ]
+
+[ 2017-06-26T17:23:14+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16  [ RunTime:0.0000s ]
+
+[ 2017-06-26T17:23:27+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16  [ RunTime:0.0000s ]
+
+[ 2017-06-26T17:24:08+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16  [ RunTime:0.0000s ]
+
+[ 2017-06-26T17:24:51+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16  [ RunTime:0.0000s ]
+
+[ 2017-06-26T17:26:48+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16  [ RunTime:0.0000s ]
+
+[ 2017-06-26T17:26:51+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16  [ RunTime:0.0000s ]
+
+[ 2017-06-26T17:28:59+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissionedit/id/1.html
+ERR: Think\Model:fing方法不存在！
+
+[ 2017-06-26T18:54:10+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 4  [ RunTime:0.0050s ]
+
+[ 2017-06-26T18:55:54+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16  [ RunTime:0.0000s ]
+
+[ 2017-06-26T18:55:58+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 4  [ RunTime:0.0000s ]
+
+[ 2017-06-26T18:56:56+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 4  [ RunTime:0.0010s ]
+
+[ 2017-06-26T18:59:03+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 4  [ RunTime:0.0000s ]
+
+[ 2017-06-26T18:59:04+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16  [ RunTime:0.0000s ]
+
+[ 2017-06-26T18:59:26+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissionedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+
+[ 2017-06-26T18:59:33+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissionedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+
+[ 2017-06-26T18:59:47+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissionedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: UPDATE `permission` SET `pid`='15',`pername`='品牌管理',`peract`='brand/brandlist',`status`='1' WHERE `id` = 16 [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant fasle - assumed 'fasle' D:\phpStudy\WWW\tpshop\Application\Admin\Controller\PermissionController.class.php 第 73 行.
+
+[ 2017-06-26T18:59:48+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16  [ RunTime:0.0010s ]
+
+[ 2017-06-26T19:02:13+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 4  [ RunTime:0.0000s ]
+
+[ 2017-06-26T19:03:13+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16  [ RunTime:0.0000s ]
+
+[ 2017-06-26T19:03:15+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissiondel/id/id.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: UPDATE `permission` SET `status`='2' WHERE `id` = 16 [ RunTime:0.0010s ]
+
+[ 2017-06-26T19:03:18+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16  [ RunTime:0.0000s ]
+
+[ 2017-06-26T19:05:21+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-26T19:05:23+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissiondel/id/id.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: UPDATE `permission` SET `status`='2' WHERE `id` = 16 [ RunTime:0.0000s ]
+
+[ 2017-06-26T19:05:45+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-26T19:06:00+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissionedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: UPDATE `permission` SET `pid`='1',`pername`='商品管理',`peract`='',`status`='1' WHERE `id` = 15 [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant fasle - assumed 'fasle' D:\phpStudy\WWW\tpshop\Application\Admin\Controller\PermissionController.class.php 第 73 行.
+
+[ 2017-06-26T19:06:01+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 2 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 3 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 4 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-26T19:06:07+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissionedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: UPDATE `permission` SET `pid`='0',`pername`='商品管理',`peract`='',`status`='1' WHERE `id` = 15 [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant fasle - assumed 'fasle' D:\phpStudy\WWW\tpshop\Application\Admin\Controller\PermissionController.class.php 第 73 行.
+
+[ 2017-06-26T19:06:36+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissionadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `permission` (`pid`,`pername`,`peract`,`status`) VALUES ('16','添加品牌','brand/brandadd','1') [ RunTime:0.0010s ]
+
+[ 2017-06-26T19:06:38+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-26T19:06:39+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=16
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 17 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-26T19:11:40+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-26T19:11:40+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=16
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 17 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-26T19:11:49+08:00 ] 127.0.0.1 /index.php/Admin/Permission/del/id/16,17
+ERR: 非法操作:del
+
+[ 2017-06-26T19:12:05+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2017-06-26T19:12:08+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=16
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 17 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-26T19:12:41+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-26T19:12:43+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-26T19:13:12+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-26T19:13:13+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=16
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 17 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-26T19:14:28+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-26T19:14:28+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=16
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 17 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-26T19:16:45+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-26T19:16:46+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=16
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 17 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-26T19:17:13+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-26T19:17:14+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=16
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 17 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-26T19:18:15+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-26T19:18:17+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=16
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 17 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-26T19:18:22+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissiondel/id/id.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: UPDATE `permission` SET `status`='2' WHERE `id` = 16 [ RunTime:0.0000s ]
+
+[ 2017-06-26T19:19:11+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissiondel/id/id.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: UPDATE `permission` SET `status`='2' WHERE `id` = 16 [ RunTime:0.0010s ]
+
+[ 2017-06-26T19:19:24+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2017-06-26T19:19:25+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=16
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 17 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-26T19:19:29+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissiondel/id/id.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: UPDATE `permission` SET `status`='2' WHERE `id` = 16 [ RunTime:0.0000s ]
+
+[ 2017-06-26T19:20:07+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-26T19:20:38+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2017-06-26T19:20:39+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=16
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 17 AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2017-06-26T19:20:43+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissiondel/id/id.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: UPDATE `permission` SET `status`='2' WHERE `id` = 16 [ RunTime:0.0010s ]
+
+[ 2017-06-26T19:20:54+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-26T19:20:56+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=16
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 17 AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2017-06-26T19:22:00+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-26T19:22:01+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=16
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 17 AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2017-06-26T19:22:04+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissiondel/id/id.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+
+[ 2017-06-26T19:22:07+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissiondel/id/id.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+
+[ 2017-06-26T19:22:09+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissiondel/id/id.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+
+[ 2017-06-26T19:24:27+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2017-06-26T19:24:29+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=16
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 17 AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2017-06-26T19:24:36+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissiondel/id/id.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+
+[ 2017-06-26T19:24:52+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissiondel/id/id.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: UPDATE `permission` SET `status`='2' WHERE `id` = 16 [ RunTime:0.0010s ]
+
+[ 2017-06-26T19:25:59+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 2 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 3 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 4 AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2017-06-26T19:26:00+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 2 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 5 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 6 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 7 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-26T19:26:06+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissiondel/id/id.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: UPDATE `permission` SET `status`='2' WHERE `id` = 5 [ RunTime:0.0000s ]
+
+[ 2017-06-26T19:26:18+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 2 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 3 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 4 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-26T19:26:19+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 2 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 5 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 6 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 7 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-26T19:27:20+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-26T19:27:22+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=16
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 17 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-26T19:27:24+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 2 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 3 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 4 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-26T19:27:25+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 2 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 5 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 6 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 7 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-26T19:27:34+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissiondel/id/id.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+
+[ 2017-06-26T19:28:16+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 2 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 3 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 4 AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2017-06-26T19:28:17+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 2 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 5 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 6 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 7 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-26T19:28:25+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissiondel/id/id.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+
+[ 2017-06-26T19:29:23+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissiondel/id/id.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+ERR: 表达式错误:5
+
+[ 2017-06-26T19:29:56+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissiondel/id/id.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+ERR: 表达式错误:5
+
+[ 2017-06-26T19:30:06+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 2 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 3 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 4 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-26T19:30:07+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 2 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 5 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 6 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 7 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-26T19:30:12+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissiondel/id/id.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+ERR: 表达式错误:5
+
+[ 2017-06-26T19:30:50+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissiondel/id/id.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: UPDATE `permission` SET `status`='2' WHERE `id` = 5 [ RunTime:0.0000s ]
+
+[ 2017-06-26T19:31:03+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 2 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 3 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 4 AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2017-06-26T19:31:54+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 2 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 3 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 4 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-26T19:31:54+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 2 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 5 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 6 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 7 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-26T19:31:58+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissiondel/id/id.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: UPDATE `permission` SET `status`='2' WHERE `id` = 5 [ RunTime:0.0000s ]
+SQL: UPDATE `permission` SET `status`='2' WHERE `id` = 6 [ RunTime:0.0010s ]
+SQL: UPDATE `permission` SET `status`='2' WHERE `id` = 7 [ RunTime:0.0000s ]
+
+[ 2017-06-26T19:32:20+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-26T19:32:20+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=16
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 17 AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2017-06-26T19:32:25+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissiondel/id/id.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: UPDATE `permission` SET `status`='2' WHERE `id` = 16 [ RunTime:0.0010s ]
+SQL: UPDATE `permission` SET `status`='2' WHERE `id` = 17 [ RunTime:0.0000s ]
+
+[ 2017-06-26T19:33:43+08:00 ] 127.0.0.1 /index.php/Admin/role/rolelist.html
+ERR: 非法操作:rolelist
+
+[ 2017-06-26T19:35:15+08:00 ] 127.0.0.1 /index.php/Admin/role/rolelist.html
+ERR: 模板不存在:./Application/Admin/View/Role/rolelist.html
+
+[ 2017-06-26T19:41:48+08:00 ] 127.0.0.1 /index.php/Admin/role/roleadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT `id`,pername name,`pid` FROM `permission` WHERE `status` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: onact D:\phpStudy\WWW\tpshop\Application\Runtime\Cache\Admin\4ca480e9ccd47f46c25b92fcb0466448.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-26T19:41:57+08:00 ] 127.0.0.1 /index.php/Admin/role/roleadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT `id`,pername name,`pid` FROM `permission` WHERE `status` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: onact D:\phpStudy\WWW\tpshop\Application\Runtime\Cache\Admin\4ca480e9ccd47f46c25b92fcb0466448.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-26T19:41:58+08:00 ] 127.0.0.1 /index.php/Admin/role/roleadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: SELECT `id`,pername name,`pid` FROM `permission` WHERE `status` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: onact D:\phpStudy\WWW\tpshop\Application\Runtime\Cache\Admin\4ca480e9ccd47f46c25b92fcb0466448.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-26T19:41:59+08:00 ] 127.0.0.1 /index.php/Admin/role/roleadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: SELECT `id`,pername name,`pid` FROM `permission` WHERE `status` = 1  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: onact D:\phpStudy\WWW\tpshop\Application\Runtime\Cache\Admin\4ca480e9ccd47f46c25b92fcb0466448.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-26T19:41:59+08:00 ] 127.0.0.1 /index.php/Admin/role/roleadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: SELECT `id`,pername name,`pid` FROM `permission` WHERE `status` = 1  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: onact D:\phpStudy\WWW\tpshop\Application\Runtime\Cache\Admin\4ca480e9ccd47f46c25b92fcb0466448.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-26T19:42:07+08:00 ] 127.0.0.1 /index.php/Admin/role/roleadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT `id`,pername name,`pid` FROM `permission` WHERE `status` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: onact D:\phpStudy\WWW\tpshop\Application\Runtime\Cache\Admin\4ca480e9ccd47f46c25b92fcb0466448.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-26T19:42:08+08:00 ] 127.0.0.1 /index.php/Admin/role/roleadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: SELECT `id`,pername name,`pid` FROM `permission` WHERE `status` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: onact D:\phpStudy\WWW\tpshop\Application\Runtime\Cache\Admin\4ca480e9ccd47f46c25b92fcb0466448.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-06-26T19:43:50+08:00 ] 127.0.0.1 /index.php/Admin/role/roleadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'tp_shop.dept' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dept`
+ERR: 1146:Table 'tp_shop.dept' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dept`
+
+[ 2017-06-26T19:43:57+08:00 ] 127.0.0.1 /index.php/Admin/role/roleadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'tp_shop.dept' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dept`
+ERR: 1146:Table 'tp_shop.dept' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `dept`
+
+[ 2017-06-26T19:44:22+08:00 ] 127.0.0.1 /index.php/Admin/role/roleadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-06-26T19:46:07+08:00 ] 127.0.0.1 /index.php/Admin/role/roleadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-06-26T19:46:11+08:00 ] 127.0.0.1 /index.php/Admin/role/roleadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-06-26T19:47:35+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2017-06-26T19:47:36+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=16
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 17 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-26T19:47:48+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissionadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `permission` (`pid`,`pername`,`peract`,`status`) VALUES ('16','修改品牌','','1') [ RunTime:0.0010s ]
+
+[ 2017-06-26T19:47:50+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-26T19:47:51+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=16
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 17 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 18 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-26T19:48:05+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissionedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: UPDATE `permission` SET `pid`='16',`pername`='修改品牌',`peract`='brand/brandedit',`status`='1' WHERE `id` = 18 [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant fasle - assumed 'fasle' D:\phpStudy\WWW\tpshop\Application\Admin\Controller\PermissionController.class.php 第 73 行.
+
+[ 2017-06-26T19:48:07+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2017-06-26T19:48:08+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=16
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 17 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 18 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-26T19:48:58+08:00 ] 127.0.0.1 /index.php/Admin/role/roleadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `role` (`rolename`,`remark`,`power`,`status`) VALUES ('超级管理员','超级管理员','','1') [ RunTime:0.0000s ]
+
+[ 2017-06-26T19:51:03+08:00 ] 127.0.0.1 /index.php/Admin/role/roleadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `role` (`rolename`,`remark`,`power`,`status`) VALUES ('初级管理员','初级管理员','15,16,17,18','1') [ RunTime:0.0010s ]
+
+[ 2017-06-26T19:56:34+08:00 ] 127.0.0.1 /index.php/Admin/role/roleadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `role` (`rolename`,`remark`,`power`,`status`) VALUES ('高级管理员','高级管理员','1,2,5,6,7,3,8,9,10,4,11,12,13,14','1') [ RunTime:0.0010s ]
+
+[ 2017-06-26T20:02:41+08:00 ] 127.0.0.1 /index.php/Admin/role/roleedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+
+[ 2017-06-26T20:02:46+08:00 ] 127.0.0.1 /index.php/Admin/role/roleedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+
+[ 2017-06-26T20:02:50+08:00 ] 127.0.0.1 /index.php/Admin/role/roleedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+
+[ 2017-06-26T20:03:03+08:00 ] 127.0.0.1 /index.php/Admin/role/roleedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: UPDATE `role` SET `rolename`='高级管理员',`remark`='系统管理员',`power`='1,2,5,6,7,3,8,9,10,4,11,12,13,14',`status`='1' WHERE `id` = 3 [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant fasle - assumed 'fasle' D:\phpStudy\WWW\tpshop\Application\Admin\Controller\RoleController.class.php 第 54 行.
+
+[ 2017-06-26T20:04:52+08:00 ] 127.0.0.1 /index.php/Admin/role/roledel/id/id.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:roledel
+
+[ 2017-06-26T20:05:13+08:00 ] 127.0.0.1 /index.php/Admin/role/roledel/id/id.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: UPDATE `role` SET `status`='2' WHERE `id` = 3 [ RunTime:0.0000s ]
+
+[ 2017-06-26T20:06:15+08:00 ] 127.0.0.1 /index.php/Admin/role/roledel/id/id.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: UPDATE `role` SET `status`='2' WHERE `id` = 0 [ RunTime:0.0000s ]
+SQL: UPDATE `role` SET `status`='2' WHERE `id` = 0 [ RunTime:0.0000s ]
+SQL: UPDATE `role` SET `status`='2' WHERE `id` = 0 [ RunTime:0.0000s ]
+SQL: UPDATE `role` SET `status`='2' WHERE `id` = 0 [ RunTime:0.0000s ]
+
+[ 2017-06-26T20:06:19+08:00 ] 127.0.0.1 /index.php/Admin/role/roledel/id/id.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: UPDATE `role` SET `status`='2' WHERE `id` = 0 [ RunTime:0.0000s ]
+SQL: UPDATE `role` SET `status`='2' WHERE `id` = 0 [ RunTime:0.0000s ]
+SQL: UPDATE `role` SET `status`='2' WHERE `id` = 0 [ RunTime:0.0000s ]
+SQL: UPDATE `role` SET `status`='2' WHERE `id` = 0 [ RunTime:0.0010s ]
+
+[ 2017-06-26T20:07:14+08:00 ] 127.0.0.1 /index.php/Admin/role/roledel/id/id.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0070s ]
+SQL: UPDATE `role` SET `status`='2' WHERE `id` = 0 [ RunTime:0.0000s ]
+SQL: UPDATE `role` SET `status`='2' WHERE `id` = 0 [ RunTime:0.0010s ]
+SQL: UPDATE `role` SET `status`='2' WHERE `id` = 0 [ RunTime:0.0000s ]
+SQL: UPDATE `role` SET `status`='2' WHERE `id` = 0 [ RunTime:0.0000s ]
+
+[ 2017-06-26T20:07:16+08:00 ] 127.0.0.1 /index.php/Admin/role/roledel/id/id.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0060s ]
+SQL: UPDATE `role` SET `status`='2' WHERE `id` = 0 [ RunTime:0.0000s ]
+SQL: UPDATE `role` SET `status`='2' WHERE `id` = 0 [ RunTime:0.0010s ]
+SQL: UPDATE `role` SET `status`='2' WHERE `id` = 0 [ RunTime:0.0000s ]
+SQL: UPDATE `role` SET `status`='2' WHERE `id` = 0 [ RunTime:0.0000s ]
+
+[ 2017-06-26T20:07:23+08:00 ] 127.0.0.1 /index.php/Admin/role/roledel/id/id.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: UPDATE `role` SET `status`='2' WHERE `id` = 0 [ RunTime:0.0010s ]
+SQL: UPDATE `role` SET `status`='2' WHERE `id` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `role` SET `status`='2' WHERE `id` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `role` SET `status`='2' WHERE `id` = 3 [ RunTime:0.0000s ]
+
+[ 2017-06-26T20:12:58+08:00 ] 127.0.0.1 /index.php/Admin/login/login.html
+ERR: 无法加载控制器:Login
+
+[ 2017-06-26T20:13:46+08:00 ] 127.0.0.1 /index.php/Admin/backuser/userlist.html
+ERR: 1146:Table 'tp_shop.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+
+[ 2017-06-26T20:19:13+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissionadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `permission` (`pid`,`pername`,`peract`,`status`) VALUES ('4','修改状态','backuser/status','1') [ RunTime:0.0010s ]
+
+[ 2017-06-26T20:19:14+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 2 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 3 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 4 AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2017-06-26T20:19:17+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 4 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 11 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 12 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 13 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 14 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 19 AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2017-06-26T20:19:33+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 2 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 3 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 4 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-26T20:19:36+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 4 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 11 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 12 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 13 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 14 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 19 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-26T20:19:45+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissionedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+SQL: UPDATE `permission` SET `pid`='4',`pername`='修改状态',`peract`='backuser/userstatus',`status`='1' WHERE `id` = 19 [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant fasle - assumed 'fasle' D:\phpStudy\WWW\tpshop\Application\Admin\Controller\PermissionController.class.php 第 73 行.
+
+[ 2017-06-26T20:19:47+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 2 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 3 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 4 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-26T20:19:48+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 4 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 11 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 12 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 13 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 14 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 19 AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2017-06-26T20:23:24+08:00 ] 127.0.0.1 /index.php/Admin/user/usersave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载控制器:User
+
+[ 2017-06-26T20:23:27+08:00 ] 127.0.0.1 /index.php/Admin/user/usersave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:User
+
+[ 2017-06-26T20:23:54+08:00 ] 127.0.0.1 /index.php/Admin/user/usersave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:User
+
+[ 2017-06-26T20:24:01+08:00 ] 127.0.0.1 /index.php/Admin/user/usersave.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:User
+
+[ 2017-06-26T20:24:29+08:00 ] 127.0.0.1 /index.php/Admin/backuser/useradd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `backuser` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-06-26T20:24:36+08:00 ] 127.0.0.1 /index.php/Admin/backuser/useradd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `backuser` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-06-26T20:25:58+08:00 ] 127.0.0.1 /index.php/Admin/backuser/useradd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `backuser` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-06-26T20:26:17+08:00 ] 127.0.0.1 /index.php/Admin/backuser/useradd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `backuser` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-06-26T20:27:22+08:00 ] 127.0.0.1 /index.php/Admin/backuser/useradd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `backuser` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `backuser` (`username`,`realname`,`password`,`tel`,`role`,`status`,`salt`) VALUES ('mary','马蕊','$2y$11$dcd72dae5bd21a57d34bfO8C45.zMD.d0rHGrd8yrdXJOW25DgWKC','13765479856','1','1','$2y$11$dcd72dae5bd21a57d34bfa') [ RunTime:0.0000s ]
+
+[ 2017-06-26T20:27:27+08:00 ] 127.0.0.1 /index.php/Admin/user/userstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:User
+
+[ 2017-06-26T20:27:50+08:00 ] 127.0.0.1 /index.php/Admin/backuser/useradd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `backuser` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `backuser` (`username`,`realname`,`password`,`tel`,`role`,`status`,`salt`) VALUES ('lily','莉莉','$2y$11$ff5e8fe5c5f5e3d6ca03ceeRt3h0i8zEz8LYB5tYle4ngESY2Hdgu','13578975643','3','1','$2y$11$ff5e8fe5c5f5e3d6ca03ce') [ RunTime:0.0010s ]
+
+[ 2017-06-26T20:28:27+08:00 ] 127.0.0.1 /index.php/Admin/backuser/useradd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `backuser` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `backuser` (`username`,`realname`,`password`,`tel`,`role`,`status`,`salt`) VALUES ('alice','爱丽丝','$2y$11$be95b27fa89839d30b58dOWtjHVydvKan1uoOIRmBnBKSPtzk4z7K','13744536789','2','1','$2y$11$be95b27fa89839d30b58db') [ RunTime:0.0000s ]
+
+[ 2017-06-26T20:28:55+08:00 ] 127.0.0.1 /index.php/Admin/user/userlist.html
+ERR: 无法加载控制器:User
+
+[ 2017-06-26T20:29:14+08:00 ] 127.0.0.1 /index.php/Admin/user/userlist.html
+ERR: 无法加载控制器:User
+
+[ 2017-06-26T20:29:16+08:00 ] 127.0.0.1 /index.php/Admin/user/userlist.html
+ERR: 无法加载控制器:User
+
+[ 2017-06-26T20:33:53+08:00 ] 127.0.0.1 /index.php/Admin/backuser/useradd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `backuser` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `backuser` (`username`,`realname`,`password`,`tel`,`role`,`status`,`salt`) VALUES ('tom','汤姆','$2y$11$617836ab2597e0545f3beuJwePu91ck2rt0vlmixEPtFdKMkN1Mhi','13575647893','2','1','$2y$11$617836ab2597e0545f3be6') [ RunTime:0.0010s ]
+
+[ 2017-06-26T20:36:25+08:00 ] 127.0.0.1 /index.php/Admin/backuser/useradd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `backuser` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `backuser` (`username`,`realname`,`password`,`tel`,`role`,`status`,`salt`) VALUES ('jeson','杰森','$2y$11$c4f954d58ec126acc8aadurVzFPwT3U/uP7rNY7OcP9r.8zFVvHLK','13575647893','2','1','$2y$11$c4f954d58ec126acc8aad4') [ RunTime:0.0010s ]
+
+[ 2017-06-26T20:38:12+08:00 ] 127.0.0.1 /index.php/Admin/backuser/useredit/id/3.html
+ERR: 1146:Table 'tp_shop.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+
+[ 2017-06-26T20:44:34+08:00 ] 127.0.0.1 /index.php/Admin/user/useredit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:User
+
+[ 2017-06-26T20:44:51+08:00 ] 127.0.0.1 /index.php/Admin/user/useredit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:User
+
+[ 2017-06-26T20:45:07+08:00 ] 127.0.0.1 /index.php/Admin/backuser/useredit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `backuser` [ RunTime:0.0040s ]
+
+[ 2017-06-26T20:45:10+08:00 ] 127.0.0.1 /index.php/Admin/backuser/useredit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `backuser` [ RunTime:0.0040s ]
+
+[ 2017-06-26T20:45:17+08:00 ] 127.0.0.1 /index.php/Admin/backuser/useredit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `backuser` [ RunTime:0.0040s ]
+
+[ 2017-06-26T20:45:28+08:00 ] 127.0.0.1 /index.php/Admin/backuser/useredit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `backuser` [ RunTime:0.0030s ]
+SQL: UPDATE `backuser` SET `username`='kevin',`realname`='凯文',`tel`='13765479856',`role`='1',`status`='2' WHERE `id` = 1 [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant fasle - assumed 'fasle' D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BackuserController.class.php 第 88 行.
+
+[ 2017-06-26T20:45:30+08:00 ] 127.0.0.1 /index.php/Admin/user/userstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:User
+
+[ 2017-06-26T20:45:33+08:00 ] 127.0.0.1 /index.php/Admin/backuser/useredit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `backuser` [ RunTime:0.0030s ]
+SQL: UPDATE `backuser` SET `username`='kevin',`realname`='凯文',`tel`='13765479856',`role`='1',`status`='1' WHERE `id` = 1 [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant fasle - assumed 'fasle' D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BackuserController.class.php 第 88 行.
+
+[ 2017-06-26T20:46:03+08:00 ] 127.0.0.1 /index.php/Admin/user/userstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:User
+
+[ 2017-06-26T20:46:24+08:00 ] 127.0.0.1 /index.php/Admin/backuser/userstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 1146:Table 'tp_shop.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+ERR: 1146:Table 'tp_shop.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+
+[ 2017-06-26T20:46:40+08:00 ] 127.0.0.1 /index.php/Admin/backuser/userstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `backuser` [ RunTime:0.0050s ]
+SQL: SELECT `status` FROM `backuser` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `backuser` SET `status`='2' WHERE `id` = 5 [ RunTime:0.0000s ]
+
+[ 2017-06-26T20:46:41+08:00 ] 127.0.0.1 /index.php/Admin/backuser/userstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `backuser` [ RunTime:0.0040s ]
+SQL: SELECT `status` FROM `backuser` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `backuser` SET `status`='1' WHERE `id` = 5 [ RunTime:0.0000s ]
+
+[ 2017-06-26T20:46:47+08:00 ] 127.0.0.1 /index.php/Admin/backuser/userstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `backuser` [ RunTime:0.0040s ]
+SQL: SELECT `status` FROM `backuser` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `backuser` SET `status`='2' WHERE `id` = 2 [ RunTime:0.0010s ]
+
+[ 2017-06-26T20:46:48+08:00 ] 127.0.0.1 /index.php/Admin/backuser/userstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `backuser` [ RunTime:0.0040s ]
+SQL: SELECT `status` FROM `backuser` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `backuser` SET `status`='1' WHERE `id` = 2 [ RunTime:0.0010s ]
+
+[ 2017-06-26T20:46:49+08:00 ] 127.0.0.1 /index.php/Admin/backuser/userstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `backuser` [ RunTime:0.0040s ]
+SQL: SELECT `status` FROM `backuser` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `backuser` SET `status`='2' WHERE `id` = 3 [ RunTime:0.0010s ]
+
+[ 2017-06-26T20:46:49+08:00 ] 127.0.0.1 /index.php/Admin/backuser/userstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `backuser` [ RunTime:0.0030s ]
+SQL: SELECT `status` FROM `backuser` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `backuser` SET `status`='1' WHERE `id` = 3 [ RunTime:0.0000s ]
+
+[ 2017-06-26T20:46:49+08:00 ] 127.0.0.1 /index.php/Admin/backuser/userstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `backuser` [ RunTime:0.0040s ]
+SQL: SELECT `status` FROM `backuser` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `backuser` SET `status`='2' WHERE `id` = 4 [ RunTime:0.0000s ]
+
+[ 2017-06-26T20:46:50+08:00 ] 127.0.0.1 /index.php/Admin/backuser/userstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `backuser` [ RunTime:0.0040s ]
+SQL: SELECT `status` FROM `backuser` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `backuser` SET `status`='1' WHERE `id` = 4 [ RunTime:0.0000s ]
+
+[ 2017-06-26T20:46:50+08:00 ] 127.0.0.1 /index.php/Admin/backuser/userstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `backuser` [ RunTime:0.0030s ]
+SQL: SELECT `status` FROM `backuser` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `backuser` SET `status`='2' WHERE `id` = 5 [ RunTime:0.0000s ]
+
+[ 2017-06-26T20:46:50+08:00 ] 127.0.0.1 /index.php/Admin/backuser/userstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `backuser` [ RunTime:0.0050s ]
+SQL: SELECT `status` FROM `backuser` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `backuser` SET `status`='1' WHERE `id` = 5 [ RunTime:0.0000s ]
+
+[ 2017-06-26T20:46:51+08:00 ] 127.0.0.1 /index.php/Admin/backuser/userstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `backuser` [ RunTime:0.0030s ]
+SQL: SELECT `status` FROM `backuser` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `backuser` SET `status`='2' WHERE `id` = 1 [ RunTime:0.0000s ]
+
+[ 2017-06-26T20:46:52+08:00 ] 127.0.0.1 /index.php/Admin/backuser/userstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `backuser` [ RunTime:0.0040s ]
+SQL: SELECT `status` FROM `backuser` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `backuser` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0000s ]
+
+[ 2017-06-26T21:11:00+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 2 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 3 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 4 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-26T21:11:02+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 3 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 8 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 9 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 10 AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2017-06-26T21:11:04+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 4 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 11 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 12 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 13 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 14 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 19 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-26T21:17:10+08:00 ] 127.0.0.1 /index.php/Admin/backuser/userdel/id/id.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `backuser` [ RunTime:0.0030s ]
+SQL: UPDATE `backuser` SET `del`='2' WHERE `id` = 5 [ RunTime:0.0000s ]
+
+[ 2017-06-26T21:17:24+08:00 ] 127.0.0.1 /index.php/Admin/backuser/userdel/id/id.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `backuser` [ RunTime:0.0040s ]
+SQL: UPDATE `backuser` SET `del`='2' WHERE `id` = 0 [ RunTime:0.0000s ]
+SQL: UPDATE `backuser` SET `del`='2' WHERE `id` = 0 [ RunTime:0.0010s ]
+SQL: UPDATE `backuser` SET `del`='2' WHERE `id` = 0 [ RunTime:0.0000s ]
+SQL: UPDATE `backuser` SET `del`='2' WHERE `id` = 0 [ RunTime:0.0000s ]
+SQL: UPDATE `backuser` SET `del`='2' WHERE `id` = 0 [ RunTime:0.0000s ]
+SQL: UPDATE `backuser` SET `del`='2' WHERE `id` = 0 [ RunTime:0.0010s ]
+
+[ 2017-06-26T21:17:25+08:00 ] 127.0.0.1 /index.php/Admin/backuser/userdel/id/id.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `backuser` [ RunTime:0.0030s ]
+SQL: UPDATE `backuser` SET `del`='2' WHERE `id` = 0 [ RunTime:0.0000s ]
+SQL: UPDATE `backuser` SET `del`='2' WHERE `id` = 0 [ RunTime:0.0000s ]
+SQL: UPDATE `backuser` SET `del`='2' WHERE `id` = 0 [ RunTime:0.0000s ]
+SQL: UPDATE `backuser` SET `del`='2' WHERE `id` = 0 [ RunTime:0.0000s ]
+SQL: UPDATE `backuser` SET `del`='2' WHERE `id` = 0 [ RunTime:0.0000s ]
+SQL: UPDATE `backuser` SET `del`='2' WHERE `id` = 0 [ RunTime:0.0000s ]
+
+[ 2017-06-26T21:17:26+08:00 ] 127.0.0.1 /index.php/Admin/backuser/userdel/id/id.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `backuser` [ RunTime:0.0030s ]
+SQL: UPDATE `backuser` SET `del`='2' WHERE `id` = 0 [ RunTime:0.0000s ]
+SQL: UPDATE `backuser` SET `del`='2' WHERE `id` = 0 [ RunTime:0.0000s ]
+SQL: UPDATE `backuser` SET `del`='2' WHERE `id` = 0 [ RunTime:0.0000s ]
+SQL: UPDATE `backuser` SET `del`='2' WHERE `id` = 0 [ RunTime:0.0000s ]
+SQL: UPDATE `backuser` SET `del`='2' WHERE `id` = 0 [ RunTime:0.0000s ]
+SQL: UPDATE `backuser` SET `del`='2' WHERE `id` = 0 [ RunTime:0.0000s ]
+
+[ 2017-06-26T21:18:28+08:00 ] 127.0.0.1 /index.php/Admin/backuser/userdel/id/id.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `backuser` [ RunTime:0.0030s ]
+SQL: UPDATE `backuser` SET `del`='2' WHERE `id` = 0 [ RunTime:0.0000s ]
+SQL: UPDATE `backuser` SET `del`='2' WHERE `id` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `backuser` SET `del`='2' WHERE `id` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `backuser` SET `del`='2' WHERE `id` = 3 [ RunTime:0.0000s ]
+SQL: UPDATE `backuser` SET `del`='2' WHERE `id` = 4 [ RunTime:0.0010s ]
+SQL: UPDATE `backuser` SET `del`='2' WHERE `id` = 5 [ RunTime:0.0000s ]
+
+[ 2017-06-26T21:24:40+08:00 ] 127.0.0.1 /index.php/Admin/login/login.html
+ERR: 无法加载控制器:Login
+
+[ 2017-06-26T21:24:51+08:00 ] 127.0.0.1 /index.php/Admin/login/login.html
+ERR: 无法加载控制器:Login
+
+[ 2017-06-26T21:24:55+08:00 ] 127.0.0.1 /index.php/Admin/login/showcode.html
+ERR: 无法加载控制器:Login
+
+[ 2017-06-26T21:26:43+08:00 ] 127.0.0.1 /index.php/Admin/login/login.html
+ERR: 无法加载控制器:Login
+
+[ 2017-06-26T21:26:58+08:00 ] 127.0.0.1 /index.php/Admin/login/login.html
+ERR: 无法加载控制器:Login
+
+[ 2017-06-26T21:27:32+08:00 ] 127.0.0.1 /index.php/Admin/backuser/userstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `backuser` [ RunTime:0.0050s ]
+SQL: SELECT `status` FROM `backuser` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `backuser` SET `status`='2' WHERE `id` = 1 [ RunTime:0.0010s ]
+
+[ 2017-06-26T21:27:33+08:00 ] 127.0.0.1 /index.php/Admin/backuser/userstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `backuser` [ RunTime:0.0040s ]
+SQL: SELECT `status` FROM `backuser` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `backuser` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0000s ]
+
+[ 2017-06-26T21:27:38+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandlist.html
+ERR: 无法加载控制器:Brand
+

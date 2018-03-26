@@ -1,0 +1,120 @@
+<include file="common:head" />
+<style>
+	#treeDemo span.has-switch{min-width: 0px !important;}
+</style>
+<body>
+	<article class="page-container">
+		<form class="form form-horizontal" id="form_info" action="{:U('order/orderedit')}" method='post'>
+			<div class="row cl">
+				<input type="hidden" name='id' value="{$row['id']}">
+				<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>订单号：</label>
+				<div class="formControls col-xs-8 col-sm-9">
+					<input type="text" class="input-text" name='ordernum' value="{$row['ordernum']}" disabled>
+				</div>
+			</div>
+
+			<div class="row cl">
+				<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>下单用户：</label>
+				<div class="formControls col-xs-8 col-sm-9">
+					<input type="text" class="input-text" name='username' value="{$row['username']}" disabled>
+				</div>
+			</div>
+
+			<div class="row cl">
+				<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>收货人：</label>
+				<div class="formControls col-xs-8 col-sm-9">
+					<input type="text" class="input-text" name='recieve' value="{$row['recieve']}" >
+				</div>
+			</div>
+
+			<div class="row cl">
+				<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>收货地址：</label>
+				<div class="formControls col-xs-8 col-sm-9">
+					<input type="text" class="input-text" name='address' value="{$row['address']}" >
+				</div>
+			</div>
+
+			<div class="row cl">
+				<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>收货电话：</label>
+				<div class="formControls col-xs-8 col-sm-9">
+					<input type="text" class="input-text" name='tel' value="{$row['tel']}" >
+				</div>
+			</div>
+
+			<div class="row cl">
+				<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>收货人：</label>
+				<div class="formControls col-xs-8 col-sm-9">
+					<input type="text" class="input-text" name='recieve' value="{$row['recieve']}" >
+				</div>
+			</div>
+
+			<div class="row cl">
+				<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>支付状态：</label>
+				<div class="formControls col-xs-8 col-sm-9 skin-minimal">
+					<div class="radio-box">
+						<input name="ispay" type="radio" id="status-1" value='1' <if condition="$row['ispay'] eq 1">checked</if> />
+						<label for="status-1">已支付</label>
+					</div>
+					<div class="radio-box">
+						<input type="radio" id="status-2" value='2' name="ispay" <if condition="$row['ispay'] eq 2">checked</if> />
+						<label for="status-2">未支付</label>
+					</div>
+				</div>
+			</div>
+
+			<div class="row cl">
+				<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>订单状态：</label>
+				<div class="formControls col-xs-8 col-sm-9 skin-minimal">
+					<div class="radio-box">
+						<input name="send" type="radio" id="status-1" value='1' <if condition="$row['send'] eq 1">checked</if> />
+						<label for="status-1">未发货</label>
+					</div>
+					<div class="radio-box">
+						<input type="radio" id="status-2" value='2' name="send" <if condition="$row['send'] eq 2">checked</if> />
+						<label for="status-2">已发货</label>
+					</div>
+					<div class="radio-box">
+						<input type="radio" id="status-2" value='3' name="send" <if condition="$row['send'] eq 3">checked</if> />
+						<label for="status-2">已签收</label>
+					</div>
+				</div>
+			</div>
+
+			<div class="row cl">
+				<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
+					<input class="btn btn-primary radius" type="button" onclick="checkForm()" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
+				</div>
+			</div>
+
+		</form>
+	</article>
+	<script type="text/javascript" src="__PUBLIC__/admin/lib/jquery/1.9.1/jquery.min.js"></script><script type="text/javascript" src="__PUBLIC__/admin/lib/layer/2.4/layer.js"></script> 
+	<script type="text/javascript" src="__PUBLIC__/admin/static/h-ui/js/H-ui.js"></script> 
+	<script type="text/javascript" src="__PUBLIC__/admin/static/h-ui.admin/js/H-ui.admin.page.js"></script> 	
+	<script type="text/javascript" src="__PUBLIC__/admin/lib/laypage/1.2/laypage.js"></script>
+	<link rel="stylesheet" href="__PUBLIC__/admin/lib/zTree/css/zTreeStyle/zTreeStyle.css" type="text/css">
+	<script type="text/javascript" src="__PUBLIC__/admin/lib/zTree/js/jquery.ztree.core-3.5.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/admin/lib/zTree/js/jquery.ztree.excheck-3.5.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/admin/lib/zTree/js/jquery.ztree.exedit-3.5.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/admin/lib/jquery.validation/1.14.0/jquery.validate.js"></script>
+	<!--请在下方写此页面业务相关的脚本-->
+	<script type="text/javascript">
+
+		function checkForm(){
+			$.ajax({
+				type:"POST",
+				url:$('#form_info').attr("action"),
+				data:$('#form_info').serialize(),
+				dataType:'JSON',
+				success:function(result){
+					if(result.status == 1){
+						parent.window.location.reload();
+						var index = parent.layer.getFrameIndex(window.name);
+						parent.layer.close(index);
+					}
+				}
+			});
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<include file='common:head' />
+<link rel="stylesheet" href="__HOME__/css/log.css"/>
+<body>
+<!--header-->
+<div class="zg-header cont clearfix">
+    <a href="#" target="_blank" class="zg-header-logo fl"><img src="__HOME__/images/u_logo.jpg" width='150' height='60' alt="小H商城"/></a>
+    <span class="zg-header-title fl">找回密码</span>
+</div>
+<!--header-->
+
+<div class="reset_w">
+	<div class="reset reset_1">
+    	<h1>找回密码</h1>
+    	<form method='post' action="{:U('login/findpwd')}" id='form-info'>
+        	<div class="ipt_mail_w">
+                <div class="ipt_mail_c clearfix">
+                    <b class="ipt_mail_iw"><i class="ipt_mail_i"></i></b>
+                    <input type="text" name='email' value="" placeholder='请输入邮箱' class="ipt_mail">
+                </div>
+            </div>
+        	<div class="ipt_code_w">
+                <div class="ipt_code_c">
+                    <input type="text" value="验证码" name='getcode' class="ipt_code" style="width:190px;margin-right:0 !important;">
+                    <img src="{:U('login/showcode')}" width="69" height="38">
+                    <a id="blind" href="javascript:;" style='font-size:14px;'>看不清,换一张</a>
+                </div>
+                <p class="error_info">请输入验证码</p>
+            </div>       
+        	<input type="button" onclick='findpwd()' value="下一步" class="nextStep">       
+        </form>       
+    </div>
+    <div class="reset reset_2" style='display:none;'>
+        <h1>找回密码</h1>
+        <p>确认邮件已发送到邮箱 zhangsan@126.com !</p>
+        <form>
+            <a href="{:U('login/findpwd2')}" class="nextStep">前往邮箱</a>        
+        </form>
+    </div>
+</div>
+
+<!--footer-->
+<div class="zg-footer-box">
+    <p>Copyright © 2010-2016 小H商城 版权所有 保留一切权利</p>
+    <p>京ICP备10218183号 京ICP证161188号 京公网安备 11010802020593号 出版物经营许可证新出发京批字第直130052号</p>
+</div>
+<!--footer-->
+<script src="__HOME__/js/pub.js"></script>
+<script type="text/javascript">
+/*验证码刷新*/
+$("#blind").click(function(){
+    $(this).prev().attr('src',$(this).prev().attr('src'));
+});
+function findpwd(){
+    $.ajax({
+        type:"POST",
+        url:$('#form-info').attr("action"),
+        data:$('#form-info').serialize(),
+        dataType:'JSON',
+        success:function(result){
+            if(result.status == 1){
+                $('div.reset_1').hide();
+                $('div.reset_2').show();
+            }
+        }
+    });
+}
+</script>
+</body>
+</html>

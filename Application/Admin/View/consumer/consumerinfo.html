@@ -1,0 +1,87 @@
+<include file="common:head" />
+<body>
+	<article class="page-container">
+		<form class="form form-horizontal" id="form_info" action="#" method='post'>
+			<div class="row cl">
+				<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>用户名：</label>
+				<div class="formControls col-xs-8 col-sm-9">
+					<input type="text" class="input-text" name='username' value="{$info['username']}" disabled>
+				</div>
+			</div>
+
+			<div class="row cl">
+				<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>昵称：</label>
+				<div class="formControls col-xs-8 col-sm-9">
+					<input type="text" class="input-text" name='nikname' value="{$info['nikname']}" disabled>
+				</div>
+			</div>
+
+			<div class="row cl">
+				<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>电话：</label>
+				<div class="formControls col-xs-8 col-sm-9">
+					<input type="text" class="input-text" name='tel' value="{$info['tel']}" disabled>
+				</div>
+			</div>
+
+			<div class="row cl">
+				<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>邮箱：</label>
+				<div class="formControls col-xs-8 col-sm-9">
+					<input type="text" class="input-text" name='email' value="{$info['email']}" disabled>
+				</div>
+			</div>
+
+			<div class="row cl">
+				<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>QQ：</label>
+				<div class="formControls col-xs-8 col-sm-9">
+					<input type="text" class="input-text" name='qq' value="{$info['qq']}" disabled>
+				</div>
+			</div>
+
+			<div class="row cl">
+				<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>性别：</label>
+				<div class="formControls col-xs-8 col-sm-9">
+					<input type="text" class="input-text" name='qq' value="<if condition='$info["sex"] eq 1'>男<else />女</if>"  disabled>
+				</div>
+			</div>
+
+			<div class="row cl">
+				<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>头像：</label>
+				<div class="formControls col-xs-8 col-sm-9">
+					<img src="{$info['photo']}" width='40' height='40' >
+				</div>
+			</div>
+
+			<div class="row cl">
+				<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>注册时间：</label>
+				<div class="formControls col-xs-8 col-sm-9">
+					<input type="text" class="input-text" name='logintime' value="{$info['logintime']|date='Y-m-d',###}" disabled>
+				</div>
+			</div>
+
+			<div class="row cl">
+				<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>最后登录时间：</label>
+				<div class="formControls col-xs-8 col-sm-9">
+					<input type="text" class="input-text" name='visittime' value="{$info['visittime']|date='Y-m-d',###}" disabled>
+				</div>
+			</div>
+
+			<div class="row cl">
+				<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
+					<input class="btn btn-primary radius" type="button" onclick="goback()" value="&nbsp;&nbsp;返回&nbsp;&nbsp;">
+				</div>
+			</div>
+
+		</form>
+	</article>
+<script type="text/javascript" src="__PUBLIC__/admin/lib/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/admin/lib/layer/2.4/layer.js"></script> 
+<script type="text/javascript" src="__PUBLIC__/admin/static/h-ui/js/H-ui.js"></script> 
+<script type="text/javascript" src="__PUBLIC__/admin/static/h-ui.admin/js/H-ui.admin.page.js"></script> 
+<script type="text/javascript">
+function goback(){
+	parent.window.location.reload();
+	parent.layer.close(index);
+}
+</script>
+</body>
+</html>

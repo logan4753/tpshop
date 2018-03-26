@@ -1,0 +1,9 @@
+[ 2018-03-15T13:54:26+08:00 ] 127.0.0.1 /login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0063s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `consumer` (`username`,`password`,`salt`,`logintime`) VALUES ('687546874@qq.com','$2y$11$8c7c91f4c8e27b65db303ueLkFfrwih1Nix.CpzlXfyAkdd/1FQV.','$2y$11$8c7c91f4c8e27b65db3030','1521093266') [ RunTime:0.0007s ]
+

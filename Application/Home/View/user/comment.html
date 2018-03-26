@@ -1,0 +1,100 @@
+<include file='common:head' />
+<link type="text/css" rel="stylesheet" href="__HOME__/css/user.css" />
+<script src="__HOME__/js/jquery-1.7.1.js"></script>
+<script src="__HOME__/js/ajaxfileupload.js"></script>
+<include file='common:header' />
+<include file='common:lists' />
+
+<div class="cont user user_5 clearfix">
+	<div class="user_menu"> 
+        <dl>
+            <dt class="colorChange">个人中心</dt>
+            <dd><a href="{:U('user/myorder')}">我的订单</a></dd>
+            <dd><a href="{:U('user/mycollect')}">我的收藏</a></dd>
+            <dd><a href="{:U('user/mycoupon')}">我的优惠券</a></dd>
+            <dd><a href="{:U('user/address')}">我的收货地址</a></dd>
+            <dd class="active"><a href="{:U('user/comment')}">商品评价</a></dd>
+            <dd><a href="{:U('user/editpwd')}">修改密码</a></dd>
+        </dl>
+    </div>
+
+<!--  我的评价  -->
+        <div class="user_right fr">
+            <h3 class="user_title">商品评价</h3>
+            <p class="noInfo"><i class="i_sad">&nbsp;</i>您目前还没有已购买的宝贝，快去逛逛<a href="#">首页</a>吧！</p>
+            <div>
+                <ul>
+                    <foreach name='order' item='val'>
+                    <foreach name="val['child']" item='vc'>
+                    <li gid="{$vc['id']}">
+                        <div class="list_goods fl">
+                            <a href="{:U('index/getdetail',array('id'=>$vc['id']))}"><img src="{$vc['gimage']}" width="66" height="66"></a>
+                            <p class="list_goods_name"><a href="#">{$vc['gname']}</a></p>
+                            <p class="list_goods_details"><span>颜色：红</span><span>型号：V1</span></p>
+                        </div>
+                        <if condition="$vc['iscom'] eq 2">
+                        <a href="javascript:void(0)" class="evaluate">评价</a>
+                        </if>
+                        <!-- evalute details -->
+                        <div class="evaluateD">
+                            <div class="evaluateD_t clearfix">
+                                <font class="evaluateD_l">商品满意度</font>
+                                <div class="evaluateD_tr fl">
+                                	<span class="review_star evaluteS"><i></i><i></i><i></i><i></i><i></i></span>
+                                    <font class="star_score"></font>
+                                </div>
+                            </div>
+                            <div class="evaluateD_m clearfix">
+                                <font class="evaluateD_l">评价晒单</font>
+                                <div class="evaluateD_mr fl">
+                                    <textarea name='comment' class='comment'>商品是否给力？快分享你的购买心得吧</textarea>
+                                </div>
+                            </div>
+                            <div class="evaluateD_b clearfix">
+                                <font class="evaluateD_l">商品照片</font>
+                                <div class="evaluateD_br fl">
+                                    <label class="goods_photo fl"><i></i><input type="file" name='images' id='images' accept="image/*" multiple></label>
+                                    <font class="goods_photoNum fl">共0张,还能上传<span>5</span>张</font>
+                                    <label class="anonymous fr"><i></i><input type="checkbox" name='isname' class='isname'>匿名评价</label>
+                                </div>
+                            </div>
+                            <a href="javascript:;" onclick='docomment(this)' class="delivery">提交评价</a>
+                        </div>                
+                        <!-- evalute details end -->
+                    </li>
+                    </foreach>
+                    </foreach>
+                </ul>
+            </div>
+		</div>
+
+<!--  我的评价 end  -->
+
+</div>
+
+<script src="__HOME__/js/pub.js"></script>
+<script src="__HOME__/js/content.js"></script>
+<script type="text/javascript" src="__ADMIN__/lib/layer/2.4/layer.js"></script>
+<script type="text/javascript">
+function docomment(obj){
+    var gid = $(obj).parents('li').attr('gid');
+    var star = $(obj).parents('li').children('div.evaluateD').children('div.evaluateD_t').children('div.evaluateD_tr').children('font').html();
+    var comment = $(obj).parents('li').children('div.evaluateD').children('div.evaluateD_m').children('div.evaluateD_mr').children('textarea').val();
+    //alert(onum);return;
+    $.ajaxFileUpload({
+        url:"{:U('user/docomment')}",
+        type:'post',
+        data:{gid:gid,star:star,comment:comment},
+        secureuri: false,
+        fileElementId: 'images',
+        dataType: 'json',
+        success: function (data){
+            if (data.status==1){
+                layer.msg(data.msg);
+            }
+        },
+    })
+}
+</script>
+<include file="common:footer" />
+

@@ -1,0 +1,17 @@
+<aside class="Hui-aside">
+	<div class="menu_dropdown bk_2">
+		<php>$datas = getPermission();</php>
+		<foreach name="datas" item="val">
+		<dl>
+			<dt><i class="Hui-iconfont">&#xe63c;</i> {$val['pername']}<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+			<dd>
+				<ul>
+					<foreach name="val['child']" item="v">
+						<li><a id="{$v['per_act']}" href="{$v['perurl']}" title="{$v['pername']}">{$v['pername']}</a></li>
+					</foreach>
+				</ul>
+			</dd>
+		</dl>
+		</foreach>
+	</div>
+</aside>

@@ -1,0 +1,1563 @@
+[ 2017-06-29T08:55:47+08:00 ] 127.0.0.1 /index.php/Admin/cate/getchild.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 2 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 50 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 51 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 52 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 53 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 54 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 55 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-29T08:56:00+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 21 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 25 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 26 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-29T08:56:28+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissionadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `permission` (`pid`,`pername`,`peract`,`status`) VALUES ('15','订单管理','order/orderlist','1') [ RunTime:0.0010s ]
+
+[ 2017-06-29T08:59:48+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `goodsinfo` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `goods` (`goodsname`,`category`,`brand`,`image`,`commend`,`cate`) VALUES ('测试','1','1','./Uploads/2017-06-29/1498697988_5757.jpg,./Uploads/2017-06-29/1498697988_6631.jpg,./Uploads/2017-06-29/1498697988_8287.jpg,./Uploads/2017-06-29/1498697988_7205.jpg','1','0') [ RunTime:0.0000s ]
+
+[ 2017-06-29T08:59:51+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0050s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goodsinfo` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `goods` (`goodsname`,`category`,`brand`,`image`,`commend`,`cate`) VALUES ('测试','1','1','./Uploads/2017-06-29/1498697991_2740.jpg,./Uploads/2017-06-29/1498697991_6034.jpg,./Uploads/2017-06-29/1498697991_4668.jpg,./Uploads/2017-06-29/1498697991_9684.jpg','1','0') [ RunTime:0.0010s ]
+
+[ 2017-06-29T09:10:08+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `goodsinfo` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `goods` (`goodsname`,`category`,`brand`,`image`,`commend`,`cate`) VALUES ('测试','1','1','./Uploads/2017-06-29/1498698608_6062.jpg,./Uploads/2017-06-29/1498698608_2117.jpg','1','0') [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `goodsinfo` (`shopprice`,`marketprice`,`vipprice`,`property`,`count`,`ondate`,`pdate`,`isfree`,`carriage`,`status`,`info`,`goodsid`) VALUES ('123','123','','套餐类型:官方标配,套餐1,套餐2;存储容量:64GB,128GB;购买方式:裸机,赠15元话费流量卡','66','2017','2017','1','','1','&lt;ul class=&quot; list-paddingleft-2&quot;&gt;&lt;li&gt;&lt;p&gt;&lt;strong style=&quot;margin: 0px; padding: 8px 0px 3px; display: inline-block;&quot;&gt;厂家服务&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;本产品全国联保，享受三包服务，质保期为：一年质保&lt;br/&gt;如因质量问题或故障，凭厂商维修中心或特约维修点的质量检测证明，享受7日内退货，15日内换货，15日以上在质保期内享受免费保修等三包服务！&lt;br/&gt;(注:如厂家在商品介绍中有售后保障的说明,则此商品按照厂家说明执行售后保障服务。) 您可以查询本品牌在各地售后服务中心的联系方式，&lt;a target=&quot;_blank&quot; href=&quot;http://www.huawei.com/cn/&quot; style=&quot;margin: 0px; padding: 0px; color: rgb(0, 90, 160); text-decoration-line: none;&quot;&gt;请点击这儿查询......&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;品牌官方网站：&lt;a target=&quot;_blank&quot; href=&quot;http://www.huawei.com/cn/&quot; style=&quot;margin: 0px; padding: 0px; color: rgb(0, 90, 160); text-decoration-line: none;&quot;&gt;http://www.huawei.com/cn/&lt;/a&gt;&lt;br/&gt;售后服务电话：400-830-8300&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span class=&quot;goods&quot; style=&quot;margin: 0px; padding: 0px 10px 0px 0px; display: inline-block; width: 32px; height: 32px; line-height: 32px; vertical-align: bottom; background: url(&amp;quot;//static.360buyimg.com/item/default/1.0.32/components/detail/i/iconZP.png&amp;quot;) no-repeat;&quot;&gt;&lt;/span&gt;&amp;nbsp;&lt;strong style=&quot;margin: 0px; padding: 8px 0px 3px; display: inline-block;&quot;&gt;京东承诺&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;京东平台卖家销售并发货的商品，由平台卖家提供发票和相应的售后服务。请您放心购买！&lt;br/&gt;注：因厂家会在没有任何提前通知的情况下更改产品包装、产地或者一些附件，本司不能确保客户收到的货物与商城图片、产地、附件说明完全一致。只能确保为原厂正货！并且保证与当时市场上同样主流新品一致。若本商城没有及时更新，请大家谅解！&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span class=&quot;goods&quot; style=&quot;margin: 0px; padding: 0px 10px 0px 0px; display: inline-block; width: 32px; height: 32px; line-height: 32px; vertical-align: bottom; background: url(&amp;quot;//static.360buyimg.com/item/default/1.0.32/components/detail/i/iconZP.png&amp;quot;) no-repeat;&quot;&gt;&lt;/span&gt;&lt;strong style=&quot;margin: 0px; padding: 8px 0px 3px; display: inline-block;&quot;&gt;正品行货&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;京东商城向您保证所售商品均为正品行货，京东自营商品开具机打发票或电子发票。&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20170629/1498698604942998.jpg&quot; title=&quot;1498698604942998.jpg&quot; alt=&quot;7plus1.jpg&quot;/&gt;&lt;/p&gt;','1') [ RunTime:0.0010s ]
+
+[ 2017-06-29T09:15:30+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `goodsinfo` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `goods` (`goodsname`,`category`,`brand`,`image`,`commend`,`cate`) VALUES ('测试','1','3','./Uploads/2017-06-29/1498698930_1685.jpg,./Uploads/2017-06-29/1498698930_4641.jpg,./Uploads/2017-06-29/1498698930_4141.jpg','1','0') [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `goodsinfo` (`shopprice`,`marketprice`,`vipprice`,`property`,`count`,`ondate`,`pdate`,`isfree`,`carriage`,`status`,`info`,`service`,`goodsid`) VALUES ('123','134','','套餐类型:官方标配,套餐一,套餐二,套餐三;存储容量:64GB,128GB;购买方式:裸机,赠15元话费流量卡;网络类型:4G全网通','66','2017','2017','1','','1','&lt;h3 style=&quot;margin: 0px; padding: 0px; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &amp;quot;microsoft yahei&amp;quot;;&quot;&gt;售后保障&lt;/h3&gt;&lt;ul style=&quot;margin: 0px; padding: 0px;&quot; class=&quot; list-paddingleft-2&quot;&gt;&lt;li&gt;&lt;p&gt;&lt;span class=&quot;goods&quot; style=&quot;margin: 0px; padding: 0px 10px 0px 0px; display: inline-block; width: 32px; height: 32px; line-height: 32px; vertical-align: bottom; background: url(&amp;quot;//static.360buyimg.com/item/default/1.0.32/components/detail/i/iconZP.png&amp;quot;) no-repeat;&quot;&gt;&lt;/span&gt;&amp;nbsp;&lt;strong style=&quot;margin: 0px; padding: 8px 0px 3px; display: inline-block;&quot;&gt;厂家服务&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;本产品全国联保，享受三包服务，质保期为：一年质保&lt;br/&gt;如因质量问题或故障，凭厂商维修中心或特约维修点的质量检测证明，享受7日内退货，15日内换货，15日以上在质保期内享受免费保修等三包服务！&lt;br/&gt;(注:如厂家在商品介绍中有售后保障的说明,则此商品按照厂家说明执行售后保障服务。) 您可以查询本品牌在各地售后服务中心的联系方式，&lt;a target=&quot;_blank&quot; href=&quot;http://www.huawei.com/cn/&quot; style=&quot;margin: 0px; padding: 0px; color: rgb(0, 90, 160); text-decoration-line: none;&quot;&gt;请点击这儿查询......&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;品牌官方网站：&lt;a target=&quot;_blank&quot; href=&quot;http://www.huawei.com/cn/&quot; style=&quot;margin: 0px; padding: 0px; color: rgb(0, 90, 160); text-decoration-line: none;&quot;&gt;http://www.huawei.com/cn/&lt;/a&gt;&lt;br/&gt;售后服务电话：400-830-8300&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span class=&quot;goods&quot; style=&quot;margin: 0px; padding: 0px 10px 0px 0px; display: inline-block; width: 32px; height: 32px; line-height: 32px; vertical-align: bottom; background: url(&amp;quot;//static.360buyimg.com/item/default/1.0.32/components/detail/i/iconZP.png&amp;quot;) no-repeat;&quot;&gt;&lt;/span&gt;&amp;nbsp;&lt;strong style=&quot;margin: 0px; padding: 8px 0px 3px; display: inline-block;&quot;&gt;京东承诺&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;京东平台卖家销售并发货的商品，由平台卖家提供发票和相应的售后服务。请您放心购买！&lt;br/&gt;注：因厂家会在没有任何提前通知的情况下更改产品包装、产地或者一些附件，本司不能确保客户收到的货物与商城图片、产地、附件说明完全一致。只能确保为原厂正货！并且保证与当时市场上同样主流新品一致。若本商城没有及时更新，请大家谅解！&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span class=&quot;goods&quot; style=&quot;margin: 0px; padding: 0px 10px 0px 0px; display: inline-block; width: 32px; height: 32px; line-height: 32px; vertical-align: bottom; background: url(&amp;quot;//static.360buyimg.com/item/default/1.0.32/components/detail/i/iconZP.png&amp;quot;) no-repeat;&quot;&gt;&lt;/span&gt;&lt;strong style=&quot;margin: 0px; padding: 8px 0px 3px; display: inline-block;&quot;&gt;正品行货&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;京东商城向您保证所售商品均为正品行货，京东自营商品开具机打发票或电子发票。&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span class=&quot;unprofor&quot; style=&quot;margin: 0px; padding: 0px 10px 0px 0px; display: inline-block; width: 32px; height: 32px; line-height: 32px; vertical-align: bottom; background: url(&amp;quot;//static.360buyimg.com/item/default/1.0.32/components/detail/i/iconLB.png&amp;quot;) no-repeat;&quot;&gt;&lt;/span&gt;&lt;strong style=&quot;margin: 0px; padding: 8px 0px 3px; display: inline-block;&quot;&gt;全国联保&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;凭质保证书及京东商城发票，可享受全国联保服务（奢侈品、钟表除外；奢侈品、钟表由京东联系保修，享受法定三包售后服务），与您亲临商场选购的商品享受相同的质量保证。京东商城还为您提供具有竞争力的商品价格和&lt;a href=&quot;https://help.jd.com/help/question-892.html&quot; target=&quot;_blank&quot; style=&quot;margin: 0px; padding: 0px; color: rgb(0, 90, 160); text-decoration-line: none;&quot;&gt;运费政策&lt;/a&gt;，请您放心购买！&amp;nbsp;&lt;br/&gt;&lt;br/&gt;注：因厂家会在没有任何提前通知的情况下更改产品包装、产地或者一些附件，本司不能确保客户收到的货物与商城图片、产地、附件说明完全一致。只能确保为原厂正货！并且保证与当时市场上同样主流新品一致。若本商城没有及时更新，请大家谅解！&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20170629/1498698927136690.jpg&quot; title=&quot;1498698927136690.jpg&quot; alt=&quot;7plus1.jpg&quot;/&gt;&lt;br/&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;','&lt;h3 style=&quot;margin: 0px; padding: 0px; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &amp;quot;microsoft yahei&amp;quot;;&quot;&gt;售后保障&lt;/h3&gt;&lt;ul style=&quot;margin: 0px; padding: 0px;&quot; class=&quot; list-paddingleft-2&quot;&gt;&lt;li&gt;&lt;p&gt;&lt;span class=&quot;goods&quot; style=&quot;margin: 0px; padding: 0px 10px 0px 0px; display: inline-block; width: 32px; height: 32px; line-height: 32px; vertical-align: bottom; background: url(&amp;quot;//static.360buyimg.com/item/default/1.0.32/components/detail/i/iconZP.png&amp;quot;) no-repeat;&quot;&gt;&lt;/span&gt;&amp;nbsp;&lt;strong style=&quot;margin: 0px; padding: 8px 0px 3px; display: inline-block;&quot;&gt;厂家服务&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;本产品全国联保，享受三包服务，质保期为：一年质保&lt;br/&gt;如因质量问题或故障，凭厂商维修中心或特约维修点的质量检测证明，享受7日内退货，15日内换货，15日以上在质保期内享受免费保修等三包服务！&lt;br/&gt;(注:如厂家在商品介绍中有售后保障的说明,则此商品按照厂家说明执行售后保障服务。) 您可以查询本品牌在各地售后服务中心的联系方式，&lt;a target=&quot;_blank&quot; href=&quot;http://www.huawei.com/cn/&quot; style=&quot;margin: 0px; padding: 0px; color: rgb(0, 90, 160); text-decoration-line: none;&quot;&gt;请点击这儿查询......&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;品牌官方网站：&lt;a target=&quot;_blank&quot; href=&quot;http://www.huawei.com/cn/&quot; style=&quot;margin: 0px; padding: 0px; color: rgb(0, 90, 160); text-decoration-line: none;&quot;&gt;http://www.huawei.com/cn/&lt;/a&gt;&lt;br/&gt;售后服务电话：400-830-8300&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span class=&quot;goods&quot; style=&quot;margin: 0px; padding: 0px 10px 0px 0px; display: inline-block; width: 32px; height: 32px; line-height: 32px; vertical-align: bottom; background: url(&amp;quot;//static.360buyimg.com/item/default/1.0.32/components/detail/i/iconZP.png&amp;quot;) no-repeat;&quot;&gt;&lt;/span&gt;&amp;nbsp;&lt;strong style=&quot;margin: 0px; padding: 8px 0px 3px; display: inline-block;&quot;&gt;京东承诺&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;京东平台卖家销售并发货的商品，由平台卖家提供发票和相应的售后服务。请您放心购买！&lt;br/&gt;注：因厂家会在没有任何提前通知的情况下更改产品包装、产地或者一些附件，本司不能确保客户收到的货物与商城图片、产地、附件说明完全一致。只能确保为原厂正货！并且保证与当时市场上同样主流新品一致。若本商城没有及时更新，请大家谅解！&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span class=&quot;goods&quot; style=&quot;margin: 0px; padding: 0px 10px 0px 0px; display: inline-block; width: 32px; height: 32px; line-height: 32px; vertical-align: bottom; background: url(&amp;quot;//static.360buyimg.com/item/default/1.0.32/components/detail/i/iconZP.png&amp;quot;) no-repeat;&quot;&gt;&lt;/span&gt;&lt;strong style=&quot;margin: 0px; padding: 8px 0px 3px; display: inline-block;&quot;&gt;正品行货&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;京东商城向您保证所售商品均为正品行货，京东自营商品开具机打发票或电子发票。&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span class=&quot;unprofor&quot; style=&quot;margin: 0px; padding: 0px 10px 0px 0px; display: inline-block; width: 32px; height: 32px; line-height: 32px; vertical-align: bottom; background: url(&amp;quot;//static.360buyimg.com/item/default/1.0.32/components/detail/i/iconLB.png&amp;quot;) no-repeat;&quot;&gt;&lt;/span&gt;&lt;strong style=&quot;margin: 0px; padding: 8px 0px 3px; display: inline-block;&quot;&gt;全国联保&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;凭质保证书及京东商城发票，可享受全国联保服务（奢侈品、钟表除外；奢侈品、钟表由京东联系保修，享受法定三包售后服务），与您亲临商场选购的商品享受相同的质量保证。京东商城还为您提供具有竞争力的商品价格和&lt;a href=&quot;https://help.jd.com/help/question-892.html&quot; target=&quot;_blank&quot; style=&quot;margin: 0px; padding: 0px; color: rgb(0, 90, 160); text-decoration-line: none;&quot;&gt;运费政策&lt;/a&gt;，请您放心购买！&amp;nbsp;&lt;br/&gt;&lt;br/&gt;注：因厂家会在没有任何提前通知的情况下更改产品包装、产地或者一些附件，本司不能确保客户收到的货物与商城图片、产地、附件说明完全一致。只能确保为原厂正货！并且保证与当时市场上同样主流新品一致。若本商城没有及时更新，请大家谅解！&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;','1') [ RunTime:0.0000s ]
+
+[ 2017-06-29T09:17:36+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `goodsinfo` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+
+[ 2017-06-29T09:22:26+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `goodsinfo` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+
+[ 2017-06-29T09:25:31+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goodsinfo` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `goods` (`goodsname`,`category`,`brand`,`image`,`commend`,`cate`,`cate1`) VALUES ('荣耀v9','20','4','./Uploads/2017-06-29/1498699531_3698.jpg,./Uploads/2017-06-29/1498699531_2250.jpg,./Uploads/2017-06-29/1498699531_1814.jpg','1','10','1') [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `goodsinfo` (`shopprice`,`marketprice`,`vipprice`,`property`,`count`,`ondate`,`pdate`,`isfree`,`carriage`,`status`,`info`,`service`,`goodsid`) VALUES ('678','768','567','套餐类型:官方标配,套餐一,套餐二,套餐三;存储容量:64GB,128GB;购买方式:裸机,赠15元话费流量卡;网络类型:4G全网通','66','1496798646','1498094648','1','','1','&lt;h3 style=&quot;margin: 0px; padding: 0px; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &amp;quot;microsoft yahei&amp;quot;;&quot;&gt;售后保障&lt;/h3&gt;&lt;ul style=&quot;margin: 0px; padding: 0px;&quot; class=&quot; list-paddingleft-2&quot;&gt;&lt;li&gt;&lt;p&gt;&lt;span class=&quot;goods&quot; style=&quot;margin: 0px; padding: 0px 10px 0px 0px; display: inline-block; width: 32px; height: 32px; line-height: 32px; vertical-align: bottom; background: url(&amp;quot;//static.360buyimg.com/item/default/1.0.32/components/detail/i/iconZP.png&amp;quot;) no-repeat;&quot;&gt;&lt;/span&gt;&amp;nbsp;&lt;strong style=&quot;margin: 0px; padding: 8px 0px 3px; display: inline-block;&quot;&gt;厂家服务&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;本产品全国联保，享受三包服务，质保期为：一年质保&lt;br/&gt;如因质量问题或故障，凭厂商维修中心或特约维修点的质量检测证明，享受7日内退货，15日内换货，15日以上在质保期内享受免费保修等三包服务！&lt;br/&gt;(注:如厂家在商品介绍中有售后保障的说明,则此商品按照厂家说明执行售后保障服务。) 您可以查询本品牌在各地售后服务中心的联系方式，&lt;a target=&quot;_blank&quot; href=&quot;http://www.huawei.com/cn/&quot; style=&quot;margin: 0px; padding: 0px; color: rgb(0, 90, 160); text-decoration-line: none;&quot;&gt;请点击这儿查询......&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;品牌官方网站：&lt;a target=&quot;_blank&quot; href=&quot;http://www.huawei.com/cn/&quot; style=&quot;margin: 0px; padding: 0px; color: rgb(0, 90, 160); text-decoration-line: none;&quot;&gt;http://www.huawei.com/cn/&lt;/a&gt;&lt;br/&gt;售后服务电话：400-830-8300&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span class=&quot;goods&quot; style=&quot;margin: 0px; padding: 0px 10px 0px 0px; display: inline-block; width: 32px; height: 32px; line-height: 32px; vertical-align: bottom; background: url(&amp;quot;//static.360buyimg.com/item/default/1.0.32/components/detail/i/iconZP.png&amp;quot;) no-repeat;&quot;&gt;&lt;/span&gt;&amp;nbsp;&lt;strong style=&quot;margin: 0px; padding: 8px 0px 3px; display: inline-block;&quot;&gt;京东承诺&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;京东平台卖家销售并发货的商品，由平台卖家提供发票和相应的售后服务。请您放心购买！&lt;br/&gt;注：因厂家会在没有任何提前通知的情况下更改产品包装、产地或者一些附件，本司不能确保客户收到的货物与商城图片、产地、附件说明完全一致。只能确保为原厂正货！并且保证与当时市场上同样主流新品一致。若本商城没有及时更新，请大家谅解！&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span class=&quot;goods&quot; style=&quot;margin: 0px; padding: 0px 10px 0px 0px; display: inline-block; width: 32px; height: 32px; line-height: 32px; vertical-align: bottom; background: url(&amp;quot;//static.360buyimg.com/item/default/1.0.32/components/detail/i/iconZP.png&amp;quot;) no-repeat;&quot;&gt;&lt;/span&gt;&lt;strong style=&quot;margin: 0px; padding: 8px 0px 3px; display: inline-block;&quot;&gt;正品行货&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;京东商城向您保证所售商品均为正品行货，京东自营商品开具机打发票或电子发票。&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span class=&quot;unprofor&quot; style=&quot;margin: 0px; padding: 0px 10px 0px 0px; display: inline-block; width: 32px; height: 32px; line-height: 32px; vertical-align: bottom; background: url(&amp;quot;//static.360buyimg.com/item/default/1.0.32/components/detail/i/iconLB.png&amp;quot;) no-repeat;&quot;&gt;&lt;/span&gt;&lt;strong style=&quot;margin: 0px; padding: 8px 0px 3px; display: inline-block;&quot;&gt;全国联保&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;凭质保证书及京东商城发票，可享受全国联保服务（奢侈品、钟表除外；奢侈品、钟表由京东联系保修，享受法定三包售后服务），与您亲临商场选购的商品享受相同的质量保证。京东商城还为您提供具有竞争力的商品价格和&lt;a href=&quot;https://help.jd.com/help/question-892.html&quot; target=&quot;_blank&quot; style=&quot;margin: 0px; padding: 0px; color: rgb(0, 90, 160); text-decoration-line: none;&quot;&gt;运费政策&lt;/a&gt;，请您放心购买！&amp;nbsp;&lt;br/&gt;&lt;br/&gt;注：因厂家会在没有任何提前通知的情况下更改产品包装、产地或者一些附件，本司不能确保客户收到的货物与商城图片、产地、附件说明完全一致。只能确保为原厂正货！并且保证与当时市场上同样主流新品一致。若本商城没有及时更新，请大家谅解！&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20170629/1498699517320629.jpg&quot; style=&quot;&quot; title=&quot;1498699517320629.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20170629/1498699517755336.jpg&quot; style=&quot;&quot; title=&quot;1498699517755336.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20170629/1498699517123341.jpg&quot; style=&quot;&quot; title=&quot;1498699517123341.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20170629/1498699517273208.jpg&quot; style=&quot;&quot; title=&quot;1498699517273208.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20170629/1498699517959178.jpg&quot; style=&quot;&quot; title=&quot;1498699517959178.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20170629/1498699517122881.jpg&quot; style=&quot;&quot; title=&quot;1498699517122881.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;','&lt;h3 style=&quot;margin: 0px; padding: 0px; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &amp;quot;microsoft yahei&amp;quot;;&quot;&gt;售后保障&lt;/h3&gt;&lt;ul style=&quot;margin: 0px; padding: 0px;&quot; class=&quot; list-paddingleft-2&quot;&gt;&lt;li&gt;&lt;p&gt;&lt;span class=&quot;goods&quot; style=&quot;margin: 0px; padding: 0px 10px 0px 0px; display: inline-block; width: 32px; height: 32px; line-height: 32px; vertical-align: bottom; background: url(&amp;quot;//static.360buyimg.com/item/default/1.0.32/components/detail/i/iconZP.png&amp;quot;) no-repeat;&quot;&gt;&lt;/span&gt;&amp;nbsp;&lt;strong style=&quot;margin: 0px; padding: 8px 0px 3px; display: inline-block;&quot;&gt;厂家服务&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;本产品全国联保，享受三包服务，质保期为：一年质保&lt;br/&gt;如因质量问题或故障，凭厂商维修中心或特约维修点的质量检测证明，享受7日内退货，15日内换货，15日以上在质保期内享受免费保修等三包服务！&lt;br/&gt;(注:如厂家在商品介绍中有售后保障的说明,则此商品按照厂家说明执行售后保障服务。) 您可以查询本品牌在各地售后服务中心的联系方式，&lt;a target=&quot;_blank&quot; href=&quot;http://www.huawei.com/cn/&quot; style=&quot;margin: 0px; padding: 0px; color: rgb(0, 90, 160); text-decoration-line: none;&quot;&gt;请点击这儿查询......&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;品牌官方网站：&lt;a target=&quot;_blank&quot; href=&quot;http://www.huawei.com/cn/&quot; style=&quot;margin: 0px; padding: 0px; color: rgb(0, 90, 160); text-decoration-line: none;&quot;&gt;http://www.huawei.com/cn/&lt;/a&gt;&lt;br/&gt;售后服务电话：400-830-8300&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span class=&quot;goods&quot; style=&quot;margin: 0px; padding: 0px 10px 0px 0px; display: inline-block; width: 32px; height: 32px; line-height: 32px; vertical-align: bottom; background: url(&amp;quot;//static.360buyimg.com/item/default/1.0.32/components/detail/i/iconZP.png&amp;quot;) no-repeat;&quot;&gt;&lt;/span&gt;&amp;nbsp;&lt;strong style=&quot;margin: 0px; padding: 8px 0px 3px; display: inline-block;&quot;&gt;京东承诺&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;京东平台卖家销售并发货的商品，由平台卖家提供发票和相应的售后服务。请您放心购买！&lt;br/&gt;注：因厂家会在没有任何提前通知的情况下更改产品包装、产地或者一些附件，本司不能确保客户收到的货物与商城图片、产地、附件说明完全一致。只能确保为原厂正货！并且保证与当时市场上同样主流新品一致。若本商城没有及时更新，请大家谅解！&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span class=&quot;goods&quot; style=&quot;margin: 0px; padding: 0px 10px 0px 0px; display: inline-block; width: 32px; height: 32px; line-height: 32px; vertical-align: bottom; background: url(&amp;quot;//static.360buyimg.com/item/default/1.0.32/components/detail/i/iconZP.png&amp;quot;) no-repeat;&quot;&gt;&lt;/span&gt;&lt;strong style=&quot;margin: 0px; padding: 8px 0px 3px; display: inline-block;&quot;&gt;正品行货&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;京东商城向您保证所售商品均为正品行货，京东自营商品开具机打发票或电子发票。&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span class=&quot;unprofor&quot; style=&quot;margin: 0px; padding: 0px 10px 0px 0px; display: inline-block; width: 32px; height: 32px; line-height: 32px; vertical-align: bottom; background: url(&amp;quot;//static.360buyimg.com/item/default/1.0.32/components/detail/i/iconLB.png&amp;quot;) no-repeat;&quot;&gt;&lt;/span&gt;&lt;strong style=&quot;margin: 0px; padding: 8px 0px 3px; display: inline-block;&quot;&gt;全国联保&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;凭质保证书及京东商城发票，可享受全国联保服务（奢侈品、钟表除外；奢侈品、钟表由京东联系保修，享受法定三包售后服务），与您亲临商场选购的商品享受相同的质量保证。京东商城还为您提供具有竞争力的商品价格和&lt;a href=&quot;https://help.jd.com/help/question-892.html&quot; target=&quot;_blank&quot; style=&quot;margin: 0px; padding: 0px; color: rgb(0, 90, 160); text-decoration-line: none;&quot;&gt;运费政策&lt;/a&gt;，请您放心购买！&amp;nbsp;&lt;br/&gt;&lt;br/&gt;注：因厂家会在没有任何提前通知的情况下更改产品包装、产地或者一些附件，本司不能确保客户收到的货物与商城图片、产地、附件说明完全一致。只能确保为原厂正货！并且保证与当时市场上同样主流新品一致。若本商城没有及时更新，请大家谅解！&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;','2') [ RunTime:0.0000s ]
+
+[ 2017-06-29T10:05:33+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `goodsinfo` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-29T10:05:42+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `goodsinfo` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-29T10:06:15+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `goodsinfo` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-29T10:07:10+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goodsinfo` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-29T10:07:49+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `goodsinfo` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+
+[ 2017-06-29T10:08:42+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goodsinfo` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+
+[ 2017-06-29T10:08:56+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goodsinfo` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-29T10:09:07+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `goodsinfo` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+
+[ 2017-06-29T10:12:29+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `goodsinfo` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `goods` SET `goodsname`='荣耀v9',`category`='20',`brand`='4',`commend`='1',`cate`='10',`cate1`='1' WHERE `id` = 2 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-06-29T10:12:46+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goodsinfo` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-29T10:13:57+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goodsinfo` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `goods` SET `goodsname`='荣耀v9',`category`='20',`brand`='4',`commend`='1',`cate`='10',`cate1`='1' WHERE `id` = 2 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-06-29T10:15:42+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goodsinfo` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-29T10:17:04+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goodsinfo` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `goods` SET `goodsname`='荣耀v9',`category`='20',`brand`='4',`commend`='1',`cate`='10',`cate1`='1' WHERE `id` = 2 [ RunTime:0.0000s ]
+
+[ 2017-06-29T10:17:34+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `goodsinfo` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `goods` SET `goodsname`='荣耀v9',`category`='20',`brand`='4',`commend`='1',`cate`='10',`cate1`='1' WHERE `id` = 2 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-06-29T10:18:14+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goodsinfo` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `goods` SET `goodsname`='荣耀v9',`category`='20',`brand`='4',`commend`='1',`cate`='10',`cate1`='1' WHERE `id` = 2 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-06-29T10:19:24+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `goodsinfo` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `goods` SET `goodsname`='荣耀v9',`category`='20',`brand`='4',`commend`='1',`cate`='10',`cate1`='1' WHERE `id` = 2 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-06-29T10:20:35+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0060s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `goodsinfo` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `goods` SET `goodsname`='荣耀v9',`category`='20',`brand`='6',`commend`='1',`cate`='10',`cate1`='1' WHERE `id` = 2 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-06-29T10:22:16+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0050s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `goodsinfo` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `goods` SET `goodsname`='荣耀v9',`category`='20',`brand`='6',`commend`='1',`cate`='10',`cate1`='1' WHERE `id` = 2 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-06-29T10:22:43+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `goodsinfo` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `goods` SET `goodsname`='荣耀v9',`category`='20',`brand`='6',`commend`='1',`cate`='10',`cate1`='1' WHERE `id` = 2 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-06-29T10:23:32+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0050s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goodsinfo` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `goods` SET `goodsname`='荣耀v9',`category`='20',`brand`='6',`commend`='1',`cate`='10',`cate1`='1' WHERE `id` = 2 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-06-29T10:24:42+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goodsinfo` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `goods` SET `goodsname`='荣耀v9',`category`='20',`brand`='6',`commend`='1',`cate`='10',`cate1`='1' WHERE `id` = 2 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-06-29T10:25:18+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goodsinfo` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `goods` SET `goodsname`='荣耀v9',`category`='20',`brand`='6',`commend`='1',`cate`='10',`cate1`='1' WHERE `id` = 2 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-06-29T10:47:52+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `goodsinfo` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `goods` SET `goodsname`='荣耀v9',`category`='20',`brand`='6',`commend`='1',`cate`='10',`cate1`='1' WHERE `id` = 2 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-06-29T10:48:37+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0050s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goodsinfo` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `goods` SET `goodsname`='荣耀v9',`category`='20',`brand`='6',`commend`='1',`cate`='10',`cate1`='1' WHERE `id` = 2 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-06-29T10:49:41+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goodsinfo` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `goods` SET `goodsname`='荣耀v9',`category`='20',`brand`='6',`commend`='1',`cate`='10',`cate1`='1' WHERE `id` = 2 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-06-29T10:50:35+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `goodsinfo` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `goods` SET `goodsname`='荣耀v9',`category`='20',`brand`='6',`commend`='1',`cate`='10',`cate1`='1' WHERE `id` = 2 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-06-29T10:51:25+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `goodsinfo` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `goods` SET `goodsname`='荣耀v9',`category`='20',`brand`='6',`commend`='1',`cate`='10',`cate1`='1' WHERE `id` = 2 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-06-29T10:52:17+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0050s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `goodsinfo` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `goods` SET `goodsname`='荣耀v9',`category`='20',`brand`='6',`commend`='1',`cate`='10',`cate1`='1' WHERE `id` = 2 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-06-29T10:53:07+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `goodsinfo` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `goods` SET `goodsname`='荣耀v9',`category`='20',`brand`='6',`commend`='1',`cate`='10',`cate1`='1' WHERE `id` = 2 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-06-29T10:53:21+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goodsinfo` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `goods` SET `goodsname`='荣耀v9',`category`='20',`brand`='6',`commend`='1',`cate`='10',`cate1`='1' WHERE `id` = 2 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-06-29T10:54:30+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `goodsinfo` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `goods` SET `goodsname`='荣耀v9',`category`='20',`brand`='6',`commend`='1',`cate`='10',`cate1`='1' WHERE `id` = 2 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-06-29T10:55:00+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0050s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `goodsinfo` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `goods` SET `goodsname`='荣耀v9',`category`='20',`brand`='6',`commend`='1',`cate`='10',`cate1`='1' WHERE `id` = 2 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-06-29T10:55:40+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goodsinfo` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `goods` SET `goodsname`='荣耀v9',`category`='20',`brand`='6',`commend`='1',`cate`='10',`cate1`='1' WHERE `id` = 2 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `goodsinfo` SET `shopprice`='678.00',`marketprice`='768.00',`vipprice`='567.00',`property`='套餐类型:官方标配,套餐一,套餐二,套餐三;存储容量:64GB,128GB;购买方式:裸机,赠15元话费流量卡;网络类型:4G全网通',`count`='66',`ondate`='1496798646',`pdate`='1498094648',`isfree`='1',`carriage`='0.00',`status`='1',`service`='&lt;h3 style=&quot;margin: 0px; padding: 0px; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &amp;quot;microsoft yahei&amp;quot;;&quot;&gt;售后保障&lt;/h3&gt;&lt;ul style=&quot;margin: 0px; padding: 0px;&quot; class=&quot; list-paddingleft-2&quot;&gt;&lt;li&gt;&lt;p&gt;&lt;span class=&quot;goods&quot; style=&quot;margin: 0px; padding: 0px 10px 0px 0px; display: inline-block; width: 32px; height: 32px; line-height: 32px; vertical-align: bottom; background: url(&amp;quot;//static.360buyimg.com/item/default/1.0.32/components/detail/i/iconZP.png&amp;quot;) no-repeat;&quot;&gt;&lt;/span&gt;&amp;nbsp;&lt;strong style=&quot;margin: 0px; padding: 8px 0px 3px; display: inline-block;&quot;&gt;厂家服务&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;本产品全国联保，享受三包服务，质保期为：一年质保&lt;br/&gt;如因质量问题或故障，凭厂商维修中心或特约维修点的质量检测证明，享受7日内退货，15日内换货，15日以上在质保期内享受免费保修等三包服务！&lt;br/&gt;(注:如厂家在商品介绍中有售后保障的说明,则此商品按照厂家说明执行售后保障服务。) 您可以查询本品牌在各地售后服务中心的联系方式，&lt;a target=&quot;_blank&quot; href=&quot;http://www.huawei.com/cn/&quot; style=&quot;margin: 0px; padding: 0px; color: rgb(0, 90, 160); text-decoration-line: none;&quot;&gt;请点击这儿查询......&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;品牌官方网站：&lt;a target=&quot;_blank&quot; href=&quot;http://www.huawei.com/cn/&quot; style=&quot;margin: 0px; padding: 0px; color: rgb(0, 90, 160); text-decoration-line: none;&quot;&gt;http://www.huawei.com/cn/&lt;/a&gt;&lt;br/&gt;售后服务电话：400-830-8300&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span class=&quot;goods&quot; style=&quot;margin: 0px; padding: 0px 10px 0px 0px; display: inline-block; width: 32px; height: 32px; line-height: 32px; vertical-align: bottom; background: url(&amp;quot;//static.360buyimg.com/item/default/1.0.32/components/detail/i/iconZP.png&amp;quot;) no-repeat;&quot;&gt;&lt;/span&gt;&amp;nbsp;&lt;strong style=&quot;margin: 0px; padding: 8px 0px 3px; display: inline-block;&quot;&gt;京东承诺&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;京东平台卖家销售并发货的商品，由平台卖家提供发票和相应的售后服务。请您放心购买！&lt;br/&gt;注：因厂家会在没有任何提前通知的情况下更改产品包装、产地或者一些附件，本司不能确保客户收到的货物与商城图片、产地、附件说明完全一致。只能确保为原厂正货！并且保证与当时市场上同样主流新品一致。若本商城没有及时更新，请大家谅解！&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span class=&quot;goods&quot; style=&quot;margin: 0px; padding: 0px 10px 0px 0px; display: inline-block; width: 32px; height: 32px; line-height: 32px; vertical-align: bottom; background: url(&amp;quot;//static.360buyimg.com/item/default/1.0.32/components/detail/i/iconZP.png&amp;quot;) no-repeat;&quot;&gt;&lt;/span&gt;&lt;strong style=&quot;margin: 0px; padding: 8px 0px 3px; display: inline-block;&quot;&gt;正品行货&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;京东商城向您保证所售商品均为正品行货，京东自营商品开具机打发票或电子发票。&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span class=&quot;unprofor&quot; style=&quot;margin: 0px; padding: 0px 10px 0px 0px; display: inline-block; width: 32px; height: 32px; line-height: 32px; vertical-align: bottom; background: url(&amp;quot;//static.360buyimg.com/item/default/1.0.32/components/detail/i/iconLB.png&amp;quot;) no-repeat;&quot;&gt;&lt;/span&gt;&lt;strong style=&quot;margin: 0px; padding: 8px 0px 3px; display: inline-block;&quot;&gt;全国联保&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;凭质保证书及京东商城发票，可享受全国联保服务（奢侈品、钟表除外；奢侈品、钟表由京东联系保修，享受法定三包售后服务），与您亲临商场选购的商品享受相同的质量保证。京东商城还为您提供具有竞争力的商品价格和&lt;a href=&quot;https://help.jd.com/help/question-892.html&quot; target=&quot;_blank&quot; style=&quot;margin: 0px; padding: 0px; color: rgb(0, 90, 160); text-decoration-line: none;&quot;&gt;运费政策&lt;/a&gt;，请您放心购买！&amp;nbsp;&lt;br/&gt;&lt;br/&gt;注：因厂家会在没有任何提前通知的情况下更改产品包装、产地或者一些附件，本司不能确保客户收到的货物与商城图片、产地、附件说明完全一致。只能确保为原厂正货！并且保证与当时市场上同样主流新品一致。若本商城没有及时更新，请大家谅解！&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;',`info`='&lt;h3 style=&quot;margin: 0px; padding: 0px; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &amp;quot;microsoft yahei&amp;quot;;&quot;&gt;售后保障&lt;/h3&gt;&lt;ul style=&quot;margin: 0px; padding: 0px;&quot; class=&quot; list-paddingleft-2&quot;&gt;&lt;li&gt;&lt;p&gt;&lt;span class=&quot;goods&quot; style=&quot;margin: 0px; padding: 0px 10px 0px 0px; display: inline-block; width: 32px; height: 32px; line-height: 32px; vertical-align: bottom; background: url(&amp;quot;//static.360buyimg.com/item/default/1.0.32/components/detail/i/iconZP.png&amp;quot;) no-repeat;&quot;&gt;&lt;/span&gt;&amp;nbsp;&lt;strong style=&quot;margin: 0px; padding: 8px 0px 3px; display: inline-block;&quot;&gt;厂家服务&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;本产品全国联保，享受三包服务，质保期为：一年质保&lt;br/&gt;如因质量问题或故障，凭厂商维修中心或特约维修点的质量检测证明，享受7日内退货，15日内换货，15日以上在质保期内享受免费保修等三包服务！&lt;br/&gt;(注:如厂家在商品介绍中有售后保障的说明,则此商品按照厂家说明执行售后保障服务。) 您可以查询本品牌在各地售后服务中心的联系方式，&lt;a target=&quot;_blank&quot; href=&quot;http://www.huawei.com/cn/&quot; style=&quot;margin: 0px; padding: 0px; color: rgb(0, 90, 160); text-decoration-line: none;&quot;&gt;请点击这儿查询......&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;品牌官方网站：&lt;a target=&quot;_blank&quot; href=&quot;http://www.huawei.com/cn/&quot; style=&quot;margin: 0px; padding: 0px; color: rgb(0, 90, 160); text-decoration-line: none;&quot;&gt;http://www.huawei.com/cn/&lt;/a&gt;&lt;br/&gt;售后服务电话：400-830-8300&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span class=&quot;goods&quot; style=&quot;margin: 0px; padding: 0px 10px 0px 0px; display: inline-block; width: 32px; height: 32px; line-height: 32px; vertical-align: bottom; background: url(&amp;quot;//static.360buyimg.com/item/default/1.0.32/components/detail/i/iconZP.png&amp;quot;) no-repeat;&quot;&gt;&lt;/span&gt;&amp;nbsp;&lt;strong style=&quot;margin: 0px; padding: 8px 0px 3px; display: inline-block;&quot;&gt;京东承诺&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;京东平台卖家销售并发货的商品，由平台卖家提供发票和相应的售后服务。请您放心购买！&lt;br/&gt;注：因厂家会在没有任何提前通知的情况下更改产品包装、产地或者一些附件，本司不能确保客户收到的货物与商城图片、产地、附件说明完全一致。只能确保为原厂正货！并且保证与当时市场上同样主流新品一致。若本商城没有及时更新，请大家谅解！&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span class=&quot;goods&quot; style=&quot;margin: 0px; padding: 0px 10px 0px 0px; display: inline-block; width: 32px; height: 32px; line-height: 32px; vertical-align: bottom; background: url(&amp;quot;//static.360buyimg.com/item/default/1.0.32/components/detail/i/iconZP.png&amp;quot;) no-repeat;&quot;&gt;&lt;/span&gt;&lt;strong style=&quot;margin: 0px; padding: 8px 0px 3px; display: inline-block;&quot;&gt;正品行货&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;京东商城向您保证所售商品均为正品行货，京东自营商品开具机打发票或电子发票。&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span class=&quot;unprofor&quot; style=&quot;margin: 0px; padding: 0px 10px 0px 0px; display: inline-block; width: 32px; height: 32px; line-height: 32px; vertical-align: bottom; background: url(&amp;quot;//static.360buyimg.com/item/default/1.0.32/components/detail/i/iconLB.png&amp;quot;) no-repeat;&quot;&gt;&lt;/span&gt;&lt;strong style=&quot;margin: 0px; padding: 8px 0px 3px; display: inline-block;&quot;&gt;全国联保&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;凭质保证书及京东商城发票，可享受全国联保服务（奢侈品、钟表除外；奢侈品、钟表由京东联系保修，享受法定三包售后服务），与您亲临商场选购的商品享受相同的质量保证。京东商城还为您提供具有竞争力的商品价格和&lt;a href=&quot;https://help.jd.com/help/question-892.html&quot; target=&quot;_blank&quot; style=&quot;margin: 0px; padding: 0px; color: rgb(0, 90, 160); text-decoration-line: none;&quot;&gt;运费政策&lt;/a&gt;，请您放心购买！&amp;nbsp;&lt;br/&gt;&lt;br/&gt;注：因厂家会在没有任何提前通知的情况下更改产品包装、产地或者一些附件，本司不能确保客户收到的货物与商城图片、产地、附件说明完全一致。只能确保为原厂正货！并且保证与当时市场上同样主流新品一致。若本商城没有及时更新，请大家谅解！&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20170629/1498699517320629.jpg&quot; style=&quot;&quot; title=&quot;1498699517320629.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20170629/1498699517755336.jpg&quot; style=&quot;&quot; title=&quot;1498699517755336.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20170629/1498699517123341.jpg&quot; style=&quot;&quot; title=&quot;1498699517123341.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20170629/1498699517273208.jpg&quot; style=&quot;&quot; title=&quot;1498699517273208.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20170629/1498699517959178.jpg&quot; style=&quot;&quot; title=&quot;1498699517959178.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20170629/1498699517122881.jpg&quot; style=&quot;&quot; title=&quot;1498699517122881.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;',`goodsid`='2' WHERE `id` = 2 [ RunTime:0.0010s ]
+
+[ 2017-06-29T10:55:52+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `goodsinfo` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `goods` SET `goodsname`='荣耀v9',`category`='20',`brand`='6',`commend`='1',`cate`='10',`cate1`='1' WHERE `id` = 2 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `goodsinfo` SET `shopprice`='678.00',`marketprice`='768.00',`vipprice`='567.00',`property`='套餐类型:官方标配,套餐一,套餐二,套餐三;存储容量:64GB,128GB;购买方式:裸机,赠15元话费流量卡;网络类型:4G全网通',`count`='66',`ondate`='1496798646',`pdate`='1498094648',`isfree`='1',`carriage`='0.00',`status`='1',`service`='&lt;h3 style=&quot;margin: 0px; padding: 0px; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &amp;quot;microsoft yahei&amp;quot;;&quot;&gt;售后保障&lt;/h3&gt;&lt;ul style=&quot;margin: 0px; padding: 0px;&quot; class=&quot; list-paddingleft-2&quot;&gt;&lt;li&gt;&lt;p&gt;&lt;span class=&quot;goods&quot; style=&quot;margin: 0px; padding: 0px 10px 0px 0px; display: inline-block; width: 32px; height: 32px; line-height: 32px; vertical-align: bottom; background: url(&amp;quot;//static.360buyimg.com/item/default/1.0.32/components/detail/i/iconZP.png&amp;quot;) no-repeat;&quot;&gt;&lt;/span&gt;&amp;nbsp;&lt;strong style=&quot;margin: 0px; padding: 8px 0px 3px; display: inline-block;&quot;&gt;厂家服务&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;本产品全国联保，享受三包服务，质保期为：一年质保&lt;br/&gt;如因质量问题或故障，凭厂商维修中心或特约维修点的质量检测证明，享受7日内退货，15日内换货，15日以上在质保期内享受免费保修等三包服务！&lt;br/&gt;(注:如厂家在商品介绍中有售后保障的说明,则此商品按照厂家说明执行售后保障服务。) 您可以查询本品牌在各地售后服务中心的联系方式，&lt;a target=&quot;_blank&quot; href=&quot;http://www.huawei.com/cn/&quot; style=&quot;margin: 0px; padding: 0px; color: rgb(0, 90, 160); text-decoration-line: none;&quot;&gt;请点击这儿查询......&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;品牌官方网站：&lt;a target=&quot;_blank&quot; href=&quot;http://www.huawei.com/cn/&quot; style=&quot;margin: 0px; padding: 0px; color: rgb(0, 90, 160); text-decoration-line: none;&quot;&gt;http://www.huawei.com/cn/&lt;/a&gt;&lt;br/&gt;售后服务电话：400-830-8300&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span class=&quot;goods&quot; style=&quot;margin: 0px; padding: 0px 10px 0px 0px; display: inline-block; width: 32px; height: 32px; line-height: 32px; vertical-align: bottom; background: url(&amp;quot;//static.360buyimg.com/item/default/1.0.32/components/detail/i/iconZP.png&amp;quot;) no-repeat;&quot;&gt;&lt;/span&gt;&amp;nbsp;&lt;strong style=&quot;margin: 0px; padding: 8px 0px 3px; display: inline-block;&quot;&gt;京东承诺&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;京东平台卖家销售并发货的商品，由平台卖家提供发票和相应的售后服务。请您放心购买！&lt;br/&gt;注：因厂家会在没有任何提前通知的情况下更改产品包装、产地或者一些附件，本司不能确保客户收到的货物与商城图片、产地、附件说明完全一致。只能确保为原厂正货！并且保证与当时市场上同样主流新品一致。若本商城没有及时更新，请大家谅解！&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span class=&quot;goods&quot; style=&quot;margin: 0px; padding: 0px 10px 0px 0px; display: inline-block; width: 32px; height: 32px; line-height: 32px; vertical-align: bottom; background: url(&amp;quot;//static.360buyimg.com/item/default/1.0.32/components/detail/i/iconZP.png&amp;quot;) no-repeat;&quot;&gt;&lt;/span&gt;&lt;strong style=&quot;margin: 0px; padding: 8px 0px 3px; display: inline-block;&quot;&gt;正品行货&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;京东商城向您保证所售商品均为正品行货，京东自营商品开具机打发票或电子发票。&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span class=&quot;unprofor&quot; style=&quot;margin: 0px; padding: 0px 10px 0px 0px; display: inline-block; width: 32px; height: 32px; line-height: 32px; vertical-align: bottom; background: url(&amp;quot;//static.360buyimg.com/item/default/1.0.32/components/detail/i/iconLB.png&amp;quot;) no-repeat;&quot;&gt;&lt;/span&gt;&lt;strong style=&quot;margin: 0px; padding: 8px 0px 3px; display: inline-block;&quot;&gt;全国联保&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;凭质保证书及京东商城发票，可享受全国联保服务（奢侈品、钟表除外；奢侈品、钟表由京东联系保修，享受法定三包售后服务），与您亲临商场选购的商品享受相同的质量保证。京东商城还为您提供具有竞争力的商品价格和&lt;a href=&quot;https://help.jd.com/help/question-892.html&quot; target=&quot;_blank&quot; style=&quot;margin: 0px; padding: 0px; color: rgb(0, 90, 160); text-decoration-line: none;&quot;&gt;运费政策&lt;/a&gt;，请您放心购买！&amp;nbsp;&lt;br/&gt;&lt;br/&gt;注：因厂家会在没有任何提前通知的情况下更改产品包装、产地或者一些附件，本司不能确保客户收到的货物与商城图片、产地、附件说明完全一致。只能确保为原厂正货！并且保证与当时市场上同样主流新品一致。若本商城没有及时更新，请大家谅解！&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;',`info`='&lt;h3 style=&quot;margin: 0px; padding: 0px; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &amp;quot;microsoft yahei&amp;quot;;&quot;&gt;售后保障&lt;/h3&gt;&lt;ul style=&quot;margin: 0px; padding: 0px;&quot; class=&quot; list-paddingleft-2&quot;&gt;&lt;li&gt;&lt;p&gt;&lt;span class=&quot;goods&quot; style=&quot;margin: 0px; padding: 0px 10px 0px 0px; display: inline-block; width: 32px; height: 32px; line-height: 32px; vertical-align: bottom; background: url(&amp;quot;//static.360buyimg.com/item/default/1.0.32/components/detail/i/iconZP.png&amp;quot;) no-repeat;&quot;&gt;&lt;/span&gt;&amp;nbsp;&lt;strong style=&quot;margin: 0px; padding: 8px 0px 3px; display: inline-block;&quot;&gt;厂家服务&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;本产品全国联保，享受三包服务，质保期为：一年质保&lt;br/&gt;如因质量问题或故障，凭厂商维修中心或特约维修点的质量检测证明，享受7日内退货，15日内换货，15日以上在质保期内享受免费保修等三包服务！&lt;br/&gt;(注:如厂家在商品介绍中有售后保障的说明,则此商品按照厂家说明执行售后保障服务。) 您可以查询本品牌在各地售后服务中心的联系方式，&lt;a target=&quot;_blank&quot; href=&quot;http://www.huawei.com/cn/&quot; style=&quot;margin: 0px; padding: 0px; color: rgb(0, 90, 160); text-decoration-line: none;&quot;&gt;请点击这儿查询......&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;品牌官方网站：&lt;a target=&quot;_blank&quot; href=&quot;http://www.huawei.com/cn/&quot; style=&quot;margin: 0px; padding: 0px; color: rgb(0, 90, 160); text-decoration-line: none;&quot;&gt;http://www.huawei.com/cn/&lt;/a&gt;&lt;br/&gt;售后服务电话：400-830-8300&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span class=&quot;goods&quot; style=&quot;margin: 0px; padding: 0px 10px 0px 0px; display: inline-block; width: 32px; height: 32px; line-height: 32px; vertical-align: bottom; background: url(&amp;quot;//static.360buyimg.com/item/default/1.0.32/components/detail/i/iconZP.png&amp;quot;) no-repeat;&quot;&gt;&lt;/span&gt;&amp;nbsp;&lt;strong style=&quot;margin: 0px; padding: 8px 0px 3px; display: inline-block;&quot;&gt;京东承诺&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;京东平台卖家销售并发货的商品，由平台卖家提供发票和相应的售后服务。请您放心购买！&lt;br/&gt;注：因厂家会在没有任何提前通知的情况下更改产品包装、产地或者一些附件，本司不能确保客户收到的货物与商城图片、产地、附件说明完全一致。只能确保为原厂正货！并且保证与当时市场上同样主流新品一致。若本商城没有及时更新，请大家谅解！&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span class=&quot;goods&quot; style=&quot;margin: 0px; padding: 0px 10px 0px 0px; display: inline-block; width: 32px; height: 32px; line-height: 32px; vertical-align: bottom; background: url(&amp;quot;//static.360buyimg.com/item/default/1.0.32/components/detail/i/iconZP.png&amp;quot;) no-repeat;&quot;&gt;&lt;/span&gt;&lt;strong style=&quot;margin: 0px; padding: 8px 0px 3px; display: inline-block;&quot;&gt;正品行货&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;京东商城向您保证所售商品均为正品行货，京东自营商品开具机打发票或电子发票。&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span class=&quot;unprofor&quot; style=&quot;margin: 0px; padding: 0px 10px 0px 0px; display: inline-block; width: 32px; height: 32px; line-height: 32px; vertical-align: bottom; background: url(&amp;quot;//static.360buyimg.com/item/default/1.0.32/components/detail/i/iconLB.png&amp;quot;) no-repeat;&quot;&gt;&lt;/span&gt;&lt;strong style=&quot;margin: 0px; padding: 8px 0px 3px; display: inline-block;&quot;&gt;全国联保&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;凭质保证书及京东商城发票，可享受全国联保服务（奢侈品、钟表除外；奢侈品、钟表由京东联系保修，享受法定三包售后服务），与您亲临商场选购的商品享受相同的质量保证。京东商城还为您提供具有竞争力的商品价格和&lt;a href=&quot;https://help.jd.com/help/question-892.html&quot; target=&quot;_blank&quot; style=&quot;margin: 0px; padding: 0px; color: rgb(0, 90, 160); text-decoration-line: none;&quot;&gt;运费政策&lt;/a&gt;，请您放心购买！&amp;nbsp;&lt;br/&gt;&lt;br/&gt;注：因厂家会在没有任何提前通知的情况下更改产品包装、产地或者一些附件，本司不能确保客户收到的货物与商城图片、产地、附件说明完全一致。只能确保为原厂正货！并且保证与当时市场上同样主流新品一致。若本商城没有及时更新，请大家谅解！&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20170629/1498699517320629.jpg&quot; style=&quot;&quot; title=&quot;1498699517320629.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20170629/1498699517755336.jpg&quot; style=&quot;&quot; title=&quot;1498699517755336.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20170629/1498699517123341.jpg&quot; style=&quot;&quot; title=&quot;1498699517123341.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20170629/1498699517273208.jpg&quot; style=&quot;&quot; title=&quot;1498699517273208.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20170629/1498699517959178.jpg&quot; style=&quot;&quot; title=&quot;1498699517959178.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20170629/1498699517122881.jpg&quot; style=&quot;&quot; title=&quot;1498699517122881.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;',`goodsid`='2' WHERE `id` = 2 [ RunTime:0.0000s ]
+
+[ 2017-06-29T14:02:10+08:00 ] 127.0.0.1 /index.php/Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('3','电脑整机','电脑整机','1') [ RunTime:0.0010s ]
+
+[ 2017-06-29T14:02:23+08:00 ] 127.0.0.1 /index.php/Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0050s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('3','电脑配件','电脑配件','1') [ RunTime:0.0000s ]
+
+[ 2017-06-29T14:02:38+08:00 ] 127.0.0.1 /index.php/Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0150s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('3','游戏设备','游戏设备','1') [ RunTime:0.0010s ]
+
+[ 2017-06-29T14:02:59+08:00 ] 127.0.0.1 /index.php/Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('4','厨具','厨具','1') [ RunTime:0.0000s ]
+
+[ 2017-06-29T14:03:12+08:00 ] 127.0.0.1 /index.php/Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('4','灯具','灯具','1') [ RunTime:0.0010s ]
+
+[ 2017-06-29T14:03:25+08:00 ] 127.0.0.1 /index.php/Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('4','家纺','家纺','1') [ RunTime:0.0000s ]
+
+[ 2017-06-29T14:03:43+08:00 ] 127.0.0.1 /index.php/Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('5','男装','男装','1') [ RunTime:0.0000s ]
+
+[ 2017-06-29T14:03:53+08:00 ] 127.0.0.1 /index.php/Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('5','女装','女装','1') [ RunTime:0.0010s ]
+
+[ 2017-06-29T14:04:06+08:00 ] 127.0.0.1 /index.php/Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0050s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('5','内衣','内衣','1') [ RunTime:0.0010s ]
+
+[ 2017-06-29T14:04:17+08:00 ] 127.0.0.1 /index.php/Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0060s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('5','配饰','配饰','1') [ RunTime:0.0010s ]
+
+[ 2017-06-29T14:30:33+08:00 ] 127.0.0.1 /index.php/Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('2','电子教育','电子教育','1') [ RunTime:0.0000s ]
+
+[ 2017-06-29T14:30:49+08:00 ] 127.0.0.1 /index.php/Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0050s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('2','数码配件','数码配件','1') [ RunTime:0.0010s ]
+
+[ 2017-06-29T14:30:55+08:00 ] 127.0.0.1 /index.php/Admin/cate/getchild.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 2 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 50 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 51 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 52 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 53 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 54 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 55 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 79 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 80 AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2017-06-29T14:31:03+08:00 ] 127.0.0.1 /index.php/Admin/cate/getchild.html?id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0070s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 3 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 69 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 70 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 71 AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2017-06-29T14:31:25+08:00 ] 127.0.0.1 /index.php/Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0050s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('3','外设产品','外设产品','1') [ RunTime:0.0010s ]
+
+[ 2017-06-29T14:31:38+08:00 ] 127.0.0.1 /index.php/Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0050s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('3','网络产品','网络产品','1') [ RunTime:0.0000s ]
+
+[ 2017-06-29T14:32:08+08:00 ] 127.0.0.1 /index.php/Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('3','办公设备','办公设备','1') [ RunTime:0.0000s ]
+
+[ 2017-06-29T14:32:23+08:00 ] 127.0.0.1 /index.php/Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('3','文具耗材','文具耗材','1') [ RunTime:0.0020s ]
+
+[ 2017-06-29T15:30:50+08:00 ] 127.0.0.1 /index.php/Admin/cate/getchild.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0060s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 2 AND `status` = 1  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 50 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 51 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 52 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 53 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 54 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 55 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 79 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 80 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-29T15:31:16+08:00 ] 127.0.0.1 /index.php/Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0050s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('50','手机','手机','1') [ RunTime:0.0010s ]
+
+[ 2017-06-29T15:31:31+08:00 ] 127.0.0.1 /index.php/Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('50','对讲机','对讲机','1') [ RunTime:0.0000s ]
+
+[ 2017-06-29T15:34:46+08:00 ] 127.0.0.1 /index.php/Admin/cate/getchild.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 10 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 11 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 13 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 14 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 15 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 17 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 18 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 19 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-29T21:18:59+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0040s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`photo`,`remark`,`status`) VALUES ('华为','./Uploads/2017-06-29/1498742339_1040.jpg','华为','1') [ RunTime:0.0000s ]
+
+[ 2017-06-29T21:19:57+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0040s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`photo`,`remark`,`status`) VALUES ('小米','./Uploads/2017-06-29/1498742397_4464.jpg','小米','1') [ RunTime:0.0000s ]
+
+[ 2017-06-29T21:20:46+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0040s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`photo`,`remark`,`status`) VALUES ('三星','./Uploads/2017-06-29/1498742446_2750.jpg','三星','1') [ RunTime:0.0000s ]
+
+[ 2017-06-29T21:20:57+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0030s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`photo`,`remark`,`status`) VALUES ('格力','./Uploads/2017-06-29/1498742457_6223.jpg','格力','1') [ RunTime:0.0010s ]
+
+[ 2017-06-29T21:21:21+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0040s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`photo`,`remark`,`status`) VALUES ('创维','./Uploads/2017-06-29/1498742481_1666.jpg','创维','1') [ RunTime:0.0000s ]
+
+[ 2017-06-29T21:21:39+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0040s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`photo`,`remark`,`status`) VALUES ('戴尔','./Uploads/2017-06-29/1498742499_8238.jpg','戴尔','1') [ RunTime:0.0010s ]
+
+[ 2017-06-29T21:21:53+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0040s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`photo`,`remark`,`status`) VALUES ('海信','./Uploads/2017-06-29/1498742513_1080.jpg','海信','1') [ RunTime:0.0010s ]
+
+[ 2017-06-29T21:22:26+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0040s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`photo`,`remark`,`status`) VALUES ('宏碁','./Uploads/2017-06-29/1498742546_2101.jpg','宏碁','1') [ RunTime:0.0000s ]
+
+[ 2017-06-29T21:22:39+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0050s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0030s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`photo`,`remark`,`status`) VALUES ('OPPO','./Uploads/2017-06-29/1498742559_2949.jpg','OPPO','1') [ RunTime:0.0000s ]
+
+[ 2017-06-29T21:23:03+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0040s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`photo`,`remark`,`status`) VALUES ('夏普','./Uploads/2017-06-29/1498742583_4840.jpg','夏普','1') [ RunTime:0.0000s ]
+
+[ 2017-06-29T21:23:24+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0050s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`photo`,`remark`,`status`) VALUES ('华硕','./Uploads/2017-06-29/1498742604_6421.jpg','华硕','1') [ RunTime:0.0010s ]
+
+[ 2017-06-29T21:23:43+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0050s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`photo`,`remark`,`status`) VALUES ('东芝','./Uploads/2017-06-29/1498742623_1557.jpg','东芝','1') [ RunTime:0.0000s ]
+
+[ 2017-06-29T21:25:00+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0040s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`photo`,`remark`,`status`) VALUES ('魅族','./Uploads/2017-06-29/1498742700_2607.jpg','魅族','1') [ RunTime:0.0010s ]
+
+[ 2017-06-29T21:25:14+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0050s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`photo`,`remark`,`status`) VALUES ('长虹','./Uploads/2017-06-29/1498742714_4555.jpg','长虹','1') [ RunTime:0.0000s ]
+
+[ 2017-06-29T21:25:24+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0030s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`photo`,`remark`,`status`) VALUES ('飞利浦','./Uploads/2017-06-29/1498742724_6235.jpg','飞利浦','1') [ RunTime:0.0000s ]
+
+[ 2017-06-29T21:25:35+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0040s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`photo`,`remark`,`status`) VALUES ('美的','./Uploads/2017-06-29/1498742735_9231.jpg','美的','1') [ RunTime:0.0000s ]
+
+[ 2017-06-29T21:25:50+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0040s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`photo`,`remark`,`status`) VALUES ('惠普','./Uploads/2017-06-29/1498742750_8966.jpg','惠普','1') [ RunTime:0.0010s ]
+
+[ 2017-06-29T21:26:07+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0030s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`photo`,`remark`,`status`) VALUES ('诺基亚','./Uploads/2017-06-29/1498742767_2601.jpg','诺基亚','1') [ RunTime:0.0000s ]
+
+[ 2017-06-29T21:26:42+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0050s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0030s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`photo`,`remark`,`status`) VALUES ('vivo','./Uploads/2017-06-29/1498742802_7285.jpg','vivo','1') [ RunTime:0.0000s ]
+
+[ 2017-06-29T21:27:07+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0030s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`photo`,`remark`,`status`) VALUES ('海尔','./Uploads/2017-06-29/1498742827_4247.jpg','海尔','1') [ RunTime:0.0010s ]
+
+[ 2017-06-29T21:27:17+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0030s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`photo`,`remark`,`status`) VALUES ('苹果','./Uploads/2017-06-29/1498742837_9396.jpg','苹果','1') [ RunTime:0.0010s ]
+
+[ 2017-06-29T21:27:30+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0030s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`photo`,`remark`,`status`) VALUES ('索尼','./Uploads/2017-06-29/1498742850_6026.jpg','索尼','1') [ RunTime:0.0010s ]
+
+[ 2017-06-29T21:27:52+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0030s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`photo`,`remark`,`status`) VALUES ('神舟','./Uploads/2017-06-29/1498742872_1000.jpg','神舟','1') [ RunTime:0.0010s ]
+
+[ 2017-06-29T21:28:16+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0050s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`photo`,`remark`,`status`) VALUES ('联想','./Uploads/2017-06-29/1498742896_3801.jpg','联想','1') [ RunTime:0.0000s ]
+
+[ 2017-06-29T21:29:23+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0050s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0050s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`photo`,`remark`,`status`) VALUES ('乐视','./Uploads/2017-06-29/1498742963_1813.jpg','乐视','1') [ RunTime:0.0000s ]
+
+[ 2017-06-29T21:29:34+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0030s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`photo`,`remark`,`status`) VALUES ('松下','./Uploads/2017-06-29/1498742974_2198.jpg','松下','1') [ RunTime:0.0000s ]
+
+[ 2017-06-29T21:29:49+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0050s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0030s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`photo`,`remark`,`status`) VALUES ('康佳','./Uploads/2017-06-29/1498742989_5903.jpg','康佳','1') [ RunTime:0.0010s ]
+
+[ 2017-06-29T21:30:17+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0040s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`photo`,`remark`,`status`) VALUES ('努比亚','./Uploads/2017-06-29/1498743017_8423.jpg','努比亚','1') [ RunTime:0.0000s ]
+

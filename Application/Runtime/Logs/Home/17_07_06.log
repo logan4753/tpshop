@@ -1,0 +1,1461 @@
+[ 2017-07-06T08:46:46+08:00 ] 127.0.0.1 /index.php/cart/dopay.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-06T08:46:52+08:00 ] 127.0.0.1 /index.php/cart/dopay.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-06T08:48:10+08:00 ] 127.0.0.1 /index.php/cart/orderpay.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-06T08:49:20+08:00 ] 127.0.0.1 /index.php/cart/orderpay.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-06T09:16:44+08:00 ] 127.0.0.1 /index.php/cart/dosend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0030s ]
+SQL: UPDATE `saleorder` SET `send`='3' WHERE `id` = 2 [ RunTime:0.0110s ]
+
+[ 2017-07-06T09:23:30+08:00 ] 127.0.0.1 /index.php/cart/dopay.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-07-06T09:23:32+08:00 ] 127.0.0.1 /index.php/cart/dopay.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-06T09:23:38+08:00 ] 127.0.0.1 /index.php/cart/dopay.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-06T09:23:51+08:00 ] 127.0.0.1 /index.php/cart/dopay.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `saleorder` WHERE `ordernum` = '2017070514511489746' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `saleorder` SET `ispay`='1' WHERE `id` = 2 [ RunTime:0.0040s ]
+
+[ 2017-07-06T09:25:02+08:00 ] 127.0.0.1 /index.php/cart/dosend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0040s ]
+SQL: UPDATE `saleorder` SET `send`='3' WHERE `id` = 2 [ RunTime:0.0040s ]
+
+[ 2017-07-06T09:26:18+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-06T09:27:20+08:00 ] 127.0.0.1 /index.php/cart/cartadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cartitem` WHERE `goodsid` = 5 AND `userid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `cartitem` (`goodsid`,`gcount`,`userid`) VALUES ('5','1','1') [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-06T09:27:26+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-06T09:29:51+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-06T09:31:06+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-06T09:32:43+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-06T09:35:27+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-06T09:35:28+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-06T09:35:32+08:00 ] 127.0.0.1 /index.php/user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-06T09:35:37+08:00 ] 127.0.0.1 /index.php/user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-06T09:35:43+08:00 ] 127.0.0.1 /index.php/user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-06T09:45:33+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-06T09:45:34+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-07-06T09:45:34+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-07-06T09:45:54+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-06T09:47:45+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-06T09:48:55+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-06T09:48:55+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-06T09:48:56+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-07-06T09:49:09+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-07-06T09:49:43+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-06T09:49:44+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-06T09:49:47+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 5  [ RunTime:0.0010s ]
+
+[ 2017-07-06T09:49:48+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 64  [ RunTime:0.0010s ]
+
+[ 2017-07-06T09:50:11+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-06T09:50:12+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-06T09:50:12+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-06T09:50:45+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-06T09:50:46+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-06T09:50:49+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-06T09:50:55+08:00 ] 127.0.0.1 /index.php/user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: rel D:\phpStudy\WWW\tpshop\Application\Home\Controller\UserController.class.php 第 83 行.
+
+[ 2017-07-06T09:52:18+08:00 ] 127.0.0.1 /index.php/user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: rel D:\phpStudy\WWW\tpshop\Application\Home\Controller\UserController.class.php 第 83 行.
+
+[ 2017-07-06T09:52:25+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-06T09:52:26+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-06T09:52:29+08:00 ] 127.0.0.1 /index.php/user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: rel D:\phpStudy\WWW\tpshop\Application\Home\Controller\UserController.class.php 第 83 行.
+
+[ 2017-07-06T09:53:41+08:00 ] 127.0.0.1 /index.php/user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-06T09:54:41+08:00 ] 127.0.0.1 /index.php/user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 2 [ RunTime:0.0000s ]
+
+[ 2017-07-06T09:55:07+08:00 ] 127.0.0.1 /index.php/user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 2 [ RunTime:0.0000s ]
+
+[ 2017-07-06T09:55:13+08:00 ] 127.0.0.1 /index.php/user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小明',`postcode`='',`address`='北京北京海淀区',`addressinfo`='学清路汉华世纪大厦',`tel`='13578975643',`status`='2' WHERE `id` = 2 [ RunTime:0.0010s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0000s ]
+
+[ 2017-07-06T09:59:26+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-06T09:59:26+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-06T09:59:26+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-06T09:59:28+08:00 ] 127.0.0.1 /index.php/user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小明',`postcode`='',`address`='北京北京海淀区',`addressinfo`='学清路23号汉华世纪大厦',`tel`='13575647893',`status`='2' WHERE `id` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 2 [ RunTime:0.0000s ]
+
+[ 2017-07-06T09:59:38+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-06T10:01:11+08:00 ] 127.0.0.1 /index.php/user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小明',`postcode`='',`address`='北京北京海淀区',`addressinfo`='学清路汉华世纪大厦',`tel`='13578975643',`status`='2' WHERE `id` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0000s ]
+
+[ 2017-07-06T10:01:20+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-06T10:01:22+08:00 ] 127.0.0.1 /index.php/user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小明',`postcode`='',`address`='北京北京海淀区',`addressinfo`='学清路23号汉华世纪大厦',`tel`='13575647893',`status`='2' WHERE `id` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 2 [ RunTime:0.0000s ]
+
+[ 2017-07-06T10:01:25+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-06T10:01:29+08:00 ] 127.0.0.1 /index.php/user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小明',`postcode`='',`address`='北京北京海淀区',`addressinfo`='学清路汉华世纪大厦',`tel`='13578975643',`status`='2' WHERE `id` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0010s ]
+
+[ 2017-07-06T10:01:31+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-06T10:01:37+08:00 ] 127.0.0.1 /index.php/user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小明',`postcode`='',`address`='北京北京海淀区',`addressinfo`='学清路23号汉华世纪大厦',`tel`='13575647893',`status`='2' WHERE `id` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 2 [ RunTime:0.0000s ]
+
+[ 2017-07-06T10:01:38+08:00 ] 127.0.0.1 /index.php/user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小明',`postcode`='',`address`='北京北京海淀区',`addressinfo`='学清路汉华世纪大厦',`tel`='13578975643',`status`='2' WHERE `id` = 2 [ RunTime:0.0010s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 2 [ RunTime:0.0000s ]
+
+[ 2017-07-06T10:01:38+08:00 ] 127.0.0.1 /index.php/user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小明',`postcode`='',`address`='北京北京海淀区',`addressinfo`='学清路汉华世纪大厦',`tel`='13578975643',`status`='2' WHERE `id` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 2 [ RunTime:0.0000s ]
+
+[ 2017-07-06T10:01:40+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-06T10:02:52+08:00 ] 127.0.0.1 /index.php/user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小明',`postcode`='',`address`='北京北京海淀区',`addressinfo`='学清路汉华世纪大厦',`tel`='13578975643',`status`='2' WHERE `id` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0000s ]
+
+[ 2017-07-06T10:02:53+08:00 ] 127.0.0.1 /index.php/user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小明',`postcode`='',`address`='北京北京海淀区',`addressinfo`='学清路23号汉华世纪大厦',`tel`='13575647893',`status`='2' WHERE `id` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0000s ]
+
+[ 2017-07-06T10:02:53+08:00 ] 127.0.0.1 /index.php/user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小明',`postcode`='',`address`='北京北京海淀区',`addressinfo`='学清路23号汉华世纪大厦',`tel`='13575647893',`status`='2' WHERE `id` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0000s ]
+
+[ 2017-07-06T10:02:53+08:00 ] 127.0.0.1 /index.php/user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小明',`postcode`='',`address`='北京北京海淀区',`addressinfo`='学清路23号汉华世纪大厦',`tel`='13575647893',`status`='2' WHERE `id` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0000s ]
+
+[ 2017-07-06T10:02:55+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-06T10:07:36+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-06T10:07:37+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-06T10:07:40+08:00 ] 127.0.0.1 /index.php/user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小明',`postcode`='',`address`='北京北京海淀区',`addressinfo`='学清路23号汉华世纪大厦',`tel`='13575647893',`status`='2' WHERE `id` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 2 [ RunTime:0.0000s ]
+
+[ 2017-07-06T10:08:22+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-06T10:08:23+08:00 ] 127.0.0.1 /index.php/user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小明',`postcode`='',`address`='北京北京海淀区',`addressinfo`='学清路汉华世纪大厦',`tel`='13578975643',`status`='2' WHERE `id` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0010s ]
+
+[ 2017-07-06T10:09:22+08:00 ] 127.0.0.1 /index.php/user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小明',`postcode`='',`address`='北京北京海淀区',`addressinfo`='学清路23号汉华世纪大厦',`tel`='13575647893',`status`='2' WHERE `id` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0000s ]
+
+[ 2017-07-06T10:09:22+08:00 ] 127.0.0.1 /index.php/user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小明',`postcode`='',`address`='北京北京海淀区',`addressinfo`='学清路23号汉华世纪大厦',`tel`='13575647893',`status`='2' WHERE `id` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0000s ]
+
+[ 2017-07-06T10:09:24+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-06T10:09:26+08:00 ] 127.0.0.1 /index.php/user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小明',`postcode`='',`address`='北京北京海淀区',`addressinfo`='学清路23号汉华世纪大厦',`tel`='13575647893',`status`='2' WHERE `id` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 2 [ RunTime:0.0000s ]
+
+[ 2017-07-06T10:09:28+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-06T10:11:10+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-06T10:11:12+08:00 ] 127.0.0.1 /index.php/user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小明',`postcode`='',`address`='北京北京海淀区',`addressinfo`='学清路汉华世纪大厦',`tel`='13578975643',`status`='2' WHERE `id` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0010s ]
+
+[ 2017-07-06T10:11:38+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-06T10:11:39+08:00 ] 127.0.0.1 /index.php/user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小明',`postcode`='',`address`='北京北京海淀区',`addressinfo`='学清路23号汉华世纪大厦',`tel`='13575647893',`status`='2' WHERE `id` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 2 [ RunTime:0.0000s ]
+
+[ 2017-07-06T10:11:52+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-06T10:11:54+08:00 ] 127.0.0.1 /index.php/user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小明',`postcode`='',`address`='北京北京海淀区',`addressinfo`='学清路汉华世纪大厦',`tel`='13578975643',`status`='2' WHERE `id` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0000s ]
+
+[ 2017-07-06T10:12:29+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-06T10:12:30+08:00 ] 127.0.0.1 /index.php/user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小明',`postcode`='',`address`='北京北京海淀区',`addressinfo`='学清路23号汉华世纪大厦',`tel`='13575647893',`status`='2' WHERE `id` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 2 [ RunTime:0.0000s ]
+
+[ 2017-07-06T10:12:42+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0020s ]
+
+[ 2017-07-06T10:12:44+08:00 ] 127.0.0.1 /index.php/user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小明',`postcode`='',`address`='北京北京海淀区',`addressinfo`='学清路汉华世纪大厦',`tel`='13578975643',`status`='2' WHERE `id` = 2 [ RunTime:0.0010s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0000s ]
+
+[ 2017-07-06T10:14:02+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-06T10:14:02+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-06T10:14:04+08:00 ] 127.0.0.1 /index.php/user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小明',`postcode`='',`address`='北京北京海淀区',`addressinfo`='学清路23号汉华世纪大厦',`tel`='13575647893',`status`='2' WHERE `id` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 2 [ RunTime:0.0000s ]
+
+[ 2017-07-06T10:14:58+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0020s ]
+
+[ 2017-07-06T10:15:00+08:00 ] 127.0.0.1 /index.php/user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小明',`postcode`='',`address`='北京北京海淀区',`addressinfo`='学清路汉华世纪大厦',`tel`='13578975643',`status`='2' WHERE `id` = 2 [ RunTime:0.0010s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0000s ]
+
+[ 2017-07-06T10:17:13+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-06T10:17:13+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-06T10:17:15+08:00 ] 127.0.0.1 /index.php/user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小明',`postcode`='',`address`='北京北京海淀区',`addressinfo`='学清路23号汉华世纪大厦',`tel`='13575647893',`status`='2' WHERE `id` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 2 [ RunTime:0.0000s ]
+
+[ 2017-07-06T10:17:17+08:00 ] 127.0.0.1 /index.php/user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小明',`postcode`='',`address`='北京北京海淀区',`addressinfo`='学清路汉华世纪大厦',`tel`='13578975643',`status`='2' WHERE `id` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 2 [ RunTime:0.0010s ]
+
+[ 2017-07-06T10:17:18+08:00 ] 127.0.0.1 /index.php/user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小明',`postcode`='',`address`='北京北京海淀区',`addressinfo`='学清路汉华世纪大厦',`tel`='13578975643',`status`='2' WHERE `id` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 2 [ RunTime:0.0010s ]
+
+[ 2017-07-06T10:17:21+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-06T10:17:22+08:00 ] 127.0.0.1 /index.php/user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小明',`postcode`='',`address`='北京北京海淀区',`addressinfo`='学清路汉华世纪大厦',`tel`='13578975643',`status`='2' WHERE `id` = 2 [ RunTime:0.0010s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0000s ]
+
+[ 2017-07-06T10:17:25+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-06T10:17:26+08:00 ] 127.0.0.1 /index.php/user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小明',`postcode`='',`address`='北京北京海淀区',`addressinfo`='学清路23号汉华世纪大厦',`tel`='13575647893',`status`='2' WHERE `id` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 2 [ RunTime:0.0000s ]
+
+[ 2017-07-06T10:17:28+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-06T10:17:37+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-06T10:17:49+08:00 ] 127.0.0.1 /index.php/user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小明',`postcode`='',`address`='北京北京海淀区',`addressinfo`='学清路汉华世纪大厦',`tel`='13578975643',`status`='2' WHERE `id` = 2 [ RunTime:0.0010s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0000s ]
+
+[ 2017-07-06T10:17:50+08:00 ] 127.0.0.1 /index.php/user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小明',`postcode`='',`address`='北京北京海淀区',`addressinfo`='学清路23号汉华世纪大厦',`tel`='13575647893',`status`='2' WHERE `id` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 2 [ RunTime:0.0000s ]
+
+[ 2017-07-06T10:17:53+08:00 ] 127.0.0.1 /index.php/user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小明',`postcode`='',`address`='北京北京海淀区',`addressinfo`='学清路汉华世纪大厦',`tel`='13578975643',`status`='2' WHERE `id` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 2 [ RunTime:0.0000s ]
+
+[ 2017-07-06T10:17:55+08:00 ] 127.0.0.1 /index.php/user/setsta.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `address` WHERE `userid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `userid`='1',`recieve`='小明',`postcode`='',`address`='北京北京海淀区',`addressinfo`='学清路汉华世纪大厦',`tel`='13578975643',`status`='2' WHERE `id` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `address` SET `status`='1' WHERE `id` = 2 [ RunTime:0.0000s ]
+
+[ 2017-07-06T10:17:57+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-06T10:28:26+08:00 ] 127.0.0.1 /index.php/cart/orderadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cartitem` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `salesitem` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `address` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cartitem` WHERE `userid` = 1 AND `isorder` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `goodsname` FROM `goods` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `shopprice` FROM `goods` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `image` FROM `goods` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `saleorder` (`ordernum`,`userid`,`address`,`recieve`,`tel`,`odate`,`allprice`,`remark`) VALUES ('2017070610282646179','1','北京北京海淀区学清路汉华世纪大厦','小明','13578975643','1499308106','1399','春眠不觉晓，处处闻啼鸟。') [ RunTime:0.0000s ]
+SQL: INSERT INTO `salesitem` (`goodsid`,`gname`,`gprice`,`gimage`,`gcount`,`orderid`) VALUES ('5','荣耀8 青春版 手机 魅海蓝 全网通4G(4G RAM+32G ROM)标配','1399.00','/Public/Uploads/2017-06-30/1498813159_9951.jpg','1','4') [ RunTime:0.0010s ]
+SQL: UPDATE `cartitem` SET `isorder`='2' WHERE `id` IN ('5') [ RunTime:0.0000s ]
+
+[ 2017-07-06T10:28:37+08:00 ] 127.0.0.1 /index.php/cart/dopay.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `saleorder` WHERE `ordernum` = '2017070519521698440' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `saleorder` SET `ispay`='1' WHERE `id` = 3 [ RunTime:0.0050s ]
+
+[ 2017-07-06T10:34:07+08:00 ] 127.0.0.1 /index.php/cart/dosend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0040s ]
+SQL: UPDATE `saleorder` SET `send`='3' WHERE `id` = 2 [ RunTime:0.0040s ]
+
+[ 2017-07-06T10:41:24+08:00 ] 127.0.0.1 /index.php/user/js/pub.js
+ERR: 非法操作:js
+
+[ 2017-07-06T10:41:24+08:00 ] 127.0.0.1 /index.php/user/js/content.js
+ERR: 非法操作:js
+
+[ 2017-07-06T10:50:36+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-06T11:21:00+08:00 ] 127.0.0.1 /index.php/user/uncollect.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `collect` [ RunTime:0.0040s ]
+SQL: DELETE FROM `collect` WHERE `id` = 6 [ RunTime:0.0000s ]
+
+[ 2017-07-06T11:21:08+08:00 ] 127.0.0.1 /index.php/user/uncollect.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `collect` [ RunTime:0.0040s ]
+SQL: DELETE FROM `collect` WHERE `id` = 6 [ RunTime:0.0010s ]
+
+[ 2017-07-06T11:27:19+08:00 ] 127.0.0.1 /index.php/user/mycollect.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id`,`goodsname`,`shopprice`,`image`,`comment` FROM `goods` WHERE `id` IN () 
+
+[ 2017-07-06T11:33:14+08:00 ] 127.0.0.1 /index.php/user/uncollect.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `collect` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `collect` WHERE `userid` = 1 AND `goodsid` = 6 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-07-06T11:33:53+08:00 ] 127.0.0.1 /index.php/user/uncollect.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `collect` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `collect` WHERE `userid` = 1 AND `goodsid` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `collect` WHERE `id` = 3 [ RunTime:0.0000s ]
+
+[ 2017-07-06T11:33:58+08:00 ] 127.0.0.1 /index.php/user/uncollect.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `collect` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `collect` WHERE `userid` = 1 AND `goodsid` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: DELETE FROM `collect` WHERE `id` = 2 [ RunTime:0.0000s ]
+
+[ 2017-07-06T11:44:36+08:00 ] 127.0.0.1 /index.php/user/addcol.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `collect` [ RunTime:0.0030s ]
+
+[ 2017-07-06T11:44:40+08:00 ] 127.0.0.1 /index.php/user/addcol.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `collect` [ RunTime:0.0050s ]
+
+[ 2017-07-06T11:47:13+08:00 ] 127.0.0.1 /index.php/user/addcol.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-06T11:47:23+08:00 ] 127.0.0.1 /index.php/user/addcol.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `collect` [ RunTime:0.0030s ]
+
+[ 2017-07-06T12:18:49+08:00 ] 127.0.0.1 /index.php/user/addcol.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `collect` [ RunTime:0.0040s ]
+SQL: INSERT INTO `collect` (`userid`,`goodsid`) VALUES ('1','5') [ RunTime:0.0010s ]
+
+[ 2017-07-06T12:19:05+08:00 ] 127.0.0.1 /index.php/user/addcol.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `collect` [ RunTime:0.0070s ]
+SQL: INSERT INTO `collect` (`userid`,`goodsid`) VALUES ('1','3') [ RunTime:0.0010s ]
+
+[ 2017-07-06T12:19:11+08:00 ] 127.0.0.1 /index.php/user/uncollect.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `collect` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `collect` WHERE `userid` = 1 AND `goodsid` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `collect` WHERE `id` = 4 [ RunTime:0.0000s ]
+
+[ 2017-07-06T12:19:12+08:00 ] 127.0.0.1 /index.php/user/uncollect.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `collect` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `collect` WHERE `userid` = 1 AND `goodsid` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `collect` WHERE `id` = 5 [ RunTime:0.0000s ]
+
+[ 2017-07-06T12:19:15+08:00 ] 127.0.0.1 /index.php/user/addcol.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `collect` [ RunTime:0.0030s ]
+SQL: INSERT INTO `collect` (`userid`,`goodsid`) VALUES ('1','2') [ RunTime:0.0010s ]
+
+[ 2017-07-06T12:26:46+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-06T12:26:51+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 3  [ RunTime:0.0010s ]
+
+[ 2017-07-06T12:26:52+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 37  [ RunTime:0.0000s ]
+
+[ 2017-07-06T12:27:01+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-06T12:27:06+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-06T12:27:13+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-06T12:27:17+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-06T12:29:34+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-06T12:29:35+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-06T12:29:37+08:00 ] 127.0.0.1 /index.php/user/js/pub.js
+ERR: 非法操作:js
+
+[ 2017-07-06T12:29:37+08:00 ] 127.0.0.1 /index.php/user/js/content.js
+ERR: 非法操作:js
+
+[ 2017-07-06T12:29:37+08:00 ] 127.0.0.1 /index.php/user/js/pub.js
+ERR: 非法操作:js
+
+[ 2017-07-06T12:29:37+08:00 ] 127.0.0.1 /index.php/user/js/content.js
+ERR: 非法操作:js
+
+[ 2017-07-06T15:14:13+08:00 ] 127.0.0.1 /index.php/user/addcol.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `collect` [ RunTime:0.0030s ]
+SQL: INSERT INTO `collect` (`userid`,`goodsid`) VALUES ('1','1') [ RunTime:0.0000s ]
+
+[ 2017-07-06T15:14:13+08:00 ] 127.0.0.1 /index.php/user/addcol.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `collect` [ RunTime:0.0030s ]
+SQL: INSERT INTO `collect` (`userid`,`goodsid`) VALUES ('1','1') [ RunTime:0.0000s ]
+
+[ 2017-07-06T15:14:13+08:00 ] 127.0.0.1 /index.php/user/addcol.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `collect` [ RunTime:0.0030s ]
+SQL: INSERT INTO `collect` (`userid`,`goodsid`) VALUES ('1','1') [ RunTime:0.0000s ]
+
+[ 2017-07-06T15:14:14+08:00 ] 127.0.0.1 /index.php/user/addcol.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `collect` [ RunTime:0.0050s ]
+SQL: INSERT INTO `collect` (`userid`,`goodsid`) VALUES ('1','1') [ RunTime:0.0010s ]
+
+[ 2017-07-06T15:14:14+08:00 ] 127.0.0.1 /index.php/user/addcol.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `collect` [ RunTime:0.0030s ]
+SQL: INSERT INTO `collect` (`userid`,`goodsid`) VALUES ('1','1') [ RunTime:0.0000s ]
+
+[ 2017-07-06T15:14:14+08:00 ] 127.0.0.1 /index.php/user/addcol.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `collect` [ RunTime:0.0030s ]
+SQL: INSERT INTO `collect` (`userid`,`goodsid`) VALUES ('1','1') [ RunTime:0.0000s ]
+
+[ 2017-07-06T15:14:40+08:00 ] 127.0.0.1 /index.php/user/mycollect.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id`,`goodsname`,`shopprice`,`image`,`comment` FROM `goods` WHERE `id` IN () 
+
+[ 2017-07-06T15:26:06+08:00 ] 127.0.0.1 /index.php/user/addcol.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `collect` [ RunTime:0.0030s ]
+SQL: INSERT INTO `collect` (`userid`,`goodsid`) VALUES ('1','1') [ RunTime:0.0000s ]
+
+[ 2017-07-06T15:35:04+08:00 ] 127.0.0.1 /index.php/user/addcol.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `collect` [ RunTime:0.0070s ]
+
+[ 2017-07-06T15:36:35+08:00 ] 127.0.0.1 /index.php/user/addcol.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `collect` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `collect` WHERE `userid` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-06T15:37:40+08:00 ] 127.0.0.1 /index.php/user/addcol.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `collect` [ RunTime:0.0030s ]
+SQL: SELECT `goodsid` FROM `collect` WHERE `userid` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-06T15:38:10+08:00 ] 127.0.0.1 /index.php/user/addcol.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `collect` [ RunTime:0.0030s ]
+SQL: SELECT `goodsid` FROM `collect` WHERE `userid` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-06T15:41:58+08:00 ] 127.0.0.1 /index.php/user/addcol.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `collect` [ RunTime:0.0030s ]
+SQL: SELECT `goodsid` FROM `collect` WHERE `userid` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-06T15:42:01+08:00 ] 127.0.0.1 /index.php/user/addcol.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `collect` [ RunTime:0.0030s ]
+SQL: SELECT `goodsid` FROM `collect` WHERE `userid` = 1  [ RunTime:0.0010s ]
+SQL: INSERT INTO `collect` (`userid`,`goodsid`) VALUES ('1','2') [ RunTime:0.0000s ]
+
+[ 2017-07-06T15:42:02+08:00 ] 127.0.0.1 /index.php/user/addcol.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `collect` [ RunTime:0.0040s ]
+SQL: SELECT `goodsid` FROM `collect` WHERE `userid` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-06T15:42:18+08:00 ] 127.0.0.1 /index.php/user/uncollect.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `collect` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `collect` WHERE `userid` = 1 AND `goodsid` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: DELETE FROM `collect` WHERE `id` = 4 [ RunTime:0.0000s ]
+
+[ 2017-07-06T15:42:19+08:00 ] 127.0.0.1 /index.php/user/uncollect.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `collect` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `collect` WHERE `userid` = 1 AND `goodsid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `collect` WHERE `id` = 3 [ RunTime:0.0000s ]
+
+[ 2017-07-06T15:42:36+08:00 ] 127.0.0.1 /index.php/user/addcol.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `collect` [ RunTime:0.0040s ]
+SQL: SELECT `goodsid` FROM `collect` WHERE `userid` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-06T15:42:36+08:00 ] 127.0.0.1 /index.php/user/addcol.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `collect` [ RunTime:0.0040s ]
+SQL: SELECT `goodsid` FROM `collect` WHERE `userid` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-06T15:42:37+08:00 ] 127.0.0.1 /index.php/user/addcol.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `collect` [ RunTime:0.0030s ]
+SQL: SELECT `goodsid` FROM `collect` WHERE `userid` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-06T15:42:37+08:00 ] 127.0.0.1 /index.php/user/addcol.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `collect` [ RunTime:0.0040s ]
+SQL: SELECT `goodsid` FROM `collect` WHERE `userid` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-06T15:42:38+08:00 ] 127.0.0.1 /index.php/user/addcol.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `collect` [ RunTime:0.0030s ]
+SQL: SELECT `goodsid` FROM `collect` WHERE `userid` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-06T15:42:38+08:00 ] 127.0.0.1 /index.php/user/addcol.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `collect` [ RunTime:0.0030s ]
+SQL: SELECT `goodsid` FROM `collect` WHERE `userid` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-06T15:42:38+08:00 ] 127.0.0.1 /index.php/user/addcol.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `collect` [ RunTime:0.0030s ]
+SQL: SELECT `goodsid` FROM `collect` WHERE `userid` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-06T15:42:38+08:00 ] 127.0.0.1 /index.php/user/addcol.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `collect` [ RunTime:0.0030s ]
+SQL: SELECT `goodsid` FROM `collect` WHERE `userid` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-06T15:42:39+08:00 ] 127.0.0.1 /index.php/user/addcol.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `collect` [ RunTime:0.0030s ]
+SQL: SELECT `goodsid` FROM `collect` WHERE `userid` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-06T15:50:27+08:00 ] 127.0.0.1 /index.php/user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-06T16:10:31+08:00 ] 127.0.0.1 /index.php/user/editinfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:editinfo
+
+[ 2017-07-06T16:10:51+08:00 ] 127.0.0.1 /index.php/user/editinfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:editinfo
+
+[ 2017-07-06T16:11:28+08:00 ] 127.0.0.1 /index.php/user/userinfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0040s ]
+
+[ 2017-07-06T16:49:51+08:00 ] 127.0.0.1 /index.php/user/userinfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0050s ]
+
+[ 2017-07-06T16:51:49+08:00 ] 127.0.0.1 /index.php/user/userinfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0040s ]
+
+[ 2017-07-06T16:51:59+08:00 ] 127.0.0.1 /index.php/user/userinfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0070s ]
+
+[ 2017-07-06T16:52:03+08:00 ] 127.0.0.1 /index.php/user/userinfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0030s ]
+
+[ 2017-07-06T16:52:11+08:00 ] 127.0.0.1 /index.php/user/userinfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0030s ]
+
+[ 2017-07-06T16:54:37+08:00 ] 127.0.0.1 /index.php/user/userinfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: photo D:\phpStudy\WWW\tpshop\Application\Home\Controller\UserController.class.php 第 24 行.
+NOTIC: [8] Undefined index: error D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [8] Undefined index: tmp_name D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 280 行.
+
+[ 2017-07-06T16:54:53+08:00 ] 127.0.0.1 /index.php/user/userinfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0030s ]
+
+[ 2017-07-06T16:55:01+08:00 ] 127.0.0.1 /index.php/user/userinfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 230 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [8] Undefined index: error D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [8] Undefined index: tmp_name D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 280 行.
+
+[ 2017-07-06T16:56:13+08:00 ] 127.0.0.1 /index.php/user/userinfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: photo D:\phpStudy\WWW\tpshop\Application\Home\Controller\UserController.class.php 第 24 行.
+NOTIC: [8] Undefined index: error D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [8] Undefined index: tmp_name D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 280 行.
+
+[ 2017-07-06T16:57:36+08:00 ] 127.0.0.1 /index.php/user/userinfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: photo D:\phpStudy\WWW\tpshop\Application\Home\Controller\UserController.class.php 第 24 行.
+NOTIC: [8] Undefined index: error D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [8] Undefined index: tmp_name D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 280 行.
+
+[ 2017-07-06T17:09:41+08:00 ] 127.0.0.1 /index.php/user/userinfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: photo D:\phpStudy\WWW\tpshop\Application\Home\Controller\UserController.class.php 第 24 行.
+NOTIC: [8] Undefined index: error D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [8] Undefined index: tmp_name D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Upload.class.php 第 280 行.
+
+[ 2017-07-06T19:35:31+08:00 ] 127.0.0.1 /index.php/index/getgoods/cateid/85.html
+ERR: Think\Controller:asign方法不存在！
+
+[ 2017-07-06T19:35:38+08:00 ] 127.0.0.1 /index.php/index/getgoods/cateid/85.html
+ERR: 模板不存在:./Application/Home/View/Index/getgoods.html
+
+[ 2017-07-06T19:39:07+08:00 ] 127.0.0.1 /index.php/user/addcol.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `collect` [ RunTime:0.0040s ]
+SQL: SELECT `goodsid` FROM `collect` WHERE `userid` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-06T19:39:23+08:00 ] 127.0.0.1 /index.php/user/addcol.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `collect` [ RunTime:0.0030s ]
+SQL: SELECT `goodsid` FROM `collect` WHERE `userid` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-06T20:20:02+08:00 ] 127.0.0.1 /user/getregion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `region` WHERE `parent_id` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-06T20:20:04+08:00 ] 127.0.0.1 /user/js/pub.js
+ERR: 非法操作:js
+
+[ 2017-07-06T20:20:04+08:00 ] 127.0.0.1 /user/js/content.js
+ERR: 非法操作:js
+
+[ 2017-07-06T21:10:02+08:00 ] 127.0.0.1 /user/orderaway.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-06T21:10:06+08:00 ] 127.0.0.1 /user/orderaway.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-06T21:10:14+08:00 ] 127.0.0.1 /user/orderaway.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-06T21:10:18+08:00 ] 127.0.0.1 /user/orderaway.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-06T21:10:25+08:00 ] 127.0.0.1 /user/orderaway.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-06T21:13:52+08:00 ] 127.0.0.1 /user/orderaway.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0040s ]
+SQL: UPDATE `saleorder` SET `status`='2' WHERE `id` = 4 [ RunTime:0.0050s ]
+
+[ 2017-07-06T21:38:43+08:00 ] 127.0.0.1 /user/orderaway.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0030s ]
+SQL: UPDATE `saleorder` SET `status`='2' WHERE `id` = 3 [ RunTime:0.0030s ]
+
+[ 2017-07-06T21:38:51+08:00 ] 127.0.0.1 /user/orderaway.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0040s ]
+SQL: UPDATE `saleorder` SET `status`='2' WHERE `id` = 4 [ RunTime:0.0040s ]
+
+[ 2017-07-06T21:42:00+08:00 ] 127.0.0.1 /user/orderaway.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0040s ]
+SQL: UPDATE `saleorder` SET `status`='2' WHERE `id` = 4 [ RunTime:0.0050s ]
+
+[ 2017-07-06T21:42:06+08:00 ] 127.0.0.1 /user/orderaway.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0040s ]
+SQL: UPDATE `saleorder` SET `status`='2' WHERE `id` = 4 [ RunTime:0.0070s ]
+
+[ 2017-07-06T21:42:11+08:00 ] 127.0.0.1 /user/orderaway.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0030s ]
+SQL: UPDATE `saleorder` SET `status`='2' WHERE `id` = 4 [ RunTime:0.0040s ]
+
+[ 2017-07-06T21:42:12+08:00 ] 127.0.0.1 /user/orderaway.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0040s ]
+SQL: UPDATE `saleorder` SET `status`='2' WHERE `id` = 4 [ RunTime:0.0050s ]
+
+[ 2017-07-06T21:42:13+08:00 ] 127.0.0.1 /user/orderaway.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0040s ]
+SQL: UPDATE `saleorder` SET `status`='2' WHERE `id` = 4 [ RunTime:0.0050s ]
+
+[ 2017-07-06T21:42:15+08:00 ] 127.0.0.1 /user/orderaway.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0030s ]
+SQL: UPDATE `saleorder` SET `status`='2' WHERE `id` = 3 [ RunTime:0.0050s ]
+
+[ 2017-07-06T21:43:42+08:00 ] 127.0.0.1 /user/orderaway.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0030s ]
+SQL: UPDATE `saleorder` SET `status`='2' WHERE `id` = 4 [ RunTime:0.0060s ]
+
+[ 2017-07-06T21:43:47+08:00 ] 127.0.0.1 /user/orderaway.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0040s ]
+SQL: UPDATE `saleorder` SET `status`='2' WHERE `id` = 3 [ RunTime:0.0040s ]
+
+[ 2017-07-06T21:58:01+08:00 ] 127.0.0.1 /goods/catelist/cateid/8.html
+ERR: 无法加载控制器:Goods
+
+[ 2017-07-06T21:58:06+08:00 ] 127.0.0.1 /goods/catelist/cateid/9.html
+ERR: 无法加载控制器:Goods
+

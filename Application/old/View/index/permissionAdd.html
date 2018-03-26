@@ -1,0 +1,91 @@
+<include file="common:head" />
+<body>
+	<article class="page-container">
+		<form class="form form-horizontal" id="form_info" action="{:U('index/permissionSave')}" method='post'>
+			<div class="row cl">
+			<input type='hidden' name='id' value='{$list["id"]}'>
+				<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>上级权限：</label>
+				<div class="formControls col-xs-8 col-sm-9">
+					<span class="select-box">
+						<select class="select" name='pid'>
+							<option value=''>--请选择--</option>
+							<option value='0' <if condition="0 eq $list['pid']">selected</if> />顶级权限</option>
+							<foreach name='data' item='val'>
+								<option value='{$val["id"]}' <if condition="$val['id'] eq $list['pid']">selected</if> />{$val['distant']}{$val['pername']}</option>
+							</foreach>
+						</select>
+					</span>
+				</div>
+			</div>
+			<div class="row cl">
+				<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>权限名称：</label>
+				<div class="formControls col-xs-8 col-sm-9">
+					<input type="text" class="input-text" name='pername' value="{$list['pername']}" placeholder="请输入权限名称">
+				</div>
+			</div>
+			<div class="row cl">
+				<label class="form-label col-xs-4 col-sm-3">权限地址：</label>
+				<div class="formControls col-xs-8 col-sm-9">
+					<input type="text" class="input-text" name='peract' value="{$list['peract']}" placeholder="请输入权限地址">
+				</div>
+			</div>
+			<div class="row cl">
+				<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>状态：</label>
+				<div class="formControls col-xs-8 col-sm-9 skin-minimal">
+					<div class="radio-box">
+						<input name="status" type="radio" id="status-1" value='1' <if condition="$list['status'] neq 2">checked</if> />
+						<label for="status-1">正常</label>
+					</div>
+					<div class="radio-box">
+						<input type="radio" id="status-2" value='2' name="status" <if condition="$list['status'] eq 2">checked</if> />
+						<label for="status-2">禁用</label>
+					</div>
+				</div>
+			</div>
+			<div class="row cl">
+				<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
+					<input class="btn btn-primary radius" type="button" onclick="checkForm()" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
+				</div>
+			</div>
+		</form>
+	</article>
+	<script type="text/javascript" src="__PUBLIC__/admin/lib/jquery/1.9.1/jquery.min.js"></script><script type="text/javascript" src="__PUBLIC__/admin/lib/layer/2.4/layer.js"></script> 
+	<script type="text/javascript" src="__PUBLIC__/admin/static/h-ui/js/H-ui.js"></script> 
+	<script type="text/javascript" src="__PUBLIC__/admin/static/h-ui.admin/js/H-ui.admin.page.js"></script> 
+	<!--请在下方写此页面业务相关的脚本-->
+	<script type="text/javascript" src="__PUBLIC__/admin/lib/laypage/1.2/laypage.js"></script>
+	<script type="text/javascript">
+		function checkForm(){
+			//验证是否选择上级权限
+			if($("select[name='pid']").val() == ''){
+				layer.msg('请选择上级权限');
+				return false;
+			}
+			if($("input[name='pername']").val() == ''){
+				layer.msg('请填写权限名称');
+				return false;
+			}
+			//$('#form_info').submit();
+			$.ajax({
+				type:"POST",
+				url:$('#form_info').attr("action"),
+				data:$('#form_info').serialize(),
+				dataType:'JSON',
+				success:function(result){
+					if(result.status == 1){
+						parent.window.location.reload();
+						var index = parent.layer.getFrameIndex(window.name);
+						parent.layer.close(index);
+					}
+				}
+			});
+		}
+
+		// $('.skin-minimal input').iCheck({
+		// 	checkboxClass: 'icheckbox-blue',
+		// 	radioClass: 'iradio-blue',
+		// 	increaseArea: '20%'
+		// });
+	</script>
+</body>
+</html>

@@ -1,0 +1,156 @@
+<include file='common:head' />
+<link type="text/css" rel="stylesheet" href="__HOME__/css/content.css" />
+<include file='common:header' />
+<style type="text/css">
+    .listL li a.productName{height: 40px;}
+    a:hover{color:red !important;}
+</style>
+<script src="__HOME__/js/pub.js"></script>
+<script src="__HOME__/js/content.js"></script>
+
+<include file='common:lists' />
+<!--  content start-->
+<!-- select -->
+
+<div class="l_select cont clearfix">
+	<p class="site"><a href="{:U('index/index')}" alt="">首页</a>&nbsp;
+    <empty name='search'>
+        <foreach name='catelist' item='val'>
+            >&nbsp;<a href="{:U('index/getgoods',array('cateid'=>$val['id']))}" alt="" <if condition="$val['id'] eq $cate1['id']">class='current'</if> target='_blank' />{$val['catename']}</a>
+        </foreach>
+    <else />
+        >&nbsp;<a href="#" alt="" class='current' />{$search}</a>
+    </empty>
+   </p>
+	<!-- <div>
+    	<dl>
+        	<dt><a href="#" alt=""><i>></i>当季流行</a></dt>
+            <dd>
+            	<span><a href="#" alt="">2016当季新品</a></span>
+            	<span><a href="#" alt="">商场同款</a></span>
+            	<span><a href="#" alt="">独家首发</a></span>
+            	<span><a href="#" alt="">时尚连衣裙</a></span>
+            	<span><a href="#" alt="">针织衫</a></span>
+            	<span><a href="#" alt="">印花卫衣</a></span>
+            	<span><a href="#" alt="">衬衫</a></span>
+            	<span><a href="#" alt="">短外套</a></span>
+            	<span><a href="#" alt="">短外套</a></span>
+            </dd>
+            <dd class="more"><span>更多</span></dd>
+        </dl>    
+    </div> -->
+</div>
+
+<div class="l_content cont clearfix">
+<!--商品推荐-->
+	<div class="sptj fl">
+        <h4><a href="#" alt="">商品推荐</a></h4>
+        <ul class="listI fl">
+            <foreach name='goodsshow' item='vcx'>
+            <li>
+                <a href="{:U('index/getdetail',array('id'=>$vcx['id']))}" alt=""><img src="{$vcx['image']}" width="130" height="130" alt=""></a>
+                <a href="{:U('index/getdetail',array('id'=>$vcx['id']))}" alt="" title="{$vcx['goodsname']}">{$vcx['aname']}</a>
+                <span class="price">￥{$vcx['shopprice']}</span> 
+            </li>  
+            </foreach>     
+        </ul>
+	</div>
+    
+<!--商品推荐 end -->
+
+	<div class="l_list fr">
+    	<div class="l_list_t clearfix">
+        	<div class="l_lt_l fl">
+            	<span>综合排序<i class="down">&nbsp;</i></span>
+            	<span class="border0">人气<i class="up">&nbsp;</i></span>
+            	<span>价格<i class="up">&nbsp;</i></span>
+            </div>
+        	<div class="l_lt_r fr">
+            	<b>共{$count}件商品</b>
+                <b><font>1</font>/11</b>
+                <span></span>
+                <span class="border0 active"></span>
+            </div>
+        
+        </div>
+    	       
+        <ul class="listL">
+            <foreach name='goods' item='val'>
+                <li>
+                    <a href="{:U('index/getdetail',array('id'=>$val['id']))}" alt="" target='_blank'><img src="{$val['image']}" width="195" height="200" ></a>
+                    <span class="price">￥{$val['shopprice']}</span>
+                    <a href="{:U('index/getdetail',array('id'=>$val['id']))}" alt="" target='_blank' title="{$val['goodsname']}">{$val['aname']}</a>
+                    <a href="#" alt="" class="comment">已有<b>{$val['comment']}</b>人评价</a>
+                    <div class="listL_b"><a  href="javascript:;" cartid="{$val['id']}" class="gwc_ad"><i>&nbsp;</i>加入购物车</a><a href="javascript:;" colid="{$val['id']}" class="collect">喜欢</a></div>
+                </li>
+            </foreach>       
+        </ul>
+        
+        <!-- pages -->
+    	<div class="pages">
+    		<a class="pages_pre" href="#" title="上一页">上一页</a><a  href="#"class="active">1</a><a href="#">2</a><a href="#">3</a><a href="#">4</a><a href="#">5</a><span>…</span><a href="#" class="pages_next" title="下一页">下一页</a><span>共100页，到第<input type="text" class="pages_ipt focusBorder">页</span><label class="pages_btn_w"><input type="submit" value="确定" class="pages_btn"></label>
+        </div>
+    
+    </div>
+</div>
+
+<script type="text/javascript" src="__ADMIN__/lib/layer/2.4/layer.js"></script> 
+<script type="text/javascript">   
+$(function(){
+    /*加入收藏*/
+    $('.collect').click(function(){
+        var userid = "<php>echo session('front.userid');</php>";
+        if(!userid){
+            layer.msg('请先进行登录');return;
+        }
+        var colid = $(this).attr('colid');
+        if(!colid){
+            layer.msg('参数错误');return;
+        }
+        $.post(
+            "{:U('user/addcol')}",
+            {colid:colid},
+            function(result){
+                if(result.status == 1){
+                    layer.msg('加入收藏成功');return;
+                }else if(result.status == 2){
+                    layer.msg('该商品已收藏，请勿重复收藏');return;
+                }
+        });
+    });
+    /*加入购物车*/
+    $('.gwc_ad').on('click',function(){
+        var userid = "<php>echo session('front.userid');</php>";
+        if(!userid){
+            layer.msg('请先进行登录');return;
+        }
+        var cartid = $(this).attr('cartid');
+        var cartcount = 1;
+        $.post(
+            "{:U('cart/cartadd')}",
+            {
+                cartid:cartid,
+                cartcount:cartcount
+            },
+            function(result){
+                if(result.status==1){
+                    var cartli = '';
+                    $(result.cart.goodslist).each(function(o,i){
+                        cartli += "<li><p class='gwc_r fr'><span class='gwc_price'>￥"+i.shopprice;
+                        cartli += "</span><font class='gwc_amount'>×"+i.gcount+"</font><br/>";
+                        cartli += "<a href='#' class='gwc_delete'>删除</a></p>";
+                        cartli += "<img src='"+i.image+"' width='49' height='49'>";
+                        cartli += "<a href='#' title='"+i.goodsname+"'>"+i.aname+"</a></li>";
+                    });
+                    $('.header_goods').children('ul').html(cartli);
+                    $('.header_gwc').children('div.header_goods').show();
+                     $('.header_gwc').children('div.header_nogoods').hide();
+                    $('.gwc_total').children('b:eq(0)').text(result.cart.goodscount);
+                    $('.gwc_total').children('b:eq(1)').text('￥'+result.cart.pricesum); 
+                    $('.header_gwc_h').children('i:eq(1)').text(result.cart.goodscount);
+                }
+        });
+    })
+})
+</script>
+<include file='common:footer' />

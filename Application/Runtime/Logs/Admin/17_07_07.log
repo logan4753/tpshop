@@ -1,0 +1,1739 @@
+[ 2017-07-07T08:53:32+08:00 ] 127.0.0.1 /admin/login/login.html
+ERR: 无法加载控制器:Login
+
+[ 2017-07-07T09:55:43+08:00 ] 127.0.0.1 /Admin/consumer/editpwd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+
+[ 2017-07-07T10:01:54+08:00 ] 127.0.0.1 /Admin/consumer/editpwd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0040s ]
+SQL: UPDATE `consumer` SET `salt`='$2y$11$da8c6e42af886e6984ec4c',`password`='$2y$11$da8c6e42af886e6984ec4OLk718ki4NScYEcXpE/4kqO/Ywj1.hlm' WHERE `id` = 1 [ RunTime:0.0000s ]
+
+[ 2017-07-07T11:02:57+08:00 ] 127.0.0.1 /Admin/cate/ishot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT `ishot` FROM `category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `category` SET `ishot`='1' WHERE `id` = 1 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: status D:\phpStudy\WWW\tpshop\Application\Admin\Controller\CateController.class.php 第 52 行.
+
+[ 2017-07-07T11:02:58+08:00 ] 127.0.0.1 /Admin/cate/ishot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT `ishot` FROM `category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `category` SET `ishot`='2' WHERE `id` = 1 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: status D:\phpStudy\WWW\tpshop\Application\Admin\Controller\CateController.class.php 第 52 行.
+
+[ 2017-07-07T11:03:04+08:00 ] 127.0.0.1 /Admin/cate/ishot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT `ishot` FROM `category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `category` SET `ishot`='1' WHERE `id` = 1 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: status D:\phpStudy\WWW\tpshop\Application\Admin\Controller\CateController.class.php 第 52 行.
+
+[ 2017-07-07T11:03:10+08:00 ] 127.0.0.1 /Admin/cate/ishot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0050s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT `ishot` FROM `category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `category` SET `ishot`='2' WHERE `id` = 1 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: status D:\phpStudy\WWW\tpshop\Application\Admin\Controller\CateController.class.php 第 52 行.
+
+[ 2017-07-07T11:04:45+08:00 ] 127.0.0.1 /Admin/cate/ishot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0050s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT `ishot` FROM `category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `category` SET `ishot`='1' WHERE `id` = 1 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: status D:\phpStudy\WWW\tpshop\Application\Admin\Controller\CateController.class.php 第 52 行.
+
+[ 2017-07-07T11:05:19+08:00 ] 127.0.0.1 /Admin/cate/ishot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+SQL: SELECT `ishot` FROM `category` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `category` SET `ishot`='1' WHERE `id` = 2 [ RunTime:0.0010s ]
+
+[ 2017-07-07T11:05:20+08:00 ] 127.0.0.1 /Admin/cate/ishot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT `ishot` FROM `category` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `category` SET `ishot`='2' WHERE `id` = 2 [ RunTime:0.0000s ]
+
+[ 2017-07-07T11:05:21+08:00 ] 127.0.0.1 /Admin/cate/ishot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT `ishot` FROM `category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `category` SET `ishot`='2' WHERE `id` = 1 [ RunTime:0.0000s ]
+
+[ 2017-07-07T11:05:21+08:00 ] 127.0.0.1 /Admin/cate/ishot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT `ishot` FROM `category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `category` SET `ishot`='1' WHERE `id` = 1 [ RunTime:0.0010s ]
+
+[ 2017-07-07T11:05:31+08:00 ] 127.0.0.1 /Admin/cate/ishot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT `ishot` FROM `category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `category` SET `ishot`='2' WHERE `id` = 1 [ RunTime:0.0000s ]
+
+[ 2017-07-07T11:05:33+08:00 ] 127.0.0.1 /Admin/cate/getchild.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0060s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 10 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 11 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 13 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 14 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 15 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 17 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 18 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 19 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-07T11:10:25+08:00 ] 127.0.0.1 /Admin/cate/getchild.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0050s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 10 AND `status` = 1  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 11 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 13 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 14 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 15 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 17 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 18 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 19 AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-07T11:10:31+08:00 ] 127.0.0.1 /Admin/cate/getchild.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 2 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 50 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 51 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 52 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 53 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 54 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 55 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 79 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 80 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-07T11:10:33+08:00 ] 127.0.0.1 /Admin/cate/getchild.html?id=50
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0050s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 50 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 85 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 86 AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-07T11:10:34+08:00 ] 127.0.0.1 /Admin/cate/ishot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT `ishot` FROM `category` WHERE `id` = 85 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `category` SET `ishot`='1' WHERE `id` = 85 [ RunTime:0.0000s ]
+
+[ 2017-07-07T11:11:08+08:00 ] 127.0.0.1 /Admin/cate/getchild.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0050s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 10 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 11 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 13 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 14 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 15 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 17 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 18 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 19 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-07T11:11:10+08:00 ] 127.0.0.1 /Admin/cate/getchild.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0050s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 13 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 27 AND `status` = 1  [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 28 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 102 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-07T11:11:13+08:00 ] 127.0.0.1 /Admin/cate/ishot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0080s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0070s ]
+SQL: SELECT `ishot` FROM `category` WHERE `id` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `category` SET `ishot`='1' WHERE `id` = 28 [ RunTime:0.0000s ]
+
+[ 2017-07-07T11:11:16+08:00 ] 127.0.0.1 /Admin/cate/ishot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0080s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+SQL: SELECT `ishot` FROM `category` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `category` SET `ishot`='1' WHERE `id` = 27 [ RunTime:0.0010s ]
+
+[ 2017-07-07T11:11:18+08:00 ] 127.0.0.1 /Admin/cate/getchild.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0080s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 10 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 20 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 21 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 22 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 23 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 87 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-07T11:11:23+08:00 ] 127.0.0.1 /Admin/cate/ishot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0060s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT `ishot` FROM `category` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `category` SET `ishot`='1' WHERE `id` = 22 [ RunTime:0.0010s ]
+
+[ 2017-07-07T11:13:28+08:00 ] 127.0.0.1 /Admin/cate/getchild.html?id=11
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0050s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 11 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 12 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 24 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 25 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 26 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 29 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 88 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 89 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 90 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 91 AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-07T11:13:32+08:00 ] 127.0.0.1 /Admin/cate/ishot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0050s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+SQL: SELECT `ishot` FROM `category` WHERE `id` = 29 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `category` SET `ishot`='1' WHERE `id` = 29 [ RunTime:0.0000s ]
+
+[ 2017-07-07T11:13:38+08:00 ] 127.0.0.1 /Admin/cate/ishot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0080s ]
+SQL: SELECT `ishot` FROM `category` WHERE `id` = 91 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `category` SET `ishot`='1' WHERE `id` = 91 [ RunTime:0.0010s ]
+
+[ 2017-07-07T11:13:42+08:00 ] 127.0.0.1 /Admin/cate/getchild.html?id=14
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0050s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 14 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 30 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 31 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 32 AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-07T11:13:46+08:00 ] 127.0.0.1 /Admin/cate/ishot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT `ishot` FROM `category` WHERE `id` = 32 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `category` SET `ishot`='1' WHERE `id` = 32 [ RunTime:0.0000s ]
+
+[ 2017-07-07T11:15:07+08:00 ] 127.0.0.1 /Admin/cate/getchild.html?id=17
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 17 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 38 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 39 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 40 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 41 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-07T11:15:09+08:00 ] 127.0.0.1 /Admin/cate/ishot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0120s ]
+SQL: SELECT `ishot` FROM `category` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `category` SET `ishot`='1' WHERE `id` = 39 [ RunTime:0.0000s ]
+
+[ 2017-07-07T11:15:12+08:00 ] 127.0.0.1 /Admin/cate/getchild.html?id=18
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0060s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 18 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 42 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 43 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 44 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 45 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-07T11:15:14+08:00 ] 127.0.0.1 /Admin/cate/ishot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0070s ]
+SQL: SELECT `ishot` FROM `category` WHERE `id` = 45 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `category` SET `ishot`='1' WHERE `id` = 45 [ RunTime:0.0010s ]
+
+[ 2017-07-07T11:15:17+08:00 ] 127.0.0.1 /Admin/cate/getchild.html?id=19
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 19 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 46 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 47 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 48 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 49 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-07T11:15:20+08:00 ] 127.0.0.1 /Admin/cate/ishot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0050s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT `ishot` FROM `category` WHERE `id` = 47 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `category` SET `ishot`='1' WHERE `id` = 47 [ RunTime:0.0000s ]
+
+[ 2017-07-07T11:15:25+08:00 ] 127.0.0.1 /Admin/cate/getchild.html?id=51
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0050s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0220s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 51 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 92 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 93 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 94 AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-07T11:15:26+08:00 ] 127.0.0.1 /Admin/cate/getchild.html?id=52
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 52 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 63 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 64 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 65 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-07T11:15:30+08:00 ] 127.0.0.1 /Admin/cate/ishot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0100s ]
+SQL: SELECT `ishot` FROM `category` WHERE `id` = 65 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `category` SET `ishot`='1' WHERE `id` = 65 [ RunTime:0.0000s ]
+
+[ 2017-07-07T11:15:32+08:00 ] 127.0.0.1 /Admin/cate/getchild.html?id=53
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0060s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 53 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 56 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 57 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 58 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 59 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 60 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 61 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 62 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-07T11:15:38+08:00 ] 127.0.0.1 /Admin/cate/ishot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0060s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT `ishot` FROM `category` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `category` SET `ishot`='1' WHERE `id` = 61 [ RunTime:0.0000s ]
+
+[ 2017-07-07T11:15:41+08:00 ] 127.0.0.1 /Admin/cate/getchild.html?id=54
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0050s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 54 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 66 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 67 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 68 AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-07T11:15:43+08:00 ] 127.0.0.1 /Admin/cate/ishot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0050s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT `ishot` FROM `category` WHERE `id` = 66 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `category` SET `ishot`='1' WHERE `id` = 66 [ RunTime:0.0010s ]
+
+[ 2017-07-07T11:15:45+08:00 ] 127.0.0.1 /Admin/cate/getchild.html?id=55
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0050s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 55 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 95 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 96 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 97 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-07T11:15:50+08:00 ] 127.0.0.1 /Admin/cate/getchild.html?id=55
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0060s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 55 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 95 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 96 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 97 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-07T11:15:51+08:00 ] 127.0.0.1 /Admin/cate/getchild.html?id=55
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 55 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 95 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 96 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 97 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-07T11:15:58+08:00 ] 127.0.0.1 /Admin/cate/getchild.html?id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 3 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 69 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 70 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 71 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 81 AND `status` = 1  [ RunTime:0.0230s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 82 AND `status` = 1  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 83 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 84 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-07T11:16:00+08:00 ] 127.0.0.1 /Admin/cate/getchild.html?id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0050s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 4 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 72 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 73 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 74 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 98 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 99 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 100 AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-07T11:19:04+08:00 ] 127.0.0.1 /Admin/cate/getchild.html?id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 3 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 69 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 70 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 71 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 81 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 82 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 83 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 84 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-07T11:21:00+08:00 ] 127.0.0.1 /Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0080s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('69','笔记本','笔记本','1') [ RunTime:0.0000s ]
+
+[ 2017-07-07T11:21:14+08:00 ] 127.0.0.1 /Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0060s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('69','游戏本','游戏本','1') [ RunTime:0.0000s ]
+
+[ 2017-07-07T11:21:33+08:00 ] 127.0.0.1 /Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('69','平板电脑','平板电脑','1') [ RunTime:0.0000s ]
+
+[ 2017-07-07T11:21:46+08:00 ] 127.0.0.1 /Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0050s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('69','台式机','台式机','1') [ RunTime:0.0000s ]
+
+[ 2017-07-07T11:22:11+08:00 ] 127.0.0.1 /Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('70','显示器','显示器','1') [ RunTime:0.0000s ]
+
+[ 2017-07-07T11:22:23+08:00 ] 127.0.0.1 /Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0070s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('70','CPU','CPU','1') [ RunTime:0.0010s ]
+
+[ 2017-07-07T11:22:36+08:00 ] 127.0.0.1 /Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0050s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('70','主板','主板','1') [ RunTime:0.0000s ]
+
+[ 2017-07-07T11:22:50+08:00 ] 127.0.0.1 /Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0050s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('70','显卡','显卡','1') [ RunTime:0.0010s ]
+
+[ 2017-07-07T11:23:03+08:00 ] 127.0.0.1 /Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('70','内存','内存','1') [ RunTime:0.0000s ]
+
+[ 2017-07-07T11:23:30+08:00 ] 127.0.0.1 /Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('70','散热器','散热器','1') [ RunTime:0.0010s ]
+
+[ 2017-07-07T11:23:48+08:00 ] 127.0.0.1 /Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0070s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('81','键盘','键盘','1') [ RunTime:0.0000s ]
+
+[ 2017-07-07T11:23:58+08:00 ] 127.0.0.1 /Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0050s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('81','鼠标','鼠标','1') [ RunTime:0.0000s ]
+
+[ 2017-07-07T11:24:11+08:00 ] 127.0.0.1 /Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('81','U盘','U盘','1') [ RunTime:0.0010s ]
+
+[ 2017-07-07T11:24:33+08:00 ] 127.0.0.1 /Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('81','移动硬盘','移动硬盘','1') [ RunTime:0.0000s ]
+
+[ 2017-07-07T11:24:48+08:00 ] 127.0.0.1 /Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0050s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('81','摄像头','摄像头','1') [ RunTime:0.0010s ]
+
+[ 2017-07-07T11:25:16+08:00 ] 127.0.0.1 /Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('71','游戏机','游戏机','1') [ RunTime:0.0000s ]
+
+[ 2017-07-07T11:25:42+08:00 ] 127.0.0.1 /Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('71','手柄/方向盘','手柄/方向盘','1') [ RunTime:0.0010s ]
+
+[ 2017-07-07T11:25:59+08:00 ] 127.0.0.1 /Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0050s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('82','路由器','路由器','1') [ RunTime:0.0010s ]
+
+[ 2017-07-07T11:26:16+08:00 ] 127.0.0.1 /Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0060s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('82','交换机','交换机','1') [ RunTime:0.0010s ]
+
+[ 2017-07-07T11:26:28+08:00 ] 127.0.0.1 /Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('82','网络机顶盒','网络机顶盒','1') [ RunTime:0.0000s ]
+
+[ 2017-07-07T11:27:22+08:00 ] 127.0.0.1 /Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('83','投影机','投影机','1') [ RunTime:0.0010s ]
+
+[ 2017-07-07T11:27:39+08:00 ] 127.0.0.1 /Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0070s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('83','打印机','打印机','1') [ RunTime:0.0010s ]
+
+[ 2017-07-07T11:28:06+08:00 ] 127.0.0.1 /Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0060s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('83','保险柜','保险柜','1') [ RunTime:0.0000s ]
+
+[ 2017-07-07T11:28:19+08:00 ] 127.0.0.1 /Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('83','碎纸机','碎纸机','1') [ RunTime:0.0010s ]
+
+[ 2017-07-07T11:28:51+08:00 ] 127.0.0.1 /Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0050s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('83','考勤机','考勤机','1') [ RunTime:0.0010s ]
+
+[ 2017-07-07T11:29:07+08:00 ] 127.0.0.1 /Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('83','验钞机','验钞机','1') [ RunTime:0.0010s ]
+
+[ 2017-07-07T11:29:24+08:00 ] 127.0.0.1 /Admin/cate/getchild.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0050s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 10 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 11 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 13 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 14 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 15 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 17 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 18 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 19 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-07T11:43:49+08:00 ] 127.0.0.1 /Admin/cate/getchild.html?id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 3 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 69 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 70 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 71 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 81 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 82 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 83 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 84 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-07T11:43:51+08:00 ] 127.0.0.1 /Admin/cate/getchild.html?id=69
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 69 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 103 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 104 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 105 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 106 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-07T15:21:12+08:00 ] 127.0.0.1 /Admin/order/orderedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `consumer` [ RunTime:0.0040s ]
+SQL: UPDATE `saleorder` SET `recieve`='小华',`address`='陕西西安碑林区雁塔北路13号',`tel`='18384363747',`ispay`='1',`send`='2' WHERE `id` = 6 [ RunTime:0.0060s ]
+
+[ 2017-07-07T15:28:27+08:00 ] 127.0.0.1 /Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('6','面部护肤','面部护肤','1') [ RunTime:0.0000s ]
+
+[ 2017-07-07T15:28:48+08:00 ] 127.0.0.1 /Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('6','洗发护发','洗发护发','1') [ RunTime:0.0000s ]
+
+[ 2017-07-07T15:29:01+08:00 ] 127.0.0.1 /Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('6','身体护理','身体护理','1') [ RunTime:0.0000s ]
+
+[ 2017-07-07T15:29:25+08:00 ] 127.0.0.1 /Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('6','口腔用品','口腔用品','1') [ RunTime:0.0010s ]
+
+[ 2017-07-07T15:30:09+08:00 ] 127.0.0.1 /Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('6','清洁用品','清洁用品','1') [ RunTime:0.0000s ]
+
+[ 2017-07-07T15:30:11+08:00 ] 127.0.0.1 /Admin/cate/getchild.html?id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 6 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 129 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 130 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 131 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 132 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 133 AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-07T15:31:49+08:00 ] 127.0.0.1 /admin/login.html
+ERR: 无法加载控制器:Login
+
+[ 2017-07-07T15:31:57+08:00 ] 127.0.0.1 /admin/login.html
+ERR: 无法加载控制器:Login
+
+[ 2017-07-07T15:32:12+08:00 ] 127.0.0.1 /Admin/login.html
+ERR: 无法加载控制器:Login
+
+[ 2017-07-07T16:26:03+08:00 ] 127.0.0.1 /Admin/cate/getchild.html?id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0050s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 3 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 69 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 70 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 71 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 81 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 82 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 83 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 84 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-07T16:26:04+08:00 ] 127.0.0.1 /Admin/cate/getchild.html?id=69
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 69 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 103 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 104 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 105 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 106 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-07T16:26:06+08:00 ] 127.0.0.1 /Admin/cate/ishot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT `ishot` FROM `category` WHERE `id` = 103 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `category` SET `ishot`='1' WHERE `id` = 103 [ RunTime:0.0000s ]
+
+[ 2017-07-07T16:26:07+08:00 ] 127.0.0.1 /Admin/cate/ishot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT `ishot` FROM `category` WHERE `id` = 104 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `category` SET `ishot`='1' WHERE `id` = 104 [ RunTime:0.0000s ]
+
+[ 2017-07-07T16:26:10+08:00 ] 127.0.0.1 /Admin/cate/getchild.html?id=70
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 70 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 107 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 108 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 109 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 110 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 111 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 112 AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-07T16:26:13+08:00 ] 127.0.0.1 /Admin/cate/ishot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT `ishot` FROM `category` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `category` SET `ishot`='1' WHERE `id` = 112 [ RunTime:0.0010s ]
+
+[ 2017-07-07T16:26:19+08:00 ] 127.0.0.1 /Admin/cate/getchild.html?id=71
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 71 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 118 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 119 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-07T16:26:21+08:00 ] 127.0.0.1 /Admin/cate/getchild.html?id=81
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 81 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 113 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 114 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 115 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 116 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 117 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-07T16:26:24+08:00 ] 127.0.0.1 /Admin/cate/ishot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT `ishot` FROM `category` WHERE `id` = 116 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `category` SET `ishot`='1' WHERE `id` = 116 [ RunTime:0.0010s ]
+
+[ 2017-07-07T16:26:27+08:00 ] 127.0.0.1 /Admin/cate/ishot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT `ishot` FROM `category` WHERE `id` = 117 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `category` SET `ishot`='1' WHERE `id` = 117 [ RunTime:0.0010s ]
+
+[ 2017-07-07T16:26:30+08:00 ] 127.0.0.1 /Admin/cate/getchild.html?id=82
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 82 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 120 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 121 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 122 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-07T16:26:32+08:00 ] 127.0.0.1 /Admin/cate/getchild.html?id=83
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0050s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 83 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 123 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 124 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 125 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 126 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 127 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 128 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-07-07T16:26:36+08:00 ] 127.0.0.1 /Admin/cate/getchild.html?id=71
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 71 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 118 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 119 AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-07T16:26:37+08:00 ] 127.0.0.1 /Admin/cate/ishot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT `ishot` FROM `category` WHERE `id` = 118 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `category` SET `ishot`='1' WHERE `id` = 118 [ RunTime:0.0010s ]
+
+[ 2017-07-07T19:06:44+08:00 ] 127.0.0.1 /Admin/goods/goodsedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 85 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 50 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `goods` SET `goodsname`='全球购 (HUAWEI) 华为P10 Plus 移动联通电信4G双卡双待智能手机 陶瓷白 6GB+64GB',`category`='85',`brand`='2',`commend`='1',`shopprice`='4888.00',`count`='664',`isfree`='1',`carriage`='0.00',`status`='1',`service`='&lt;h3 style=&quot;margin: 0px; padding: 0px; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &amp;quot;microsoft yahei&amp;quot;;&quot;&gt;&lt;p style=&quot;background-color: rgb(216, 216, 216);&quot;&gt;售后保障&lt;/p&gt;&lt;/h3&gt;&lt;ul style=&quot;list-style-type: none;&quot; class=&quot; list-paddingleft-2&quot;&gt;&lt;li&gt;&lt;p&gt;&lt;span class=&quot;goods&quot; style=&quot;margin: 0px; padding: 0px 10px 0px 0px; display: inline-block; width: 32px; height: 32px; line-height: 32px; vertical-align: bottom; background: url(&amp;quot;//static.360buyimg.com/item/default/1.0.32/components/detail/i/iconZP.png&amp;quot;) no-repeat;&quot;&gt;&lt;/span&gt;&amp;nbsp;&lt;strong style=&quot;margin: 0px; padding: 8px 0px 3px; display: inline-block;&quot;&gt;卖家服务&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;支持7天无理由退货，30天无忧退换货，365天超长保修，售后服务热线：0769-87087862&lt;br/&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span class=&quot;goods&quot; style=&quot;margin: 0px; padding: 0px 10px 0px 0px; display: inline-block; width: 32px; height: 32px; line-height: 32px; vertical-align: bottom; background: url(&amp;quot;//static.360buyimg.com/item/default/1.0.32/components/detail/i/iconZP.png&amp;quot;) no-repeat;&quot;&gt;&lt;/span&gt;&amp;nbsp;&lt;strong style=&quot;margin: 0px; padding: 8px 0px 3px; display: inline-block;&quot;&gt;京东承诺&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;京东平台卖家展示销售并由京东发货的商品，由平台卖家提供相应的售后服务。请您放心购买！&lt;br/&gt;注：因厂家会在没有任何提前通知的情况下更改产品包装、产地或者一些附件，本司不能确保客户收到的货物与商城图片、产地、附件说明完全一致。只能确保为原厂正货！并且保证与当时市场上同样主流新品一致。若本商城没有及时更新，请大家谅解！&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span class=&quot;goods&quot; style=&quot;margin: 0px; padding: 0px 10px 0px 0px; display: inline-block; width: 32px; height: 32px; line-height: 32px; vertical-align: bottom; background: url(&amp;quot;//static.360buyimg.com/item/default/1.0.32/components/detail/i/iconZP.png&amp;quot;) no-repeat;&quot;&gt;&lt;/span&gt;&lt;strong style=&quot;margin: 0px; padding: 8px 0px 3px; display: inline-block;&quot;&gt;正品行货&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;京东商城向您保证所售商品均为正品行货，京东自营商品开具机打发票或电子发票。&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span class=&quot;unprofor&quot; style=&quot;margin: 0px; padding: 0px 10px 0px 0px; display: inline-block; width: 32px; height: 32px; line-height: 32px; vertical-align: bottom; background: url(&amp;quot;//static.360buyimg.com/item/default/1.0.32/components/detail/i/iconLB.png&amp;quot;) no-repeat;&quot;&gt;&lt;/span&gt;&lt;strong style=&quot;margin: 0px; padding: 8px 0px 3px; display: inline-block;&quot;&gt;全国联保&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;凭质保证书及京东商城发票，可享受全国联保服务（奢侈品、钟表除外；奢侈品、钟表由京东联系保修，享受法定三包售后服务），与您亲临商场选购的商品享受相同的质量保证。京东商城还为您提供具有竞争力的商品价格和&lt;a href=&quot;https://help.jd.com/help/question-892.html&quot; target=&quot;_blank&quot; style=&quot;margin: 0px; padding: 0px; color: rgb(0, 90, 160); text-decoration-line: none;&quot;&gt;运费政策&lt;/a&gt;，请您放心购买！&amp;nbsp;&lt;br/&gt;&lt;br/&gt;注：因厂家会在没有任何提前通知的情况下更改产品包装、产地或者一些附件，本司不能确保客户收到的货物与商城图片、产地、附件说明完全一致。只能确保为原厂正货！并且保证与当时市场上同样主流新品一致。若本商城没有及时更新，请大家谅解！&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span class=&quot;no-worries&quot; style=&quot;margin: 0px; padding: 0px 10px 0px 0px; display: inline-block; width: 32px; height: 32px; line-height: 32px; vertical-align: bottom; background: url(&amp;quot;//static.360buyimg.com/item/default/1.0.32/components/detail/i/iconWY.png&amp;quot;) no-repeat;&quot;&gt;&lt;/span&gt;&lt;strong style=&quot;margin: 0px; padding: 8px 0px 3px; display: inline-block;&quot;&gt;无忧退换货&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;客户购买京东自营商品7日内（含7日，自客户收到商品之日起计算），在保证商品完好的前提下，可无理由退货。（部分商品除外，详情请见各商品细则）&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong style=&quot;margin: 0px; padding: 8px 0px 3px; display: inline-block; color: rgb(228, 57, 60);&quot;&gt;权利声明：&lt;/strong&gt;&lt;br/&gt;京东上的所有商品信息、客户评价、商品咨询、网友讨论等内容，是京东重要的经营资源，未经许可，禁止非法转载使用。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 0px; padding: 0px;&quot;&gt;&lt;strong style=&quot;margin: 0px; padding: 0px;&quot;&gt;注：&lt;/strong&gt;本站商品信息均来自于合作方，其真实性、准确性和合法性由信息拥有者（合作方）负责。本站不提供任何保证，并不承担任何法律责任。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;strong style=&quot;margin: 0px; padding: 8px 0px 3px; display: inline-block; color: rgb(228, 57, 60);&quot;&gt;价格说明：&lt;/strong&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 0px; padding: 0px;&quot;&gt;&lt;strong style=&quot;margin: 0px; padding: 0px;&quot;&gt;京东价：&lt;/strong&gt;京东价为商品的销售价，是您最终决定是否购买商品的依据。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 0px; padding: 0px;&quot;&gt;&lt;strong style=&quot;margin: 0px; padding: 0px;&quot;&gt;划线价：&lt;/strong&gt;商品展示的划横线价格为参考价，该价格可能是品牌专柜标价、商品吊牌价或由品牌供应商提供的正品零售价（如厂商指导价、建议零售价等）或该商品在京东平台上曾经展示过的销售价；由于地区、时间的差异性和市场行情波动，品牌专柜标价、商品吊牌价等可能会与您购物时展示的不一致，该价格仅供您参考。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 0px; padding: 0px;&quot;&gt;&lt;strong style=&quot;margin: 0px; padding: 0px;&quot;&gt;折扣：&lt;/strong&gt;如无特殊说明，折扣指销售商在原价、或划线价（如品牌专柜标价、商品吊牌价、厂商指导价、厂商建议零售价）等某一价格基础上计算出的优惠比例或优惠金额；如有疑问，您可在购买前联系销售商进行咨询。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 0px; padding: 0px;&quot;&gt;&lt;strong style=&quot;margin: 0px; padding: 0px;&quot;&gt;异常问题：&lt;/strong&gt;商品促销信息以商品详情页“促销”栏中的信息为准；商品的具体售价以订单结算页价格为准；如您发现活动商品售价或促销信息有异常，建议购买前先联系销售商咨询。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;',`info`='&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;1&quot; width=&quot;100%&quot; class=&quot;Ptable&quot; border=&quot;1&quot;&gt;&lt;tbody&gt;&lt;tr class=&quot;firstRow&quot;&gt;&lt;th class=&quot;tdTitle&quot; colspan=&quot;2&quot; style=&quot;background: rgb(245, 250, 254); text-align: center; padding-right: 5px; padding-left: 5px; width: 110px;&quot;&gt;主体&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;110&quot;&gt;型号&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;P10Plus&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;110&quot;&gt;上市年份&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;2017年&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th class=&quot;tdTitle&quot; colspan=&quot;2&quot; style=&quot;background: rgb(245, 250, 254); text-align: center; padding-right: 5px; padding-left: 5px; width: 110px;&quot;&gt;基本信息&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;110&quot;&gt;机身颜色&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;其他&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;110&quot;&gt;机身长度（mm）&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;153.5&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;110&quot;&gt;机身宽度（mm）&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;74.2&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;110&quot;&gt;机身厚度（mm）&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;6.98&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;110&quot;&gt;机身重量（g）&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;165&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;110&quot;&gt;运营商标志或内容&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;其他&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;110&quot;&gt;机身材质分类&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;金属边框&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th class=&quot;tdTitle&quot; colspan=&quot;2&quot; style=&quot;background: rgb(245, 250, 254); text-align: center; padding-right: 5px; padding-left: 5px; width: 110px;&quot;&gt;操作系统&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;110&quot;&gt;操作系统&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;Android&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th class=&quot;tdTitle&quot; colspan=&quot;2&quot; style=&quot;background: rgb(245, 250, 254); text-align: center; padding-right: 5px; padding-left: 5px; width: 110px;&quot;&gt;主芯片&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;110&quot;&gt;CPU品牌&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;以官网信息为准&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;110&quot;&gt;CPU核数&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;八核&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;110&quot;&gt;CPU型号&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;其他&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th class=&quot;tdTitle&quot; colspan=&quot;2&quot; style=&quot;background: rgb(245, 250, 254); text-align: center; padding-right: 5px; padding-left: 5px; width: 110px;&quot;&gt;网络支持&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;110&quot;&gt;双卡机类型&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;双卡双待单通&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;110&quot;&gt;最大支持SIM卡数量&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;其他&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;110&quot;&gt;SIM卡类型&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;Nano SIM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;110&quot;&gt;4G网络&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;4G：移动（TD-LTE)；4G：联通(TD-LTE)；4G：电信(FDD-LTE)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;110&quot;&gt;网络频率（2G/3G）&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;其他&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th class=&quot;tdTitle&quot; colspan=&quot;2&quot; style=&quot;background: rgb(245, 250, 254); text-align: center; padding-right: 5px; padding-left: 5px; width: 110px;&quot;&gt;存储&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;110&quot;&gt;ROM&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;64GB&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;110&quot;&gt;RAM&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;6GB&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;110&quot;&gt;存储卡&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;支持MicroSD（TF）&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th class=&quot;tdTitle&quot; colspan=&quot;2&quot; style=&quot;background: rgb(245, 250, 254); text-align: center; padding-right: 5px; padding-left: 5px; width: 110px;&quot;&gt;屏幕&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;110&quot;&gt;主屏幕尺寸（英寸）&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;5.5英寸&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;110&quot;&gt;分辨率&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;2560×1440（Quad HD / 2K ）&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;110&quot;&gt;屏幕材质类型&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;其他&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th class=&quot;tdTitle&quot; colspan=&quot;2&quot; style=&quot;background: rgb(245, 250, 254); text-align: center; padding-right: 5px; padding-left: 5px; width: 110px;&quot;&gt;前置摄像头&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;110&quot;&gt;前置摄像头&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;800万像素&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;110&quot;&gt;前摄光圈大小&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;其他&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th class=&quot;tdTitle&quot; colspan=&quot;2&quot; style=&quot;background: rgb(245, 250, 254); text-align: center; padding-right: 5px; padding-left: 5px; width: 110px;&quot;&gt;后置摄像头&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;110&quot;&gt;摄像头数量&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;2个&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;110&quot;&gt;后置摄像头&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;1200万像素；2000万像素&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;110&quot;&gt;拍照特点&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;美颜；其他&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th class=&quot;tdTitle&quot; colspan=&quot;2&quot; style=&quot;background: rgb(245, 250, 254); text-align: center; padding-right: 5px; padding-left: 5px; width: 110px;&quot;&gt;电池信息&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;110&quot;&gt;电池容量（mAh）&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;3750&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;110&quot;&gt;电池是否可拆卸&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;其他&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;110&quot;&gt;充电器&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;其他&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;110&quot;&gt;闪充&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;支持&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th class=&quot;tdTitle&quot; colspan=&quot;2&quot; style=&quot;background: rgb(245, 250, 254); text-align: center; padding-right: 5px; padding-left: 5px; width: 110px;&quot;&gt;数据接口&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;110&quot;&gt;数据传输接口&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;其他&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;110&quot;&gt;NFC/NFC模式&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;支持（点对点模式）&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;110&quot;&gt;耳机接口类型&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;3.5mm&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;110&quot;&gt;充电接口类型&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;Type-C&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th class=&quot;tdTitle&quot; colspan=&quot;2&quot; style=&quot;background: rgb(245, 250, 254); text-align: center; padding-right: 5px; padding-left: 5px; width: 110px;&quot;&gt;手机特性&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;110&quot;&gt;指纹识别&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;支持&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;110&quot;&gt;GPS&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;支持&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;110&quot;&gt;陀螺仪&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;其他&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th class=&quot;tdTitle&quot; colspan=&quot;2&quot; style=&quot;background: rgb(245, 250, 254); text-align: center; padding-right: 5px; padding-left: 5px; width: 110px;&quot;&gt;辅助功能&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;110&quot;&gt;常用功能&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;手势识别&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;',`cate`='50',`cate1`='2' WHERE `id` = 9 [ RunTime:0.0020s ]
+
+[ 2017-07-07T19:10:44+08:00 ] 127.0.0.1 /Admin/goods/goodsedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 85 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid` FROM `category` WHERE `id` = 50 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `goods` SET `goodsname`='全球购 (HUAWEI) 华为P10 Plus 移动联通电信4G双卡双待智能手机 陶瓷白 6GB+64GB',`category`='85',`brand`='2',`commend`='1',`shopprice`='4888.00',`count`='664',`isfree`='1',`carriage`='0.00',`status`='1',`service`='&lt;h3 style=&quot;margin: 0px; padding: 0px; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &amp;quot;microsoft yahei&amp;quot;;&quot;&gt;&lt;p style=&quot;background-color: rgb(216, 216, 216);&quot;&gt;售后保障&lt;/p&gt;&lt;/h3&gt;&lt;ul style=&quot;list-style-type: none;&quot; class=&quot; list-paddingleft-2&quot;&gt;&lt;li&gt;&lt;p&gt;&lt;span class=&quot;goods&quot; style=&quot;margin: 0px; padding: 0px 10px 0px 0px; display: inline-block; width: 32px; height: 32px; line-height: 32px; vertical-align: bottom; background: url(&amp;quot;//static.360buyimg.com/item/default/1.0.32/components/detail/i/iconZP.png&amp;quot;) no-repeat;&quot;&gt;&lt;/span&gt;&amp;nbsp;&lt;strong style=&quot;margin: 0px; padding: 8px 0px 3px; display: inline-block;&quot;&gt;卖家服务&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;支持7天无理由退货，30天无忧退换货，365天超长保修，售后服务热线：0769-87087862&lt;br/&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span class=&quot;goods&quot; style=&quot;margin: 0px; padding: 0px 10px 0px 0px; display: inline-block; width: 32px; height: 32px; line-height: 32px; vertical-align: bottom; background: url(&amp;quot;//static.360buyimg.com/item/default/1.0.32/components/detail/i/iconZP.png&amp;quot;) no-repeat;&quot;&gt;&lt;/span&gt;&amp;nbsp;&lt;strong style=&quot;margin: 0px; padding: 8px 0px 3px; display: inline-block;&quot;&gt;京东承诺&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;京东平台卖家展示销售并由京东发货的商品，由平台卖家提供相应的售后服务。请您放心购买！&lt;br/&gt;注：因厂家会在没有任何提前通知的情况下更改产品包装、产地或者一些附件，本司不能确保客户收到的货物与商城图片、产地、附件说明完全一致。只能确保为原厂正货！并且保证与当时市场上同样主流新品一致。若本商城没有及时更新，请大家谅解！&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span class=&quot;goods&quot; style=&quot;margin: 0px; padding: 0px 10px 0px 0px; display: inline-block; width: 32px; height: 32px; line-height: 32px; vertical-align: bottom; background: url(&amp;quot;//static.360buyimg.com/item/default/1.0.32/components/detail/i/iconZP.png&amp;quot;) no-repeat;&quot;&gt;&lt;/span&gt;&lt;strong style=&quot;margin: 0px; padding: 8px 0px 3px; display: inline-block;&quot;&gt;正品行货&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;京东商城向您保证所售商品均为正品行货，京东自营商品开具机打发票或电子发票。&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span class=&quot;unprofor&quot; style=&quot;margin: 0px; padding: 0px 10px 0px 0px; display: inline-block; width: 32px; height: 32px; line-height: 32px; vertical-align: bottom; background: url(&amp;quot;//static.360buyimg.com/item/default/1.0.32/components/detail/i/iconLB.png&amp;quot;) no-repeat;&quot;&gt;&lt;/span&gt;&lt;strong style=&quot;margin: 0px; padding: 8px 0px 3px; display: inline-block;&quot;&gt;全国联保&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;凭质保证书及京东商城发票，可享受全国联保服务（奢侈品、钟表除外；奢侈品、钟表由京东联系保修，享受法定三包售后服务），与您亲临商场选购的商品享受相同的质量保证。京东商城还为您提供具有竞争力的商品价格和&lt;a href=&quot;https://help.jd.com/help/question-892.html&quot; target=&quot;_blank&quot; style=&quot;margin: 0px; padding: 0px; color: rgb(0, 90, 160); text-decoration-line: none;&quot;&gt;运费政策&lt;/a&gt;，请您放心购买！&amp;nbsp;&lt;br/&gt;&lt;br/&gt;注：因厂家会在没有任何提前通知的情况下更改产品包装、产地或者一些附件，本司不能确保客户收到的货物与商城图片、产地、附件说明完全一致。只能确保为原厂正货！并且保证与当时市场上同样主流新品一致。若本商城没有及时更新，请大家谅解！&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span class=&quot;no-worries&quot; style=&quot;margin: 0px; padding: 0px 10px 0px 0px; display: inline-block; width: 32px; height: 32px; line-height: 32px; vertical-align: bottom; background: url(&amp;quot;//static.360buyimg.com/item/default/1.0.32/components/detail/i/iconWY.png&amp;quot;) no-repeat;&quot;&gt;&lt;/span&gt;&lt;strong style=&quot;margin: 0px; padding: 8px 0px 3px; display: inline-block;&quot;&gt;无忧退换货&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;客户购买京东自营商品7日内（含7日，自客户收到商品之日起计算），在保证商品完好的前提下，可无理由退货。（部分商品除外，详情请见各商品细则）&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong style=&quot;margin: 0px; padding: 8px 0px 3px; display: inline-block; color: rgb(228, 57, 60);&quot;&gt;权利声明：&lt;/strong&gt;&lt;br/&gt;京东上的所有商品信息、客户评价、商品咨询、网友讨论等内容，是京东重要的经营资源，未经许可，禁止非法转载使用。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 0px; padding: 0px;&quot;&gt;&lt;strong style=&quot;margin: 0px; padding: 0px;&quot;&gt;注：&lt;/strong&gt;本站商品信息均来自于合作方，其真实性、准确性和合法性由信息拥有者（合作方）负责。本站不提供任何保证，并不承担任何法律责任。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;strong style=&quot;margin: 0px; padding: 8px 0px 3px; display: inline-block; color: rgb(228, 57, 60);&quot;&gt;价格说明：&lt;/strong&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 0px; padding: 0px;&quot;&gt;&lt;strong style=&quot;margin: 0px; padding: 0px;&quot;&gt;京东价：&lt;/strong&gt;京东价为商品的销售价，是您最终决定是否购买商品的依据。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 0px; padding: 0px;&quot;&gt;&lt;strong style=&quot;margin: 0px; padding: 0px;&quot;&gt;划线价：&lt;/strong&gt;商品展示的划横线价格为参考价，该价格可能是品牌专柜标价、商品吊牌价或由品牌供应商提供的正品零售价（如厂商指导价、建议零售价等）或该商品在京东平台上曾经展示过的销售价；由于地区、时间的差异性和市场行情波动，品牌专柜标价、商品吊牌价等可能会与您购物时展示的不一致，该价格仅供您参考。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 0px; padding: 0px;&quot;&gt;&lt;strong style=&quot;margin: 0px; padding: 0px;&quot;&gt;折扣：&lt;/strong&gt;如无特殊说明，折扣指销售商在原价、或划线价（如品牌专柜标价、商品吊牌价、厂商指导价、厂商建议零售价）等某一价格基础上计算出的优惠比例或优惠金额；如有疑问，您可在购买前联系销售商进行咨询。&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 0px; padding: 0px;&quot;&gt;&lt;strong style=&quot;margin: 0px; padding: 0px;&quot;&gt;异常问题：&lt;/strong&gt;商品促销信息以商品详情页“促销”栏中的信息为准；商品的具体售价以订单结算页价格为准；如您发现活动商品售价或促销信息有异常，建议购买前先联系销售商咨询。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;',`info`='&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;1&quot; width=&quot;100%&quot; class=&quot;Ptable&quot; border=&quot;1&quot;&gt;&lt;tbody&gt;&lt;tr class=&quot;firstRow&quot;&gt;&lt;th class=&quot;tdTitle&quot; colspan=&quot;2&quot; style=&quot;background: rgb(245, 250, 254); text-align: center; padding-right: 5px; padding-left: 5px; width: 110px;&quot;&gt;主体&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;150&quot;&gt;型号&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;P10Plus&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;150&quot;&gt;上市年份&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;2017年&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th class=&quot;tdTitle&quot; colspan=&quot;2&quot; style=&quot;background: rgb(245, 250, 254); text-align: center; padding-right: 5px; padding-left: 5px; width: 150px;&quot;&gt;基本信息&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;150&quot;&gt;机身颜色&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;其他&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;150&quot;&gt;机身长度（mm）&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;153.5&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;150&quot;&gt;机身宽度（mm）&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;74.2&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;150&quot;&gt;机身厚度（mm）&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;6.98&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;150&quot;&gt;机身重量（g）&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;165&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;150&quot;&gt;运营商标志或内容&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;其他&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;150&quot;&gt;机身材质分类&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;金属边框&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th class=&quot;tdTitle&quot; colspan=&quot;2&quot; style=&quot;background: rgb(245, 250, 254); text-align: center; padding-right: 5px; padding-left: 5px; width: 150px;&quot;&gt;操作系统&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;150&quot;&gt;操作系统&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;Android&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th class=&quot;tdTitle&quot; colspan=&quot;2&quot; style=&quot;background: rgb(245, 250, 254); text-align: center; padding-right: 5px; padding-left: 5px; width: 150px;&quot;&gt;主芯片&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;150&quot;&gt;CPU品牌&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;以官网信息为准&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;150&quot;&gt;CPU核数&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;八核&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;150&quot;&gt;CPU型号&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;其他&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th class=&quot;tdTitle&quot; colspan=&quot;2&quot; style=&quot;background: rgb(245, 250, 254); text-align: center; padding-right: 5px; padding-left: 5px; width: 150px;&quot;&gt;网络支持&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;150&quot;&gt;双卡机类型&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;双卡双待单通&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;150&quot;&gt;最大支持SIM卡数量&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;其他&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;150&quot;&gt;SIM卡类型&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;Nano SIM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;150&quot;&gt;4G网络&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;4G：移动（TD-LTE)；4G：联通(TD-LTE)；4G：电信(FDD-LTE)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;150&quot;&gt;网络频率（2G/3G）&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;其他&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th class=&quot;tdTitle&quot; colspan=&quot;2&quot; style=&quot;background: rgb(245, 250, 254); text-align: center; padding-right: 5px; padding-left: 5px; width: 150px;&quot;&gt;存储&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;150&quot;&gt;ROM&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;64GB&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;150&quot;&gt;RAM&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;6GB&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;150&quot;&gt;存储卡&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;支持MicroSD（TF）&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th class=&quot;tdTitle&quot; colspan=&quot;2&quot; style=&quot;background: rgb(245, 250, 254); text-align: center; padding-right: 5px; padding-left: 5px; width: 150px;&quot;&gt;屏幕&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;150&quot;&gt;主屏幕尺寸（英寸）&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;5.5英寸&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;150&quot;&gt;分辨率&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;2560×1440（Quad HD / 2K ）&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;150&quot;&gt;屏幕材质类型&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;其他&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th class=&quot;tdTitle&quot; colspan=&quot;2&quot; style=&quot;background: rgb(245, 250, 254); text-align: center; padding-right: 5px; padding-left: 5px; width: 150px;&quot;&gt;前置摄像头&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;150&quot;&gt;前置摄像头&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;800万像素&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;150&quot;&gt;前摄光圈大小&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;其他&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th class=&quot;tdTitle&quot; colspan=&quot;2&quot; style=&quot;background: rgb(245, 250, 254); text-align: center; padding-right: 5px; padding-left: 5px; width: 150px;&quot;&gt;后置摄像头&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;150&quot;&gt;摄像头数量&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;2个&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;150&quot;&gt;后置摄像头&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;1200万像素；2000万像素&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;150&quot;&gt;拍照特点&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;美颜；其他&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th class=&quot;tdTitle&quot; colspan=&quot;2&quot; style=&quot;background: rgb(245, 250, 254); text-align: center; padding-right: 5px; padding-left: 5px; width: 150px;&quot;&gt;电池信息&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;150&quot;&gt;电池容量（mAh）&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;3750&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;150&quot;&gt;电池是否可拆卸&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;其他&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;150&quot;&gt;充电器&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;其他&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;150&quot;&gt;闪充&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;支持&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th class=&quot;tdTitle&quot; colspan=&quot;2&quot; style=&quot;background: rgb(245, 250, 254); text-align: center; padding-right: 5px; padding-left: 5px; width: 150px;&quot;&gt;数据接口&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;150&quot;&gt;数据传输接口&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;其他&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;150&quot;&gt;NFC/NFC模式&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;支持（点对点模式）&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;150&quot;&gt;耳机接口类型&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;3.5mm&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;150&quot;&gt;充电接口类型&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;Type-C&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th class=&quot;tdTitle&quot; colspan=&quot;2&quot; style=&quot;background: rgb(245, 250, 254); text-align: center; padding-right: 5px; padding-left: 5px; width: 150px;&quot;&gt;手机特性&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;150&quot;&gt;指纹识别&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;支持&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;150&quot;&gt;GPS&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;支持&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;150&quot;&gt;陀螺仪&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;其他&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th class=&quot;tdTitle&quot; colspan=&quot;2&quot; style=&quot;background: rgb(245, 250, 254); text-align: center; padding-right: 5px; padding-left: 5px; width: 150px;&quot;&gt;辅助功能&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tdTitle&quot; style=&quot;padding: 2px 5px; background: rgb(245, 250, 254); text-align: right;&quot; width=&quot;150&quot;&gt;常用功能&lt;/td&gt;&lt;td style=&quot;padding: 2px 5px; background: rgb(255, 255, 255);&quot;&gt;手势识别&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;',`cate`='50',`cate1`='2' WHERE `id` = 9 [ RunTime:0.0020s ]
+
+[ 2017-07-07T20:36:22+08:00 ] 127.0.0.1 /Admin/cate/ishot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT `ishot` FROM `category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `category` SET `ishot`='1' WHERE `id` = 1 [ RunTime:0.0010s ]
+
+[ 2017-07-07T20:36:31+08:00 ] 127.0.0.1 /Admin/cate/ishot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT `ishot` FROM `category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `category` SET `ishot`='2' WHERE `id` = 1 [ RunTime:0.0000s ]
+
+[ 2017-07-07T20:36:32+08:00 ] 127.0.0.1 /Admin/cate/ishot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT `ishot` FROM `category` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `category` SET `ishot`='1' WHERE `id` = 2 [ RunTime:0.0010s ]
+
+[ 2017-07-07T20:36:33+08:00 ] 127.0.0.1 /Admin/cate/ishot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT `ishot` FROM `category` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `category` SET `ishot`='2' WHERE `id` = 2 [ RunTime:0.0000s ]
+
+[ 2017-07-07T20:36:33+08:00 ] 127.0.0.1 /Admin/cate/ishot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT `ishot` FROM `category` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `category` SET `ishot`='1' WHERE `id` = 3 [ RunTime:0.0000s ]
+
+[ 2017-07-07T20:36:34+08:00 ] 127.0.0.1 /Admin/cate/ishot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT `ishot` FROM `category` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `category` SET `ishot`='2' WHERE `id` = 3 [ RunTime:0.0010s ]
+
+[ 2017-07-07T20:36:34+08:00 ] 127.0.0.1 /Admin/cate/ishot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT `ishot` FROM `category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `category` SET `ishot`='1' WHERE `id` = 4 [ RunTime:0.0000s ]
+
+[ 2017-07-07T20:36:35+08:00 ] 127.0.0.1 /Admin/cate/ishot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT `ishot` FROM `category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `category` SET `ishot`='2' WHERE `id` = 4 [ RunTime:0.0000s ]
+
+[ 2017-07-07T20:36:35+08:00 ] 127.0.0.1 /Admin/cate/ishot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT `ishot` FROM `category` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `category` SET `ishot`='1' WHERE `id` = 5 [ RunTime:0.0010s ]
+
+[ 2017-07-07T20:36:35+08:00 ] 127.0.0.1 /Admin/cate/ishot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT `ishot` FROM `category` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `category` SET `ishot`='2' WHERE `id` = 5 [ RunTime:0.0000s ]
+
+[ 2017-07-07T20:36:36+08:00 ] 127.0.0.1 /Admin/cate/ishot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT `ishot` FROM `category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `category` SET `ishot`='1' WHERE `id` = 6 [ RunTime:0.0010s ]
+
+[ 2017-07-07T20:36:36+08:00 ] 127.0.0.1 /Admin/cate/ishot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT `ishot` FROM `category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `category` SET `ishot`='2' WHERE `id` = 6 [ RunTime:0.0000s ]
+
+[ 2017-07-07T20:36:37+08:00 ] 127.0.0.1 /Admin/cate/ishot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0050s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT `ishot` FROM `category` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `category` SET `ishot`='1' WHERE `id` = 7 [ RunTime:0.0010s ]
+
+[ 2017-07-07T20:36:37+08:00 ] 127.0.0.1 /Admin/cate/ishot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT `ishot` FROM `category` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `category` SET `ishot`='2' WHERE `id` = 7 [ RunTime:0.0000s ]
+
+[ 2017-07-07T20:36:38+08:00 ] 127.0.0.1 /Admin/cate/ishot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT `ishot` FROM `category` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `category` SET `ishot`='1' WHERE `id` = 8 [ RunTime:0.0000s ]
+
+[ 2017-07-07T20:36:38+08:00 ] 127.0.0.1 /Admin/cate/ishot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT `ishot` FROM `category` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `category` SET `ishot`='2' WHERE `id` = 8 [ RunTime:0.0000s ]
+
+[ 2017-07-07T20:36:38+08:00 ] 127.0.0.1 /Admin/cate/ishot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT `ishot` FROM `category` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `category` SET `ishot`='1' WHERE `id` = 9 [ RunTime:0.0000s ]
+
+[ 2017-07-07T20:36:39+08:00 ] 127.0.0.1 /Admin/cate/ishot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT `ishot` FROM `category` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `category` SET `ishot`='2' WHERE `id` = 9 [ RunTime:0.0000s ]
+
+[ 2017-07-07T20:36:39+08:00 ] 127.0.0.1 /Admin/cate/ishot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT `ishot` FROM `category` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `category` SET `ishot`='1' WHERE `id` = 9 [ RunTime:0.0000s ]
+
+[ 2017-07-07T20:36:40+08:00 ] 127.0.0.1 /Admin/cate/ishot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT `ishot` FROM `category` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `category` SET `ishot`='2' WHERE `id` = 9 [ RunTime:0.0000s ]
+

@@ -1,0 +1,72 @@
+<include file='common:head' />
+<include file='common:header' />
+<!--头部下方导航-->
+<style>
+    .nav_snav{display:block !important;}
+</style>
+
+<include file='common:lists' />
+<!--首页banner-->
+
+<div class="wrap banner_w">
+    <ul class="imgs">
+        <li style="background:#ffdb64;">
+            <a href="#" target="_blank" alt=""><img src="__PUBLIC__/Uploads/2017-06-29/lunbo1.jpg" width="990" height="450" title="" alt=""></a>
+        </li>
+        <li style="background:rgb(239, 24, 81);">
+            <a href="#" target="_blank" alt=""><img src="__PUBLIC__/Uploads/2017-06-29/lunbo2.jpg" width="990" height="450" title="" alt=""></a>
+        </li>
+        <li style="background:rgb(74, 60, 126);;">
+            <a href="#" target="_blank" alt=""><img src="__PUBLIC__/Uploads/2017-06-29/lunbo3.jpg" width="990" height="450" title="" alt=""></a>
+        </li>
+    </ul>
+    <div class="dot">
+        <div class="dotshadow">&nbsp;</div>
+        <ul></ul>
+    </div>
+    <div class="banner_tab">
+        <a href="javascript:;" class="pre"><b>&nbsp;</b><i><</i></a>
+        <a href="javascript:;" class="next"><b>&nbsp;</b><i>></i></a>
+    </div>
+</div>
+
+
+<!--首页banner   end  -->
+
+<div class="main main3 cont">
+    <div class="main_t clearfix">
+        <h2 class="fl"><a href="#" target="_blank" alt="">手机数码</a></h2>
+        <ul class="fr">                            
+            <li><a href="#" target="_blank" alt="">手机</a></li>
+            <li><a href="#" target="_blank" alt="">数码相机</a></li>
+            <li><a href="#" target="_blank" alt="">移动充值</a></li>
+            <li><a href="#" target="_blank" alt="">智能设备</a></li>
+            <li><a href="#" target="_blank" alt="">影音娱乐</a></li>
+        </ul>
+    </div>
+    <div class="main_ml fl">
+        <a href="#" target="_blank" alt=""><img src="__PUBLIC__/Uploads/2017-06-29/phonetel.jpg" width="210" height="403" alt=""></a>
+        <ul>    
+            <li><a href="#" target="_blank" alt="">手机</a></li>
+            <li><a href="#" target="_blank" alt="">数码相机</a></li>
+            <li><a href="#" target="_blank" alt="">移动充值</a></li>
+            <li><a href="#" target="_blank" alt="">影音娱乐</a></li>                
+        </ul>
+    </div>
+    <ul class="main_mr listI fr">
+        <foreach name='goodsshow' item='val'>
+        <li>
+            <a href="{:U('index/getdetail',array('id'=>$val['id']))}" target="_blank" alt=""><img src="{$val['showimg']}" width="130" height="130" alt=""></a>
+            <a href="{:U('index/getdetail',array('id'=>$val['id']))}" target="_blank" alt="" title="{$val['goodsname']}">{$val['brandname']}<br/>{$val['aname']}</a>
+            <span class="price">￥{$val['shopprice']}</span> 
+        </li>
+        </foreach>
+    </ul>
+</div>
+
+<div class="ind_ads">
+    <a href="#" target="_blank" alt=""><img src="__HOME__/images/zg_idn_ads.jpg" width="1200" height="120" alt=""></a>
+</div>
+
+
+<include file='common:footer' />

@@ -1,0 +1,162 @@
+[ 2017-07-06T14:28:59+08:00 ] 127.0.0.1 /index.php/Admin/order/orderstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0030s ]
+SQL: SELECT `status` FROM `saleorder` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `saleorder` SET `status`='2' WHERE `id` = 1 [ RunTime:0.0030s ]
+
+[ 2017-07-06T14:29:02+08:00 ] 127.0.0.1 /index.php/Admin/order/orderstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0040s ]
+SQL: SELECT `status` FROM `saleorder` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `saleorder` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0050s ]
+
+[ 2017-07-06T14:29:03+08:00 ] 127.0.0.1 /index.php/Admin/order/orderstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0040s ]
+SQL: SELECT `status` FROM `saleorder` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `saleorder` SET `status`='2' WHERE `id` = 2 [ RunTime:0.0050s ]
+
+[ 2017-07-06T14:29:03+08:00 ] 127.0.0.1 /index.php/Admin/order/orderstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0030s ]
+SQL: SELECT `status` FROM `saleorder` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `saleorder` SET `status`='1' WHERE `id` = 2 [ RunTime:0.0060s ]
+
+[ 2017-07-06T14:29:04+08:00 ] 127.0.0.1 /index.php/Admin/order/orderstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0030s ]
+SQL: SELECT `status` FROM `saleorder` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `saleorder` SET `status`='2' WHERE `id` = 3 [ RunTime:0.0040s ]
+
+[ 2017-07-06T14:29:04+08:00 ] 127.0.0.1 /index.php/Admin/order/orderstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0030s ]
+SQL: SELECT `status` FROM `saleorder` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `saleorder` SET `status`='1' WHERE `id` = 3 [ RunTime:0.0050s ]
+
+[ 2017-07-06T14:29:05+08:00 ] 127.0.0.1 /index.php/Admin/order/orderstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0050s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0070s ]
+SQL: SELECT `status` FROM `saleorder` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `saleorder` SET `status`='2' WHERE `id` = 4 [ RunTime:0.0050s ]
+
+[ 2017-07-06T14:29:05+08:00 ] 127.0.0.1 /index.php/Admin/order/orderstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0040s ]
+SQL: SELECT `status` FROM `saleorder` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `saleorder` SET `status`='1' WHERE `id` = 4 [ RunTime:0.0050s ]
+
+[ 2017-07-06T14:29:08+08:00 ] 127.0.0.1 /index.php/Admin/order/orderstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0030s ]
+SQL: SELECT `status` FROM `saleorder` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `saleorder` SET `status`='2' WHERE `id` = 4 [ RunTime:0.0040s ]
+
+[ 2017-07-06T14:29:09+08:00 ] 127.0.0.1 /index.php/Admin/order/orderstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0030s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0030s ]
+SQL: SELECT `status` FROM `saleorder` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `saleorder` SET `status`='1' WHERE `id` = 4 [ RunTime:0.0050s ]
+
+[ 2017-07-06T14:31:22+08:00 ] 127.0.0.1 /index.php/Admin/order/orderinfo/id/2.html
+ERR: 非法操作:orderinfo
+
+[ 2017-07-06T15:10:00+08:00 ] 127.0.0.1 /index.php/Admin/order/orderstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0040s ]
+SQL: SELECT `status` FROM `saleorder` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `saleorder` SET `status`='2' WHERE `id` = 1 [ RunTime:0.0050s ]
+
+[ 2017-07-06T15:10:02+08:00 ] 127.0.0.1 /index.php/Admin/order/orderstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0040s ]
+SQL: SELECT `power` FROM `role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `permission`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `saleorder` [ RunTime:0.0030s ]
+SQL: SELECT `status` FROM `saleorder` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `saleorder` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0060s ]
+
+[ 2017-07-06T20:42:39+08:00 ] 127.0.0.1 /Admin/order/orderlist.html
+ERR: XML标签语法错误 : condition="($val['send'] eq 2) and ($val['ispay'] eq 1)" "
+

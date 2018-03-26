@@ -1,0 +1,65 @@
+<include file='common:head' />
+<include file='common:header' />
+<include file='common:lists' />
+<link type="text/css" rel="stylesheet" href="__HOME__/css/user.css" />
+
+<div class="cont user user_2 clearfix">
+	<div class="user_menu"> 
+        <dl>
+            <dt class="colorChange">个人中心</dt>
+            <dd><a href="{:U('user/myorder')}">我的订单</a></dd>
+            <dd class="active"><a href="{:U('user/mycollect')}">我的收藏</a></dd>
+            <dd><a href="{:U('user/mycoupon')}">我的优惠券</a></dd>
+            <dd><a href="{:U('user/address')}">我的收货地址</a></dd>
+            <dd><a href="{:U('user/comment')}">商品评价</a></dd>
+            <dd><a href="{:U('user/editpwd')}">修改密码</a></dd>
+        </dl>
+    </div>
+
+
+<!--  我的收藏  -->
+        <div class="user_right fr">
+            <h3 class="user_title">我的收藏</h3>
+            <p class="noInfo"><i class="i_sad">&nbsp;</i>您目前还没有已购买的宝贝，快去逛逛<a href="#">首页</a>吧！</p>
+
+            <ul class="listL collect_list">
+                <foreach name='keeps' item='vk'>
+                <li>
+                    <a href="{:U('index/getdetail',array('id'=>$vk['id']))}" alt=""><img src="{$vk['image']}" width="130" height="130" ></a>
+                    <div class="goods_detail">
+                        <a href="{:U('index/getdetail',array('id'=>$vk['id']))}" alt="" title="{$vk['goodsname']}">{$vk['aname']}</font></a>
+                        <span class="price">￥{$vk['shopprice']}</span>
+                        <a href="#" alt="" class="comment">已有<b>{$vk['comment']}</b>人评价</a>
+                    </div>
+                    <div class="listL_b"><a  href="#" class="gwc_ad b11"><i>&nbsp;</i>加入购物车</a><a href="javascript:;" onclick="unkeep(this)" unid="{$vk['id']}" class="cancel">取消收藏</a></div>
+                </li>
+                </foreach>
+            </ul>
+             <!--pages -->
+            <!-- <div class="pages pagesR">
+                <a class="pages_pre" href="#" title="上一页">上一页</a><a  href="#"class="active">1</a><a href="#">2</a><a href="#">3</a><a href="#">4</a><a href="#">5</a><span>…</span><a href="#" class="pages_next" title="下一页">下一页</a><span>共100页，到第<input type="text" class="pages_ipt">页</span><label class="pages_btn_w"><input type="submit" value="确定" class="pages_btn"></label>
+            </div> -->
+		</div>
+
+<!--  我的收藏 end  -->
+</div>
+
+<script src="__HOME__/js/pub.js"></script>
+<script src="__HOME__/js/content.js"></script>
+<script type="text/javascript">
+function unkeep(obj){
+    var id = $(obj).attr('unid');
+    if(!id){
+        alert('参数错误');
+    }
+    $.post(
+        "{:U('user/uncollect')}",
+        {id:id},
+        function(result){
+            if(result.status == 1){
+                $(obj).parents('li').remove();
+            }
+        });
+}
+</script>
+<include file='common:footer' />

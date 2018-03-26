@@ -1,0 +1,1858 @@
+[ 2017-06-27T08:54:06+08:00 ] 127.0.0.1 /admin/login/login.html
+ERR: 无法加载控制器:Login
+
+[ 2017-06-27T08:56:12+08:00 ] 127.0.0.1 /index.php/Admin/login/logout.html
+ERR: 无法加载控制器:Login
+
+[ 2017-06-27T08:58:29+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-27T08:58:30+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=16
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 17 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 18 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-27T08:58:58+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissionadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `permission` (`pid`,`pername`,`peract`,`status`) VALUES ('16','删除品牌','brand/branddel','1') [ RunTime:0.0010s ]
+
+[ 2017-06-27T08:59:01+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-27T08:59:02+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=16
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 17 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 18 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 20 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-27T08:59:15+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissionedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: UPDATE `permission` SET `pid`='0',`pername`='商品管理',`peract`='w',`status`='1' WHERE `id` = 15 [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant fasle - assumed 'fasle' D:\phpStudy\WWW\tpshop\Application\Admin\Controller\PermissionController.class.php 第 73 行.
+
+[ 2017-06-27T08:59:20+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissionedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: UPDATE `permission` SET `pid`='0',`pername`='商品管理',`peract`='',`status`='1' WHERE `id` = 15 [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant fasle - assumed 'fasle' D:\phpStudy\WWW\tpshop\Application\Admin\Controller\PermissionController.class.php 第 73 行.
+
+[ 2017-06-27T08:59:23+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissiondel/id/id.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: UPDATE `permission` SET `status`='2' WHERE `id` = 15 [ RunTime:0.0000s ]
+
+[ 2017-06-27T08:59:41+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2017-06-27T08:59:45+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=16
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 17 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 18 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 20 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-27T08:59:54+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissiondel/id/id.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: UPDATE `permission` SET `status`='2' WHERE `id` = 17 [ RunTime:0.0010s ]
+SQL: UPDATE `permission` SET `status`='2' WHERE `id` = 18 [ RunTime:0.0000s ]
+SQL: UPDATE `permission` SET `status`='2' WHERE `id` = 20 [ RunTime:0.0000s ]
+
+[ 2017-06-27T09:00:37+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2017-06-27T09:00:38+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=16
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 17 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 18 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 20 AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2017-06-27T09:02:55+08:00 ] 127.0.0.1 /index.php/Admin/backuser/useradd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `backuser` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `backuser` (`username`,`realname`,`password`,`tel`,`role`,`status`,`salt`) VALUES ('bobi','波比','$2y$11$1b7e8e0469d71a269544bOgFoILmc07Ln4nr5opmSAac0v9ubuUne','13744536789','3','1','$2y$11$1b7e8e0469d71a269544ba') [ RunTime:0.0000s ]
+
+[ 2017-06-27T09:02:57+08:00 ] 127.0.0.1 /index.php/Admin/backuser/userstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `backuser` [ RunTime:0.0040s ]
+SQL: SELECT `status` FROM `backuser` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `backuser` SET `status`='2' WHERE `id` = 6 [ RunTime:0.0010s ]
+
+[ 2017-06-27T09:02:58+08:00 ] 127.0.0.1 /index.php/Admin/backuser/userstatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `backuser` [ RunTime:0.0030s ]
+SQL: SELECT `status` FROM `backuser` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `backuser` SET `status`='1' WHERE `id` = 6 [ RunTime:0.0000s ]
+
+[ 2017-06-27T09:26:18+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissionadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `permission` (`pid`,`pername`,`peract`,`status`) VALUES ('15','分类管理','cate/categorylist','1') [ RunTime:0.0010s ]
+
+[ 2017-06-27T09:26:39+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissionadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `permission` (`pid`,`pername`,`peract`,`status`) VALUES ('21','增加分类','cate/categoryadd','1') [ RunTime:0.0000s ]
+
+[ 2017-06-27T09:27:04+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissionadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `permission` (`pid`,`pername`,`peract`,`status`) VALUES ('21','修改分类','cate/categoryedit','1') [ RunTime:0.0010s ]
+
+[ 2017-06-27T09:27:21+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissionadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `permission` (`pid`,`pername`,`peract`,`status`) VALUES ('21','删除分类','cate/categorydel','1') [ RunTime:0.0000s ]
+
+[ 2017-06-27T09:27:35+08:00 ] 127.0.0.1 /index.php/Admin/cate/categorylist.html
+ERR: 模板不存在:./Application/Admin/View/Cate/categorylist.html
+
+[ 2017-06-27T09:27:39+08:00 ] 127.0.0.1 /index.php/Admin/cate/categorylist.html
+ERR: 模板不存在:./Application/Admin/View/Cate/categorylist.html
+
+[ 2017-06-27T09:33:40+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 21 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-27T09:33:41+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=21
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 21 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 22 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 23 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 24 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-27T09:49:22+08:00 ] 127.0.0.1 /index.php/Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+
+[ 2017-06-27T09:49:29+08:00 ] 127.0.0.1 /index.php/Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+
+[ 2017-06-27T09:51:02+08:00 ] 127.0.0.1 /index.php/Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('0','家电/数码/手机','家电/数码/手机','1') [ RunTime:0.0010s ]
+
+[ 2017-06-27T09:53:29+08:00 ] 127.0.0.1 /index.php/Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('0','鞋靴/箱包/配件','鞋靴/箱包/配件','1') [ RunTime:0.0010s ]
+
+[ 2017-06-27T09:53:51+08:00 ] 127.0.0.1 /index.php/Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('0','男装/女装','男装/女装','1') [ RunTime:0.0010s ]
+
+[ 2017-06-27T09:54:16+08:00 ] 127.0.0.1 /index.php/Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('0','美食/零食/生鲜','美食/零食/生鲜','1') [ RunTime:0.0010s ]
+
+[ 2017-06-27T09:54:33+08:00 ] 127.0.0.1 /index.php/Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('1','家电','家电产品','1') [ RunTime:0.0000s ]
+
+[ 2017-06-27T09:55:26+08:00 ] 127.0.0.1 /index.php/Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('0','运动/户外/乐器','运动/户外/乐器','1') [ RunTime:0.0000s ]
+
+[ 2017-06-27T09:55:39+08:00 ] 127.0.0.1 /index.php/Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('1','数码','数码产品','1') [ RunTime:0.0010s ]
+
+[ 2017-06-27T09:55:50+08:00 ] 127.0.0.1 /index.php/Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('1','手机','手机','1') [ RunTime:0.0000s ]
+
+[ 2017-06-27T09:56:20+08:00 ] 127.0.0.1 /index.php/Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('5','生活电器','生活电器','1') [ RunTime:0.0010s ]
+
+[ 2017-06-27T09:56:32+08:00 ] 127.0.0.1 /index.php/Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('5','厨房电器','厨房电器','1') [ RunTime:0.0010s ]
+
+[ 2017-06-27T09:57:01+08:00 ] 127.0.0.1 /index.php/Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('5','个人护理','个人护理','1') [ RunTime:0.0020s ]
+
+[ 2017-06-27T09:57:35+08:00 ] 127.0.0.1 /index.php/Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('7','数码相机','数码相机','1') [ RunTime:0.0000s ]
+
+[ 2017-06-27T09:57:47+08:00 ] 127.0.0.1 /index.php/Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('7','无人机','无人机','1') [ RunTime:0.0020s ]
+
+[ 2017-06-27T09:58:00+08:00 ] 127.0.0.1 /index.php/Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('7','电脑','电脑','1') [ RunTime:0.0000s ]
+
+[ 2017-06-27T10:09:09+08:00 ] 127.0.0.1 /index.php/Admin/cate/getchild.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:getchild
+
+[ 2017-06-27T10:11:26+08:00 ] 127.0.0.1 /index.php/Admin/cate/getchild.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 5 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 7 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 8 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-27T10:11:32+08:00 ] 127.0.0.1 /index.php/Admin/cate/getchild.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 5 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 9 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 10 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 11 AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2017-06-27T10:12:14+08:00 ] 127.0.0.1 /index.php/Admin/cate/getchild.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 5 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 7 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 8 AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2017-06-27T10:12:15+08:00 ] 127.0.0.1 /index.php/Admin/cate/getchild.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 5 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 9 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 10 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 11 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-27T10:12:16+08:00 ] 127.0.0.1 /index.php/Admin/cate/getchild.html?id=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 7 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 12 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 13 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 14 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-27T10:18:48+08:00 ] 127.0.0.1 /index.php/Admin/cate/getchild.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 5 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 7 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 8 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-27T10:18:50+08:00 ] 127.0.0.1 /index.php/Admin/cate/getchild.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 5 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 9 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 10 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 11 AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2017-06-27T10:18:53+08:00 ] 127.0.0.1 /index.php/Admin/cate/getchild.html?id=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 7 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 12 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 13 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 14 AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2017-06-27T10:21:08+08:00 ] 127.0.0.1 /index.php/Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('3','男装','男装','1') [ RunTime:0.0000s ]
+
+[ 2017-06-27T10:21:19+08:00 ] 127.0.0.1 /index.php/Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('3','女装','女装','1') [ RunTime:0.0000s ]
+
+[ 2017-06-27T10:21:32+08:00 ] 127.0.0.1 /index.php/Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('3','内衣','内衣','1') [ RunTime:0.0000s ]
+
+[ 2017-06-27T10:21:40+08:00 ] 127.0.0.1 /index.php/Admin/cate/getchild.html?id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 3 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 15 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 17 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-27T10:27:25+08:00 ] 127.0.0.1 /index.php/Admin/cate/getchild.html?id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 3 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 15 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 17 AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2017-06-27T10:27:40+08:00 ] 127.0.0.1 /index.php/Admin/cate/getchild.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 5 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 7 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 8 AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2017-06-27T10:27:46+08:00 ] 127.0.0.1 /index.php/Admin/cate/getchild.html?id=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 7 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 12 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 13 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 14 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-27T10:28:05+08:00 ] 127.0.0.1 /index.php/Admin/cate/getchild.html?id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 3 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 15 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 17 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-27T10:47:44+08:00 ] 127.0.0.1 /index.php/Admin/cate/categoryedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: UPDATE `category` SET `pid`='0',`catename`='运动/户外/乐器',`remark`='运动/户外/乐器。',`status`='1' WHERE `id` = 6 [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant fasle - assumed 'fasle' D:\phpStudy\WWW\tpshop\Application\Admin\Controller\CateController.class.php 第 73 行.
+
+[ 2017-06-27T10:47:53+08:00 ] 127.0.0.1 /index.php/Admin/cate/categoryedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: UPDATE `category` SET `pid`='0',`catename`='运动/户外/乐器',`remark`='运动/户外/乐器',`status`='1' WHERE `id` = 6 [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant fasle - assumed 'fasle' D:\phpStudy\WWW\tpshop\Application\Admin\Controller\CateController.class.php 第 73 行.
+
+[ 2017-06-27T10:48:01+08:00 ] 127.0.0.1 /index.php/Admin/cate/categorydel/id/id.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:categorydel
+
+[ 2017-06-27T10:48:39+08:00 ] 127.0.0.1 /index.php/Admin/cate/categorydel/id/id.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: UPDATE `category` SET `status`='2' WHERE `id` = 6 [ RunTime:0.0000s ]
+
+[ 2017-06-27T10:49:05+08:00 ] 127.0.0.1 /index.php/Admin/cate/getchild.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 5 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 7 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 8 AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2017-06-27T10:49:18+08:00 ] 127.0.0.1 /index.php/Admin/cate/getchild.html?id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 3 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 15 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 17 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-27T10:49:23+08:00 ] 127.0.0.1 /index.php/Admin/cate/categorydel/id/id.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: UPDATE `category` SET `status`='2' WHERE `id` = 15 [ RunTime:0.0000s ]
+SQL: UPDATE `category` SET `status`='2' WHERE `id` = 16 [ RunTime:0.0010s ]
+SQL: UPDATE `category` SET `status`='2' WHERE `id` = 17 [ RunTime:0.0000s ]
+
+[ 2017-06-27T11:11:53+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0040s ]
+
+[ 2017-06-27T11:11:57+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0040s ]
+
+[ 2017-06-27T11:14:41+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: photo D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BrandController.class.php 第 18 行.
+
+[ 2017-06-27T11:16:20+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: photo D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BrandController.class.php 第 19 行.
+
+[ 2017-06-27T11:20:23+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: photo D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BrandController.class.php 第 19 行.
+
+[ 2017-06-27T11:21:02+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: photo D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BrandController.class.php 第 19 行.
+
+[ 2017-06-27T11:21:22+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: photo D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BrandController.class.php 第 19 行.
+
+[ 2017-06-27T11:21:25+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: photo D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BrandController.class.php 第 19 行.
+
+[ 2017-06-27T11:21:28+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: photo D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BrandController.class.php 第 19 行.
+
+[ 2017-06-27T11:22:02+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: photo D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BrandController.class.php 第 19 行.
+
+[ 2017-06-27T11:22:20+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: photo D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BrandController.class.php 第 19 行.
+
+[ 2017-06-27T11:22:23+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: photo D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BrandController.class.php 第 19 行.
+
+[ 2017-06-27T11:23:09+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: photo D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BrandController.class.php 第 19 行.
+
+[ 2017-06-27T11:24:05+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: photo D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BrandController.class.php 第 19 行.
+
+[ 2017-06-27T11:24:32+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: photo D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BrandController.class.php 第 19 行.
+
+[ 2017-06-27T11:24:36+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: photo D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BrandController.class.php 第 19 行.
+
+[ 2017-06-27T11:24:53+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: photo D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BrandController.class.php 第 19 行.
+
+[ 2017-06-27T11:26:44+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: photo D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BrandController.class.php 第 19 行.
+
+[ 2017-06-27T11:27:46+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: photo D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BrandController.class.php 第 19 行.
+
+[ 2017-06-27T11:28:20+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0030s ]
+
+[ 2017-06-27T11:28:26+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0040s ]
+
+[ 2017-06-27T11:28:28+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0030s ]
+
+[ 2017-06-27T11:28:59+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0030s ]
+
+[ 2017-06-27T11:31:43+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0030s ]
+
+[ 2017-06-27T11:32:32+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0040s ]
+
+[ 2017-06-27T11:33:21+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0030s ]
+
+[ 2017-06-27T11:33:23+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0030s ]
+
+[ 2017-06-27T14:15:22+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`remark`,`status`) VALUES ('小米','小米','1') [ RunTime:0.0000s ]
+
+[ 2017-06-27T14:17:03+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`remark`,`status`) VALUES ('三星','三星','1') [ RunTime:0.0000s ]
+
+[ 2017-06-27T14:17:10+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`remark`,`status`) VALUES ('华为','华为','1') [ RunTime:0.0000s ]
+
+[ 2017-06-27T14:17:25+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`remark`,`status`) VALUES ('联想','联想','1') [ RunTime:0.0010s ]
+
+[ 2017-06-27T14:21:11+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandedit/id/1.html
+ERR: 非法操作:brandedit
+
+[ 2017-06-27T14:29:32+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-27T14:30:23+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0040s ]
+SQL: UPDATE `brand` SET `brandname`='三星',`remark`='三星',`status`='2' WHERE `id` = 1 [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant fasle - assumed 'fasle' D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BrandController.class.php 第 58 行.
+
+[ 2017-06-27T14:32:55+08:00 ] 127.0.0.1 /index.php/Admin/brand/branddel/id/id.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0030s ]
+
+[ 2017-06-27T14:32:57+08:00 ] 127.0.0.1 /index.php/Admin/brand/branddel/id/id.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0030s ]
+
+[ 2017-06-27T14:33:34+08:00 ] 127.0.0.1 /index.php/Admin/brand/branddel/id/id.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0030s ]
+
+[ 2017-06-27T14:33:38+08:00 ] 127.0.0.1 /index.php/Admin/brand/branddel/id/id.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0030s ]
+
+[ 2017-06-27T14:33:48+08:00 ] 127.0.0.1 /index.php/Admin/brand/branddel/id/id.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0050s ]
+SQL: UPDATE `brand` SET `status`='2' WHERE `id` = 3 [ RunTime:0.0010s ]
+
+[ 2017-06-27T14:34:06+08:00 ] 127.0.0.1 /index.php/Admin/brand/branddel/id/id.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0030s ]
+SQL: UPDATE `brand` SET `status`='2' WHERE `id` = 0 [ RunTime:0.0010s ]
+SQL: UPDATE `brand` SET `status`='2' WHERE `id` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `brand` SET `status`='2' WHERE `id` = 2 [ RunTime:0.0010s ]
+SQL: UPDATE `brand` SET `status`='2' WHERE `id` = 3 [ RunTime:0.0000s ]
+
+[ 2017-06-27T14:34:35+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`remark`,`status`) VALUES ('苹果','苹果','1') [ RunTime:0.0000s ]
+
+[ 2017-06-27T14:34:58+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`remark`,`status`) VALUES ('索尼','索尼','1') [ RunTime:0.0000s ]
+
+[ 2017-06-27T14:35:05+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`remark`,`status`) VALUES ('魅族','魅族','1') [ RunTime:0.0000s ]
+
+[ 2017-06-27T14:35:28+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`remark`,`status`) VALUES ('OPPO','OPPO','1') [ RunTime:0.0000s ]
+
+[ 2017-06-27T14:35:36+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`remark`,`status`) VALUES ('vivo','vivo','1') [ RunTime:0.0000s ]
+
+[ 2017-06-27T14:35:53+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`remark`,`status`) VALUES ('东芝','东芝','1') [ RunTime:0.0000s ]
+
+[ 2017-06-27T14:36:18+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`remark`,`status`) VALUES ('格力','格力','1') [ RunTime:0.0010s ]
+
+[ 2017-06-27T14:36:26+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`remark`,`status`) VALUES ('美的','美的','1') [ RunTime:0.0010s ]
+
+[ 2017-06-27T14:36:40+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`remark`,`status`) VALUES ('海尔','海尔','1') [ RunTime:0.0010s ]
+
+[ 2017-06-27T14:37:03+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`remark`,`status`) VALUES ('飞科','飞科','1') [ RunTime:0.0010s ]
+
+[ 2017-06-27T14:37:11+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`remark`,`status`) VALUES ('飞利浦','飞利浦','1') [ RunTime:0.0000s ]
+
+[ 2017-06-27T14:37:25+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`remark`,`status`) VALUES ('金士顿','金士顿','1') [ RunTime:0.0000s ]
+
+[ 2017-06-27T14:37:30+08:00 ] 127.0.0.1 /index.php/Admin/cate/getchild.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 5 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 7 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 8 AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2017-06-27T14:37:32+08:00 ] 127.0.0.1 /index.php/Admin/cate/getchild.html?id=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 7 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 12 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 13 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 14 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-27T14:38:06+08:00 ] 127.0.0.1 /index.php/Admin/cate/categoryadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `category` (`pid`,`catename`,`remark`,`status`) VALUES ('7','U盘','U盘','1') [ RunTime:0.0010s ]
+
+[ 2017-06-27T14:38:10+08:00 ] 127.0.0.1 /index.php/Admin/cate/getchild.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 1 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 5 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 7 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 8 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-27T14:38:28+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`remark`,`status`) VALUES ('海澜之家','海澜之家','1') [ RunTime:0.0000s ]
+
+[ 2017-06-27T14:38:42+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`remark`,`status`) VALUES ('红豆','红豆','1') [ RunTime:0.0000s ]
+
+[ 2017-06-27T14:39:23+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`remark`,`status`) VALUES ('花花公子','花花公子','1') [ RunTime:0.0000s ]
+
+[ 2017-06-27T14:39:33+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`remark`,`status`) VALUES ('罗蒙','罗蒙','1') [ RunTime:0.0010s ]
+
+[ 2017-06-27T14:39:52+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`remark`,`status`) VALUES ('太平鸟','太平鸟','1') [ RunTime:0.0000s ]
+
+[ 2017-06-27T14:40:01+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`remark`,`status`) VALUES ('恒源祥','恒源祥','1') [ RunTime:0.0010s ]
+
+[ 2017-06-27T14:40:14+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`remark`,`status`) VALUES ('361°','361°','1') [ RunTime:0.0010s ]
+
+[ 2017-06-27T14:40:33+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`remark`,`status`) VALUES ('Nike','耐克','1') [ RunTime:0.0000s ]
+
+[ 2017-06-27T14:40:44+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`remark`,`status`) VALUES ('李宁','李宁','1') [ RunTime:0.0010s ]
+
+[ 2017-06-27T14:40:57+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`remark`,`status`) VALUES ('乔丹','乔丹','1') [ RunTime:0.0010s ]
+
+[ 2017-06-27T14:41:07+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`remark`,`status`) VALUES ('鸿星尔克','鸿星尔克','1') [ RunTime:0.0010s ]
+
+[ 2017-06-27T14:45:10+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissionadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `permission` (`pid`,`pername`,`peract`,`status`) VALUES ('15','用户管理','consumer/consumerlist','1') [ RunTime:0.0010s ]
+
+[ 2017-06-27T15:49:52+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissionadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `permission` (`pid`,`pername`,`peract`,`status`) VALUES ('15','商品管理','goods/goodslist','1') [ RunTime:0.0000s ]
+
+[ 2017-06-27T15:49:54+08:00 ] 127.0.0.1 /index.php/Admin/permission/getchild.html?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 15 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 16 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 21 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 25 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `permission` WHERE `pid` = 26 AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2017-06-27T15:50:18+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissionadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `permission` (`pid`,`pername`,`peract`,`status`) VALUES ('26','添加商品','goods/goodsadd','1') [ RunTime:0.0000s ]
+
+[ 2017-06-27T15:50:43+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissionadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `permission` (`pid`,`pername`,`peract`,`status`) VALUES ('26','删除商品','goods/goodsdel','1') [ RunTime:0.0000s ]
+
+[ 2017-06-27T15:51:09+08:00 ] 127.0.0.1 /index.php/Admin/permission/permissionadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `permission` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `permission` (`pid`,`pername`,`peract`,`status`) VALUES ('26','编辑商品','goods/goodsedit','1') [ RunTime:0.0010s ]
+
+[ 2017-06-27T15:54:50+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodslist.html
+ERR: 模板不存在:./Application/Admin/View/Goods/goodslist.html
+
+[ 2017-06-27T15:55:03+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodslist.html
+ERR: 模板不存在:./Application/Admin/View/Goods/goodslist.html
+
+[ 2017-06-27T16:30:56+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-27T16:58:34+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: photo[] D:\phpStudy\WWW\tpshop\Application\Admin\Controller\GoodsController.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-27T16:58:38+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: photo[] D:\phpStudy\WWW\tpshop\Application\Admin\Controller\GoodsController.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-27T16:59:30+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: photo[] D:\phpStudy\WWW\tpshop\Application\Admin\Controller\GoodsController.class.php 第 19 行.
+
+[ 2017-06-27T17:04:03+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: photo[] D:\phpStudy\WWW\tpshop\Application\Admin\Controller\GoodsController.class.php 第 19 行.
+NOTIC: [8] Undefined index: photo[] D:\phpStudy\WWW\tpshop\Application\Admin\Controller\GoodsController.class.php 第 20 行.
+
+[ 2017-06-27T17:14:23+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: photo[] D:\phpStudy\WWW\tpshop\Application\Admin\Controller\GoodsController.class.php 第 19 行.
+NOTIC: [8] Undefined index: photo[] D:\phpStudy\WWW\tpshop\Application\Admin\Controller\GoodsController.class.php 第 20 行.
+
+[ 2017-06-27T17:14:43+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: photo[] D:\phpStudy\WWW\tpshop\Application\Admin\Controller\GoodsController.class.php 第 19 行.
+NOTIC: [8] Undefined index: photo[] D:\phpStudy\WWW\tpshop\Application\Admin\Controller\GoodsController.class.php 第 20 行.
+
+[ 2017-06-27T19:16:41+08:00 ] 127.0.0.1 /index.php/Admin/cate/getchild.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 5 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 7 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 8 AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-27T19:16:43+08:00 ] 127.0.0.1 /index.php/Admin/cate/getchild.html?id=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 7 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 12 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 13 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 14 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 18 AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2017-06-27T19:31:17+08:00 ] 127.0.0.1 /index.php/Admin/goods/cate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'tp_shop.cayegory' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cayegory`
+ERR: 1146:Table 'tp_shop.cayegory' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cayegory`
+
+[ 2017-06-27T19:31:41+08:00 ] 127.0.0.1 /index.php/Admin/goods/cate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 0  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-06-27T19:31:51+08:00 ] 127.0.0.1 /index.php/Admin/goods/cate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 0  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-27T19:32:52+08:00 ] 127.0.0.1 /index.php/Admin/goods/cate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 0  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-27T19:33:49+08:00 ] 127.0.0.1 /index.php/Admin/goods/cate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-27T19:34:20+08:00 ] 127.0.0.1 /index.php/Admin/goods/cate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 0  [ RunTime:0.0010s ]
+
+[ 2017-06-27T19:34:41+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-27T19:34:48+08:00 ] 127.0.0.1 /index.php/Admin/goods/cate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 0  [ RunTime:0.0000s ]
+
+[ 2017-06-27T19:35:45+08:00 ] 127.0.0.1 /index.php/Admin/goods/cate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 0  [ RunTime:0.0010s ]
+
+[ 2017-06-27T19:36:56+08:00 ] 127.0.0.1 /index.php/Admin/goods/cate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 0  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-27T19:37:17+08:00 ] 127.0.0.1 /index.php/Admin/goods/cate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 0  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-27T19:38:24+08:00 ] 127.0.0.1 /index.php/Admin/goods/cate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 0  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-27T19:38:40+08:00 ] 127.0.0.1 /index.php/Admin/goods/cate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 0  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-27T19:39:39+08:00 ] 127.0.0.1 /index.php/Admin/goods/cate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 0  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-27T19:40:51+08:00 ] 127.0.0.1 /index.php/Admin/goods/cate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 0  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-27T19:41:01+08:00 ] 127.0.0.1 /index.php/Admin/goods/cate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 0  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-27T19:45:29+08:00 ] 127.0.0.1 /index.php/Admin/goods/cate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 1  [ RunTime:0.0000s ]
+
+[ 2017-06-27T19:46:34+08:00 ] 127.0.0.1 /index.php/Admin/goods/cate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 0  [ RunTime:0.0010s ]
+
+[ 2017-06-27T19:46:42+08:00 ] 127.0.0.1 /index.php/Admin/goods/cate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: onact D:\phpStudy\WWW\tpshop\Application\Runtime\Cache\Admin\e76a7c759c0d420c824c82c0a260e8ce.php 第 48 行.
+NOTIC: [8] Undefined variable: catearr D:\phpStudy\WWW\tpshop\Application\Runtime\Cache\Admin\e76a7c759c0d420c824c82c0a260e8ce.php 第 71 行.
+NOTIC: [8] Undefined variable: brandarr D:\phpStudy\WWW\tpshop\Application\Runtime\Cache\Admin\e76a7c759c0d420c824c82c0a260e8ce.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-27T19:46:45+08:00 ] 127.0.0.1 /index.php/Admin/goods/cate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: onact D:\phpStudy\WWW\tpshop\Application\Runtime\Cache\Admin\e76a7c759c0d420c824c82c0a260e8ce.php 第 48 行.
+NOTIC: [8] Undefined variable: catearr D:\phpStudy\WWW\tpshop\Application\Runtime\Cache\Admin\e76a7c759c0d420c824c82c0a260e8ce.php 第 71 行.
+NOTIC: [8] Undefined variable: brandarr D:\phpStudy\WWW\tpshop\Application\Runtime\Cache\Admin\e76a7c759c0d420c824c82c0a260e8ce.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-06-27T19:47:07+08:00 ] 127.0.0.1 /index.php/Admin/goods/cate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: onact D:\phpStudy\WWW\tpshop\Application\Runtime\Cache\Admin\e76a7c759c0d420c824c82c0a260e8ce.php 第 48 行.
+NOTIC: [8] Undefined variable: catearr D:\phpStudy\WWW\tpshop\Application\Runtime\Cache\Admin\e76a7c759c0d420c824c82c0a260e8ce.php 第 71 行.
+NOTIC: [8] Undefined variable: brandarr D:\phpStudy\WWW\tpshop\Application\Runtime\Cache\Admin\e76a7c759c0d420c824c82c0a260e8ce.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-27T19:48:34+08:00 ] 127.0.0.1 /index.php/Admin/goods/cate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: onact D:\phpStudy\WWW\tpshop\Application\Runtime\Cache\Admin\e76a7c759c0d420c824c82c0a260e8ce.php 第 48 行.
+NOTIC: [8] Undefined variable: catearr D:\phpStudy\WWW\tpshop\Application\Runtime\Cache\Admin\e76a7c759c0d420c824c82c0a260e8ce.php 第 71 行.
+NOTIC: [8] Undefined variable: brandarr D:\phpStudy\WWW\tpshop\Application\Runtime\Cache\Admin\e76a7c759c0d420c824c82c0a260e8ce.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-27T19:48:49+08:00 ] 127.0.0.1 /index.php/Admin/goods/cate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: onact D:\phpStudy\WWW\tpshop\Application\Runtime\Cache\Admin\e76a7c759c0d420c824c82c0a260e8ce.php 第 48 行.
+NOTIC: [8] Undefined variable: catearr D:\phpStudy\WWW\tpshop\Application\Runtime\Cache\Admin\e76a7c759c0d420c824c82c0a260e8ce.php 第 71 行.
+NOTIC: [8] Undefined variable: brandarr D:\phpStudy\WWW\tpshop\Application\Runtime\Cache\Admin\e76a7c759c0d420c824c82c0a260e8ce.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-27T19:48:59+08:00 ] 127.0.0.1 /index.php/Admin/goods/cate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: onact D:\phpStudy\WWW\tpshop\Application\Runtime\Cache\Admin\e76a7c759c0d420c824c82c0a260e8ce.php 第 48 行.
+NOTIC: [8] Undefined variable: catearr D:\phpStudy\WWW\tpshop\Application\Runtime\Cache\Admin\e76a7c759c0d420c824c82c0a260e8ce.php 第 71 行.
+NOTIC: [8] Undefined variable: brandarr D:\phpStudy\WWW\tpshop\Application\Runtime\Cache\Admin\e76a7c759c0d420c824c82c0a260e8ce.php 第 105 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tpshop\Application\Runtime\Cache\Admin\e76a7c759c0d420c824c82c0a260e8ce.php 第 148 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-27T19:49:19+08:00 ] 127.0.0.1 /index.php/Admin/goods/cate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: onact D:\phpStudy\WWW\tpshop\Application\Runtime\Cache\Admin\e76a7c759c0d420c824c82c0a260e8ce.php 第 48 行.
+NOTIC: [8] Undefined variable: catearr D:\phpStudy\WWW\tpshop\Application\Runtime\Cache\Admin\e76a7c759c0d420c824c82c0a260e8ce.php 第 71 行.
+NOTIC: [8] Undefined variable: brandarr D:\phpStudy\WWW\tpshop\Application\Runtime\Cache\Admin\e76a7c759c0d420c824c82c0a260e8ce.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-27T19:50:14+08:00 ] 127.0.0.1 /index.php/Admin/goods/cate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: onact D:\phpStudy\WWW\tpshop\Application\Runtime\Cache\Admin\e76a7c759c0d420c824c82c0a260e8ce.php 第 48 行.
+NOTIC: [8] Undefined variable: catearr D:\phpStudy\WWW\tpshop\Application\Runtime\Cache\Admin\e76a7c759c0d420c824c82c0a260e8ce.php 第 71 行.
+NOTIC: [8] Undefined variable: brandarr D:\phpStudy\WWW\tpshop\Application\Runtime\Cache\Admin\e76a7c759c0d420c824c82c0a260e8ce.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-27T19:50:18+08:00 ] 127.0.0.1 /index.php/Admin/goods/cate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: onact D:\phpStudy\WWW\tpshop\Application\Runtime\Cache\Admin\e76a7c759c0d420c824c82c0a260e8ce.php 第 48 行.
+NOTIC: [8] Undefined variable: catearr D:\phpStudy\WWW\tpshop\Application\Runtime\Cache\Admin\e76a7c759c0d420c824c82c0a260e8ce.php 第 71 行.
+NOTIC: [8] Undefined variable: brandarr D:\phpStudy\WWW\tpshop\Application\Runtime\Cache\Admin\e76a7c759c0d420c824c82c0a260e8ce.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-27T19:50:30+08:00 ] 127.0.0.1 /index.php/Admin/goods/cate.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `category` WHERE `pid` = 0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: onact D:\phpStudy\WWW\tpshop\Application\Runtime\Cache\Admin\e76a7c759c0d420c824c82c0a260e8ce.php 第 48 行.
+NOTIC: [8] Undefined variable: catearr D:\phpStudy\WWW\tpshop\Application\Runtime\Cache\Admin\e76a7c759c0d420c824c82c0a260e8ce.php 第 71 行.
+NOTIC: [8] Undefined variable: brandarr D:\phpStudy\WWW\tpshop\Application\Runtime\Cache\Admin\e76a7c759c0d420c824c82c0a260e8ce.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-27T19:53:42+08:00 ] 127.0.0.1 /index.php/Admin/goods/cate.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:cate.php
+
+[ 2017-06-27T19:58:19+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-27T19:59:32+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `goods` (`goodsname`,`category`,`brand`) VALUES ('华为畅享 7plus','8','2') [ RunTime:0.0000s ]
+
+[ 2017-06-27T20:00:34+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `goods` (`goodsname`,`category`,`brand`) VALUES ('华为 Mate9','8','2') [ RunTime:0.0010s ]
+
+[ 2017-06-27T20:00:48+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `goods` (`goodsname`,`category`,`brand`) VALUES ('华为 P10','8','2') [ RunTime:0.0000s ]
+
+[ 2017-06-27T20:01:05+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `goods` (`goodsname`,`category`,`brand`) VALUES ('魅族note5','8','6') [ RunTime:0.0010s ]
+
+[ 2017-06-27T20:01:25+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `goods` (`goodsname`,`category`,`brand`) VALUES ('魅族 e2','8','6') [ RunTime:0.0010s ]
+
+[ 2017-06-27T20:02:11+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `goods` (`goodsname`,`category`,`brand`) VALUES ('华为 Mate9 Pro','8','2') [ RunTime:0.0000s ]
+
+[ 2017-06-27T20:49:43+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: UPDATE `goods` SET `goodsname`='华为畅享 7plus',`category`='1',`brand`='2' WHERE `id` = 1 [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant fasle - assumed 'fasle' D:\phpStudy\WWW\tpshop\Application\Admin\Controller\GoodsController.class.php 第 69 行.
+
+[ 2017-06-27T20:49:49+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: UPDATE `goods` SET `goodsname`='华为畅享 7plus',`category`='8',`brand`='2' WHERE `id` = 1 [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant fasle - assumed 'fasle' D:\phpStudy\WWW\tpshop\Application\Admin\Controller\GoodsController.class.php 第 69 行.
+
+[ 2017-06-27T20:50:41+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsdel/id/id.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:goodsdel
+
+[ 2017-06-27T20:51:53+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsdel/id/id.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: UPDATE `goods` SET `status`='2' WHERE `id` = 6 [ RunTime:0.0000s ]
+
+[ 2017-06-27T20:52:15+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsdel/id/id.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: UPDATE `goods` SET `status`='2' WHERE `id` = 0 [ RunTime:0.0020s ]
+SQL: UPDATE `goods` SET `status`='2' WHERE `id` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `goods` SET `status`='2' WHERE `id` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `goods` SET `status`='2' WHERE `id` = 3 [ RunTime:0.0000s ]
+SQL: UPDATE `goods` SET `status`='2' WHERE `id` = 4 [ RunTime:0.0010s ]
+SQL: UPDATE `goods` SET `status`='2' WHERE `id` = 5 [ RunTime:0.0000s ]
+
+[ 2017-06-27T20:53:13+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `goods` (`goodsname`,`category`,`brand`) VALUES ('华为 麦芒5','8','2') [ RunTime:0.0000s ]
+
+[ 2017-06-27T20:54:29+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`remark`,`status`) VALUES ('华硕','华硕','1') [ RunTime:0.0010s ]
+
+[ 2017-06-27T20:54:46+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `goods` (`goodsname`,`category`,`brand`) VALUES ('华硕 U4000UQ7200','14','27') [ RunTime:0.0000s ]
+
+[ 2017-06-27T20:55:22+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `brand` (`brandname`,`remark`,`status`) VALUES ('神州','神州','1') [ RunTime:0.0010s ]
+
+[ 2017-06-27T20:55:39+08:00 ] 127.0.0.1 /index.php/Admin/brand/brandedit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0030s ]
+SQL: UPDATE `brand` SET `brandname`='神舟',`remark`='神舟' WHERE `id` = 28 [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant fasle - assumed 'fasle' D:\phpStudy\WWW\tpshop\Application\Admin\Controller\BrandController.class.php 第 43 行.
+
+[ 2017-06-27T20:55:50+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `goods` (`goodsname`,`category`,`brand`) VALUES ('神舟 战神Z7-KP7S1 ','14','28') [ RunTime:0.0000s ]
+
+[ 2017-06-27T20:56:11+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `goods` (`goodsname`,`category`,`brand`) VALUES ('神舟 战神K670D-G4D1 ','14','28') [ RunTime:0.0000s ]
+
+[ 2017-06-27T20:56:29+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `goods` (`goodsname`,`category`,`brand`) VALUES ('华硕 FX53VD7700 ','14','27') [ RunTime:0.0010s ]
+
+[ 2017-06-27T20:57:10+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `goods` (`goodsname`,`category`,`brand`) VALUES ('神舟 战神 K670E-G6D1','14','28') [ RunTime:0.0000s ]
+
+[ 2017-06-27T20:57:32+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `goods` (`goodsname`,`category`,`brand`) VALUES ('联想 YOGA 710-14-IFI(i5 7200U)','14','3') [ RunTime:0.0010s ]
+
+[ 2017-06-27T20:57:57+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `goods` (`goodsname`,`category`,`brand`) VALUES ('三星 910S3L-M06','14','1') [ RunTime:0.0000s ]
+
+[ 2017-06-27T20:58:33+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `goods` (`goodsname`,`category`,`brand`) VALUES ('华为 MATEBOOK X WT-W09 ','14','2') [ RunTime:0.0000s ]
+
+[ 2017-06-27T20:58:59+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `goods` (`goodsname`,`category`,`brand`) VALUES ('联想 小新 潮7000(i5 7200U)','14','3') [ RunTime:0.0000s ]
+
+[ 2017-06-27T20:59:26+08:00 ] 127.0.0.1 /index.php/Admin/goods/goodsadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\tpshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `goods` (`goodsname`,`category`,`brand`) VALUES ('联想 YOGA 720-13IKB ','14','3') [ RunTime:0.0010s ]
+
+[ 2017-06-27T21:01:36+08:00 ] 127.0.0.1 /index.php/Admin/consumer/consumerlist.html
+ERR: 1146:Table 'tp_shop.conmuser' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `conmuser`
+
+[ 2017-06-27T21:02:57+08:00 ] 127.0.0.1 /index.php/Admin/consumer/consumerlist.html
+ERR: 1146:Table 'tp_shop.conmuser' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `conmuser`
+
+[ 2017-06-27T21:02:59+08:00 ] 127.0.0.1 /index.php/Admin/consumer/consumerlist.html
+ERR: 1146:Table 'tp_shop.conmuser' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `conmuser`
+
+[ 2017-06-27T21:03:00+08:00 ] 127.0.0.1 /index.php/Admin/consumer/consumerlist.html
+ERR: 1146:Table 'tp_shop.conmuser' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `conmuser`
+

@@ -1,0 +1,1 @@
+a:8:{i:0;s:2:"id";i:1;s:8:"catename";i:2;s:3:"pid";i:3;s:5:"ishot";i:4;s:6:"remark";i:5;s:6:"status";s:3:"_pk";s:2:"id";s:5:"_type";a:6:{s:2:"id";s:15:"int(5) unsigned";s:8:"catename";s:12:"varchar(200)";s:3:"pid";s:6:"int(5)";s:5:"ishot";s:13:"enum('1','2')";s:6:"remark";s:4:"text";s:6:"status";s:13:"enum('1','2')";}}

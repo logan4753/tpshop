@@ -1,0 +1,138 @@
+<include file="common:head" />
+<body>
+	<article class="page-container">
+		<form class="form form-horizontal" id="form_info" action="{:U('role/rolesave')}" method='post'>
+			<div class="row cl">
+				<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>角色名称：</label>
+				<div class="formControls col-xs-8 col-sm-9">
+					<input type="text" class="input-text" name='rolename' value="" placeholder="请输入角色名称">
+				</div>
+			</div>
+
+			<div class="row cl">
+				<label class="form-label col-xs-4 col-sm-3">角色描述：</label>
+				<div class="formControls col-xs-8 col-sm-9">
+					<input type="text" class="input-text" name='info' value="" placeholder="请输入角色描述">
+				</div>
+			</div>
+
+			<div class="row cl">
+				<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>所有权限：</label>
+				<div class="formControls col-xs-8 col-sm-9">
+					<div class="formControls col-xs-8 col-sm-9">
+						<foreach name='data' item='val'>
+						<dl class="permission-list">
+							<dt>
+								<label style='font-weight:bold'>
+									<input type="checkbox" name="power[]" value="{$val['id']}" class='first_level'>
+									{$val['pername']}</label>
+							</dt>
+							<dd>
+								<foreach name='val["children"]' item='vo'>
+								<dl class="cl permission-list2">
+									<dt>
+										<label class="" style='font-weight:bold'>
+											<input type="checkbox" name="power[]" value="{$vo['id']}" class='second_level'>
+											{$vo['pername']}</label>
+									</dt>
+									<dd>
+										<foreach name='vo["children"]' item='v'>
+										<label class="">
+											<input type="checkbox" name="power[]" value="{$v['id']}" id="third_level" class='third_level'>
+											{$v['pername']}</label>
+										</foreach>
+									</dd>
+								</dl>
+								</foreach>
+							</dd>
+						</dl>
+						</foreach>
+					</div>
+				</div>
+			</div>
+
+			<div class="row cl">
+				<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>状态：</label>
+				<div class="formControls col-xs-8 col-sm-9 skin-minimal">
+					<div class="radio-box">
+						<input name="status" type="radio" id="status-1" value='1' <if condition="$list['status'] neq 2">checked</if> />
+						<label for="status-1">正常</label>
+					</div>
+					<div class="radio-box">
+						<input type="radio" id="status-2" value='2' name="status" <if condition="$list['status'] eq 2">checked</if> />
+						<label for="status-2">禁用</label>
+					</div>
+				</div>
+			</div>
+
+			<div class="row cl">
+				<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
+					<input class="btn btn-primary radius" type="button" onclick="checkForm()" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
+				</div>
+			</div>
+
+		</form>
+	</article>
+	<script type="text/javascript" src="__PUBLIC__/admin/lib/jquery/1.9.1/jquery.min.js"></script><script type="text/javascript" src="__PUBLIC__/admin/lib/layer/2.4/layer.js"></script> 
+	<script type="text/javascript" src="__PUBLIC__/admin/static/h-ui/js/H-ui.js"></script> 
+	<script type="text/javascript" src="__PUBLIC__/admin/static/h-ui.admin/js/H-ui.admin.page.js"></script> 
+	<!--请在下方写此页面业务相关的脚本-->
+	<script type="text/javascript" src="__PUBLIC__/admin/lib/laypage/1.2/laypage.js"></script>
+	<script type="text/javascript">
+	
+		$(function(){
+			$('.permission-list dt input:checkbox').click(function(){
+				$(this).closest("dl").find("dd input:checkbox").prop("checked",$(this).prop("checked"));
+			});
+			$('.permission-list2 dt input:checkbox').click(function(){
+				var num = $(this).parents('.permission-list').find('dt').first().find('input:checked').length;
+				if($(this).prop('checked')){
+					$(this).parents('.permission-list').find('dt').first().find('input:checkbox').prop('checked',true);
+				}else{
+					if(num == 0){
+						$(this).parents('.permission-list').find('dt').find('input:checkbox').prop('checked',false);
+					}
+				}
+			});
+			$('.permission-list2 dd input:checkbox').click(function(){
+				var num1 = $(this).parent().parent().find("input:checked").length;
+        		var num2 = $(this).parents(".permission-list").find(".permission-list2 dd").find("input:checked").length;
+				if($(this).prop('checked')){
+					$(this).closest("dl").find("dt input:checkbox").prop("checked",true);
+					$(this).parents(".permission-list").find("dt").first().find("input:checkbox").prop("checked",true);
+				}else{
+		            if(num1==0){
+		                $(this).closest("dl").find("dt input:checkbox").prop("checked",false);
+		            }
+		            if(num2==0){
+		                $(this).parents(".permission-list").find("dt").first().find("input:checkbox").prop("checked",false);
+		            }
+		        }
+			});
+
+		});
+
+		function checkForm(){
+			if($("input[name='rolename']").val() == ''){
+				layer.msg('请填写角色名称');
+				return false;
+			}
+			//$('#form_info').submit();
+			$.ajax({
+				type:"POST",
+				url:$('#form_info').attr("action"),
+				data:$('#form_info').serialize(),
+				dataType:'JSON',
+				success:function(result){
+					if(result.status == 1){
+						parent.window.location.reload();
+						var index = parent.layer.getFrameIndex(window.name);
+						parent.layer.close(index);
+					}
+				}
+			});
+		}
+
+	</script>
+</body>
+</html>

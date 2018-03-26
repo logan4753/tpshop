@@ -1,0 +1,78 @@
+<!--头部下方导航-->
+<div class="header_b cont">
+    <a href="#" alt="" class="fl"><img src="__HOME__/images/u_logo.jpg" width="150" height="62"></a>
+    <div class="header_search fl">
+        <form method='post' action="{:U('index/getgoods')}">
+            <input type="text" value="<empty name='search'>手机<else />{$search}</empty>" name='search' class="header_text fl" onBlur="if(value==''){value='手机'}" onFocus="if(value=='手机')value='';">
+            <input type="submit" value="搜索" class="header_sub fr">
+        </form>
+    </div>
+    <!-- header-购物车  -->
+    <div class="header_gwc fr">
+        <php>$cartgoods = getcart();</php>
+        <a href="{:U('cart/cartorder')}" alt="" class="header_gwc_h"><i class="icon_gwc">&nbsp;</i>购物车<i class="i_num">{$cartgoods['goodscount']}</i><b class="bgfff">&nbsp;</b></a>
+        <div class="header_nogoods gwc_list">
+            <i>&nbsp;</i>购物车中还没有商品，赶紧选购吧！
+        </div>
+        <div class="header_goods gwc_list">
+            <h6>最新加入的商品</h6>
+            <ul>
+                <foreach name="cartgoods['goodslist']" item='vo'>
+                <li>
+                    <p class="gwc_r fr">
+                        <span class="gwc_price">￥{$vo['shopprice']}</span><font class="gwc_amount">×{$vo['gcount']}</font><br/>
+                        <a href="#" class="gwc_delete">删除</a>
+                    </p>
+                    <img src="{$vo['image']}" width="49" height="49">
+                    <a href="#" title="{$vo['goodsname']}">{$vo['aname']}</a>
+                </li>
+                </foreach>
+            </ul>
+            <div class="gwc_total">共<b>{$cartgoods['goodscount']}</b>件商品&nbsp;&nbsp;共计<b>￥{$cartgoods['pricesum']}</b><a href="{:U('cart/cartorder')}" class="fr">去结算</a></div>
+        </div>
+    </div>
+    <!-- header-购物车 end  -->
+</div>
+<div class="nav_w wrap">        
+    <div class="nav cont">
+        <div class="nav_r fr">
+            <a href="{:U('index/index')}" alt="">首页</a>
+            <a href="{:U('index/getgoods',array('cateid'=>1))}" alt="">家用电器</a>
+            <a href="{:U('index/getgoods',array('cateid'=>2))}" alt="">手机数码</a>
+            <a href="{:U('index/getgoods',array('cateid'=>3))}" alt="">电脑办公</a>
+            <a href="{:U('index/getgoods',array('cateid'=>4))}" alt="">家装家居</a>
+            <a href="{:U('index/getgoods',array('cateid'=>5))}" alt="">服饰内衣</a>
+            <a href="{:U('index/getgoods',array('cateid'=>6))}" alt="">美妆个护</a>
+            <a href="{:U('index/getgoods',array('cateid'=>8))}" alt="">户外运动</a>
+            <a href="{:U('index/getgoods',array('cateid'=>9))}" alt="">食品</a>
+        </div>
+        <div class="nav_l fl">           
+            <h3>全部商品分类<i class="hide">&nbsp;</i></h3>
+            <ul class="nav_snav hide">
+            <php>$datacat = getcates();</php>
+            <foreach name='datacat' item='val'>
+                <li><a href="{:U('index/getgoods',array('cateid'=>$val['id']))}" target="_blank" alt="" onid="{$val['id']}"><i>></i>{$val['catename']}</a></li>
+            </foreach>
+            </ul>
+            <foreach name="datacat" item='va'>
+            <ul class="nav_snav_con">
+                <foreach name="va['children']" item='v'>                          
+                    <li>
+                        <h6><a href="{:U('index/getgoods',array('cateid'=>$v['id']))}" target="_blank" alt="">{$v['catename']}&nbsp;></a></h6>                             
+                        <p>
+                            <foreach name="v['children']" item='vv'>
+                                <a href="{:U('index/getgoods',array('cateid'=>$vv['id']))}" target="_blank" alt="" <if condition='$vv["ishot"] eq 1'>class="hot"</if>>{$vv['catename']}</a>
+                            </foreach>
+                        </p>
+                    </li>                          
+                </foreach>
+            </ul>
+            </foreach>
+        </div>
+    </div>
+
+</div>
+<!--头部下方导航   end  -->
+
+
+<!-- 公共头部  end -->

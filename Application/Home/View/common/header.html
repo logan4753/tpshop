@@ -1,0 +1,32 @@
+<body>
+
+<!-- 公共头部 -->
+<!--头部-->
+<div class="header_w wrap">
+	<div class="header cont">
+    	<div class="fl">       	
+            <empty name="Think.session.front.userid">
+                <font>欢迎来小H商城</font>
+                <a href="{:U('Login/login')}" target="_blank" >请登录</a><span></span>
+                <a href="{:U('Login/register')}" target="_blank" alt="">免费注册</a>
+            <else />
+                <a href="{:U('user/userinfo')}" target="_blank" alt="">小H欢迎您:&nbsp;{$Think.session.front.username}</a>
+            </empty>
+        </div>
+        <div class="fr header_r">
+        	<a href="{:U('user/myorder')}" target="_blank" alt="">我的订单</a><span></span>
+            <a href="#" target="_blank" alt="" class="moblieApp">移动APP</a><span></span>
+            <a href="#" target="_blank" alt="">网站地图</a><span></span>
+            <notempty name="Think.session.front.userid">
+                <a href="{:U('Login/logout')}" target="_blank" alt="" class="paddingR0">退出</a>
+            </notempty>
+            <div class="mobileApp_QR">
+            	<img src="__HOME__/images/mobileApp_QR.jpg" width="140" height="141" >
+                <a href="#" target="_blank" class="iphone"><i></i>iphone下载</a>
+                <a href="#" target="_blank" class="android"><i></i>Android下载</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--头部 end -->

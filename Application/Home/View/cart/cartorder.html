@@ -1,0 +1,167 @@
+<include file='common:head' />
+<include file='common:header' />
+<link type="text/css" rel="stylesheet" href="__HOME__/css/content.css" />
+<script type="text/javascript" src="__ADMIN__/lib/layer/2.4/layer.js"></script> 
+<script src="__HOME__/js/pub.js"></script>
+<script src="__HOME__/js/content.js"></script>
+
+<!--头部 end -->
+
+<div class="order_head_info cont clearfix">
+	<a href="#" alt="" class="fl"><img src="__HOME__/images/u_logo.jpg" width="150" height="60"></a><span class="header_title">购物车</span>
+	<div class="order_pro clearfix">
+    	<span class="pro_pre"><b>1</b>我的购物车</span>
+    	<span class="pro_active"><b>2</b>提交订单</span>
+    	<span class="pro_next"><b>3</b>订单提交成功</span>
+    </div>
+</div>
+
+<!--购物车清单-->
+<div class="order1_c cont">
+	<form>
+    <!-- 购物车清单内容 -->
+	<dl>                                                                                                                                                   
+    	<dt>
+        	<span class="order1_h1"><label class="order1_checkbox order1_checkbox_total"><i></i>全选<input type="checkbox" id="order3_all"></label></span>
+        	<span class="order1_h2">商品</span>
+        	<span class="order1_h3">单价</span>
+        	<span class="order1_h4">购买数量</span>
+        	<span class="order1_h5">小计</span>
+        	<span class="order1_h6">操作</span>
+        </dt>
+        <foreach name='goodslist' item='val'>
+    	<dd class="active" gid="{$val['goodsid']}">
+        	<span class="order1_d1"><label class="order1_checkbox"><i <if condition="$val['status'] eq 1">class="checked"</if> /></i><input type="checkbox" id="order3_all" checked></label></span>
+        	<span class="order1_d2">
+                <div class="list_goods fl">
+                    <a href="#"><img src="{$val['image']}" width="66" height="66"></a>
+                    <p class="list_goods_name"><a href="#" title="{$val['goodsname']}">{$val['aname']}</a></p>
+                    <p class="list_goods_details"><span>颜色：红</span><span>型号：V1</span></p>
+                </div>
+            </span>
+            <span class="order1_d3 order1_h3">￥{$val['shopprice']}</span>
+            <span class="order1_d4 order1_h4"><div class="amount_change" nid="{$val['goodsid']}"><b class="minus" onclick='minus(this,{$val["goodsid"]})'>-</b><input type="text" value="{$val['gcount']}" disabled></input><b class='plusnum' onclick='plus(this,{$val["goodsid"]})'>+</b></div></span>
+            <span class="order1_d5 order1_h5"><font class="gwc_price">{$val['gcount']*$val['shopprice']}</font></span>
+            <span class="order1_h6 order1_d6"><a href="javascript:;" onclick="goodsdel(this,{$val['goodsid']})">删除</a><a href="#">移入收藏夹</a></span>
+        </dd>
+        </foreach>
+    </dl>
+    <!-- 购物车结算 -->
+    <div class="order1_balance clearfix">
+    	<div class="fl"><span class="order1_h1"><label class="order1_checkbox order1_checkbox_total"><i></i>全选<input type="checkbox" id="order3_all"></label></span><a href="#">删除选中的商品</a></div>
+    	<div class="fr order1_bar">
+        	<span class="order1_barl fl">已选择<em class="colorB11">{$goodscount}</em>件商品</span>
+            <p class="fr">
+            	<span>总价：￥{$pricesum}</span>
+                <span>优惠：￥0.00</span>
+                <span>合计：<font class="price">￥{$pricesum}</font></span>
+            </p>
+        </div>
+    </div>
+    <div class="order1_b"><a href="{:U('index/index')}" class="hover_btn1">继续购物</a><a href="{:U('cart/ordersale')}" class="hover_btn2">提交订单</a></div>
+    </form>
+</div>
+
+<include file='common:footer' />
+<script type="text/javascript">
+/*购物车商品-状态修改*/
+$(function(){
+    $('input').click(function(){
+        var doid = $(this).parents('dd').attr('gid');
+        var nclass = $(this).prev('i').attr('class');
+        if(nclass == 'checked'){
+            $.post(
+                "{:U('cart/number')}",
+                {id:doid,act:"uncheck"},
+                function(result){
+                    if(result.status==1){
+                        $('div.order1_balance').children('div:eq(1)').children('span:eq(0)').children('em').text(result.gcount);
+                        $('div.order1_balance').children('div:eq(1)').children('p.fr').children('span:eq(0)').text('总价：￥'+result.pricesum);
+                        $('div.order1_balance').children('div:eq(1)').children('p.fr').children('span:eq(2)').children('font').text('￥'+result.pricesum);
+                    }
+                });
+        }else if(!nclass){
+            $.post(
+                "{:U('cart/number')}",
+                {id:doid,act:"docheck"},
+                function(result){
+                    if(result.status==1){
+                        $('div.order1_balance').children('div:eq(1)').children('span:eq(0)').children('em').text(result.gcount);
+                        $('div.order1_balance').children('div:eq(1)').children('p.fr').children('span:eq(0)').text('总价：￥'+result.pricesum);
+                        $('div.order1_balance').children('div:eq(1)').children('p.fr').children('span:eq(2)').children('font').text('￥'+result.pricesum);
+                    }
+                });
+        }
+    })
+})
+/*购物车商品-数量增加*/
+function plus(obj,id){
+    var id = id;
+    var number = $(obj).prev('input').val();
+    if(number>=50){
+        layer.msg('商品数量不能大于50');return;
+    }
+    $.post(
+        "{:U('cart/number')}",
+        {id:id,act:'plus'},
+        function(result){
+            if(result.status==1){
+                $(result.goodslist).each(function(i,o){
+                    if(o.goodsid == id){
+                        $(obj).prev('input').val(o.gcount);
+                        var theprice = (o.gcount*o.shopprice);
+                        $(obj).parents('span.order1_d4').next('span.order1_d5').children('font').text(theprice);
+                    }
+                })                  
+                $('div.order1_balance').children('div:eq(1)').children('span:eq(0)').children('em').text(result.gcount);
+                $('div.order1_balance').children('div:eq(1)').children('p.fr').children('span:eq(0)').text('总价：￥'+result.pricesum);
+                $('div.order1_balance').children('div:eq(1)').children('p.fr').children('span:eq(2)').children('font').text('￥'+result.pricesum);
+            }
+        });
+    return;
+}
+/*购物车商品-数量减少*/
+function minus(obj,id){
+    var id = id;
+    var number = $(obj).next('input').val();
+    if(number<=1){
+        layer.msg('商品数量不能少于1');return;
+    }
+    $.post(
+        "{:U('cart/number')}",
+        {id:id,act:'minus'},
+        function(result){
+            if(result.status==1){
+                $(result.goodslist).each(function(i,o){
+                    if(o.goodsid == id){
+                        $(obj).next('input').val(o.gcount);
+                        var theprice = o.gcount*o.shopprice;
+                        $(obj).parents('span.order1_d4').next('span.order1_d5').children('font').text(theprice);
+                    }
+                })                  
+                $('div.order1_balance').children('div:eq(1)').children('span:eq(0)').children('em').text(result.gcount);
+                $('div.order1_balance').children('div:eq(1)').children('p.fr').children('span:eq(0)').text('总价：￥'+result.pricesum);
+                $('div.order1_balance').children('div:eq(1)').children('p.fr').children('span:eq(2)').children('font').text('￥'+result.pricesum);
+            }
+        });
+    return;
+}
+/*购物车商品-删除*/
+function goodsdel(obj,id){
+    if(!id){
+        layer.confim('参数错误');
+    }
+    $.post(
+        "{:U('cart/goodsdel')}",
+        {id:id},
+        function(result){
+            if(result.status==1){                    
+                var balance = $(obj).parents('dl').next('div').children('div:eq(1)');
+                $(balance).children('span:eq(0)').children('em').text(result.goodscount);
+                $(balance).children('p').children('span:eq(0)').text('总价：￥'+result.pricesum);
+                $(balance).children('p').children('span:eq(2)').children('font').text('￥'+result.pricesum);
+                $(obj).parents('dd').remove();
+            }                
+        });    
+}
+</script>

@@ -1,0 +1,10 @@
+[ 2017-06-30T14:54:34+08:00 ] 127.0.0.1 /index.php/goods/catelist/catename/%E6%89%8B%E6%9C%BA.html
+ERR: 无法加载控制器:Goods
+
+[ 2017-06-30T14:56:55+08:00 ] 127.0.0.1 /index.php/goods/catelist/catename/%E5%AE%B6%E7%94%A8%E7%94%B5%E5%99%A8.html
+ERR: 无法加载控制器:Goods
+
+[ 2017-06-30T16:18:07+08:00 ] 127.0.0.1 /index.php/goods/catelist/cateid/85.html
+ERR: 1054:Unknown column 'goodsprice' in 'field list'
+ [ SQL语句 ] : SELECT `goodsprice` FROM `goodsinfo` WHERE `goodsid` = 1 LIMIT 1  
+
